@@ -1,0 +1,7 @@
+﻿metric,value
+self_citation_edges,27.0
+self_citation_ratio,0.132353
+penalized_edges,27.0
+penalized_source_papers,23.0
+mean_shared_authors_all_edges,0.382353
+mean_shared_authors_penalized_edges,2.888889

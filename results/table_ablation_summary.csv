@@ -1,0 +1,6 @@
+﻿comparison,spearman,top5_overlap,top10_overlap,avg_rank_change,max_rank_change
+structure_only,0.9190867712469802,4,5,8.476190476190476,53.0
+semantic_only,0.9973561156673475,5,9,0.9714285714285714,11.0
+semantic_temporal,0.9968791796700845,5,9,0.9523809523809523,14.0
+semantic_relation,0.9998548455660504,5,10,0.20952380952380953,2.0
+full_model,1.0,5,10,0.0,0.0

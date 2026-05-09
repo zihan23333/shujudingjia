@@ -1,0 +1,5 @@
+﻿comparison,top5_overlap,top10_overlap
+Full vs Unweighted PageRank,4,5
+Full vs Citation Count,1,4
+Semantic-Temporal vs Semantic,5,10
+Full vs Semantic-Temporal,5,9

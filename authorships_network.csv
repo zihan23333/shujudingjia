@@ -1,0 +1,430 @@
+﻿Paper_ID,Author_ID,Author_Name,Author_Position,Is_Corresponding,Institution_IDs,Institution_Names
+W3111554765,A5109723501,Bartosz Maćkowiak,first,True,I153515283,European Central Bank
+W3111554765,A5074819510,Mirko Wiederholt,last,False,I111979921,Northwestern University
+W2910976764,A5030179737,Charles I. Jones,first,True,I97018004,Stanford University
+W2910976764,A5044124853,Christopher Tonetti,last,False,I97018004,Stanford University
+W2473283431,A5089793687,Nguyen Cong Luong,first,True,I172675005,Nanyang Technological University
+W2473283431,A5007992576,Dinh Thai Hoang,middle,False,I172675005,Nanyang Technological University
+W2473283431,A5100338634,Ping Wang,middle,False,I172675005,Nanyang Technological University
+W2473283431,A5091266202,Dusit Niyato,middle,False,I172675005,Nanyang Technological University
+W2473283431,A5022649488,Dong In Kim,middle,False,I848706,Sungkyunkwan University
+W2473283431,A5063667378,Zhu Han,last,False,I44461941,University of Houston
+W2790400697,A5100640162,Fan Liang,first,True,I4322298,Towson University
+W2790400697,A5002139930,Wei Yu,middle,False,I4322298,Towson University
+W2790400697,A5035313256,Dou An,middle,False,I87445476,Xi'an Jiaotong University
+W2790400697,A5087373711,Qingyu Yang,middle,False,I87445476,Xi'an Jiaotong University
+W2790400697,A5063375840,Xinwen Fu,middle,False,I106165777,University of Central Florida
+W2790400697,A5002311337,Wei Zhao,last,False,I199440890,American University of Sharjah
+W2018362551,A5048194802,Sarah Spiekermann,first,True,I102248843,Vienna University of Economics and Business
+W2018362551,A5086228116,Alessandro Acquisti,middle,False,I74973139,Carnegie Mellon University
+W2018362551,A5029455813,Rainer Böhme,middle,False,I22465464,University of Münster
+W2018362551,A5045420836,Kai-Lung Hui,last,False,I200769079,Hong Kong University of Science and Technology
+W2010653253,A5101951074,Soumya Sen,first,True,I20089843,Princeton University
+W2010653253,A5085243096,Carlee Joe‐Wong,middle,False,I20089843,Princeton University
+W2010653253,A5023497481,Sangtae Ha,middle,False,I20089843,Princeton University
+W2010653253,A5110782105,Mung Chiang,last,False,I20089843,Princeton University
+W2097281067,A5023497481,Sangtae Ha,first,True,I20089843,Princeton University
+W2097281067,A5101951074,Soumya Sen,middle,False,I20089843,Princeton University
+W2097281067,A5085243096,Carlee Joe‐Wong,middle,False,I20089843,Princeton University
+W2097281067,A5102836772,Youngbin Im,middle,False,I139264467,Seoul National University
+W2097281067,A5110782105,Mung Chiang,last,False,I20089843,Princeton University
+W4226382147,A5100359025,Tong Li,first,True,I133731052|I200769079|I889458895|I99065089,University of Helsinki|Hong Kong University of Science and Technology|University of Hong Kong|Tsinghua University
+W4226382147,A5040747504,Xia Tong,middle,False,I99065089,Tsinghua University
+W4226382147,A5034129532,Huandong Wang,middle,False,I99065089,Tsinghua University
+W4226382147,A5013394195,Zhen Tu,middle,False,I99065089,Tsinghua University
+W4226382147,A5054443906,Sasu Tarkoma,middle,False,I133731052,University of Helsinki
+W4226382147,A5063667378,Zhu Han,middle,False,I35928602|I44461941,Kyung Hee University|University of Houston
+W4226382147,A5029925982,Pan Hui,last,False,I133731052|I200769079|I37987034|I889458895,University of Helsinki|Hong Kong University of Science and Technology|Guangzhou University|University of Hong Kong
+W2293940046,A5040506752,Paraschos Koutris,first,True,I201448701,University of Washington
+W2293940046,A5055194221,Prasang Upadhyaya,middle,False,I201448701,University of Washington
+W2293940046,A5064988079,Magdalena Bałazińska,middle,False,I201448701,University of Washington
+W2293940046,A5007124763,Bill Howe,middle,False,I201448701,University of Washington
+W2293940046,A5048204602,Dan Suciu,last,False,I201448701,University of Washington
+W2759182208,A5066246956,Gianclaudio Malgieri,first,True,I13469542,Vrije Universiteit Brussel
+W2759182208,A5002768053,Bart Custers,last,False,I121797337,Leiden University
+W3084177365,,Jian Pei,first,True,I18014758,Simon Fraser University
+W2045522464,,Huandong Wang,first,True,I99065089,Tsinghua University
+W2045522464,,Fengli Xu,middle,False,I99065089,Tsinghua University
+W2045522464,,Yong Li,middle,False,I99065089,Tsinghua University
+W2045522464,,Pengyu Zhang,middle,False,I24603500,University of Massachusetts Amherst
+W2045522464,,Depeng Jin,last,False,I99065089,Tsinghua University
+W3209462287,A5086582254,Christian Peukert,first,True,I97565354,University of Lausanne
+W3209462287,A5000035510,Stefan Bechtold,middle,False,I35440088,ETH Zurich
+W3209462287,A5082572294,Michail Batikas,middle,False,I92834545,École Supérieure de Commerce de Rennes
+W3209462287,A5040198507,Tobias Kretschmer,last,False,I37101380|I4210140326|I8204097,Munich Business School|Centre for Economic Policy Research|Ludwig-Maximilians-Universität München
+W2581979418,A5042081570,Xiaowen Gong,first,True,I82497590,Auburn University
+W2581979418,A5007119869,Lingjie Duan,middle,False,I152815399,Singapore University of Technology and Design
+W2581979418,A5100385758,Xu Chen,middle,False,I157773358,Sun Yat-sen University
+W2581979418,A5027033026,Junshan Zhang,last,False,I55732556,Arizona State University
+W2168402580,A5040506752,Paraschos Koutris,first,True,I201448701,University of Washington
+W2168402580,A5055194221,Prasang Upadhyaya,middle,False,I201448701,University of Washington
+W2168402580,A5064988079,Magdalena Bałazińska,middle,False,I201448701,University of Washington
+W2168402580,A5007124763,Bill Howe,middle,False,I201448701,University of Washington
+W2168402580,A5048204602,Dan Suciu,last,False,I201448701,University of Washington
+W2289113545,A5091266202,Dusit Niyato,first,True,I172675005,Nanyang Technological University
+W2289113545,A5007992576,Dinh Thai Hoang,middle,False,I172675005,Nanyang Technological University
+W2289113545,A5089793687,Nguyen Cong Luong,middle,False,I172675005,Nanyang Technological University
+W2289113545,A5100338634,Ping Wang,middle,False,I172675005,Nanyang Technological University
+W2289113545,A5022649488,Dong In Kim,middle,False,I848706,Sungkyunkwan University
+W2289113545,A5063667378,Zhu Han,last,False,I44461941,University of Houston
+W1841962286,A5006409322,Ashraf E. Al-Fagih,first,True,I134085113,King Fahd University of Petroleum and Minerals
+W1841962286,A5066044089,Fadi Al‐Turjman,middle,False,I79817857,University of Guelph
+W1841962286,A5079032911,Waleed Alsalih,middle,False,I28022161,King Saud University
+W1841962286,A5021196543,Hossam S. Hassanein,last,False,I204722609,Queen's University
+W2743929098,A5091703061,Haifei Yu,first,False,I9224756,Northeastern University
+W2743929098,A5101956035,Mengxiao Zhang,last,True,I9224756,Northeastern University
+W2067195421,A5084341740,Tianming Li,first,True,I102322142,"Rutgers, The State University of New Jersey"
+W2067195421,A5055303802,Narayan B. Mandayam,last,False,I102322142,"Rutgers, The State University of New Jersey"
+W4323644227,A5101956035,Mengxiao Zhang,first,True,I150229711,University of Electronic Science and Technology of China
+W4323644227,A5002835087,Fernando Beltrán,middle,False,I154130895,University of Auckland
+W4323644227,A5083914998,Jiamou Liu,last,False,I154130895,University of Auckland
+W3040491562,A5088227362,Fahad Ahmed Al-Zahrani,first,True,I199693650,Umm al-Qura University
+W3014121762,A5000593119,Petri Parvinen,first,True,None,None
+W3014121762,A5078094839,Essi Pöyry,middle,False,I4210140823,GfK (Czechia)
+W3014121762,A5035717439,Robin Gustafsson,middle,False,I9927081,Aalto University
+W3014121762,A5031521126,Miikka Laitila,middle,False,I9927081,Aalto University
+W3014121762,,Futurice,middle,False,I9927081,Aalto University
+W3014121762,,Matti Rossi,last,False,None,None
+W3215634159,A5007421383,Riya Kakkar,first,True,I165831266,Nirma University
+W3215634159,A5058080028,Rajesh Gupta,middle,False,I165831266,Nirma University
+W3215634159,A5089077811,Sudeep Tanwar,middle,False,I165831266,Nirma University
+W3215634159,A5076776322,Joel J. P. C. Rodrigues,last,False,None,None
+W4243417153,A5003919163,Dirk Bergemann,first,True,I32971472,Yale University
+W4243417153,A5040536317,Alessandro Bonatti,last,False,I4210109586|I63966007,Moscow Institute of Thermal Technology|Massachusetts Institute of Technology
+W2533772775,A5103029928,Yuncheng Shen,first,True,I24185976|I24201400,Sichuan University|Chengdu University of Information Technology
+W2533772775,A5022121427,Bing Guo,middle,False,I24185976,Sichuan University
+W2533772775,A5102006216,Yan Shen,middle,False,I24185976|I24201400,Sichuan University|Chengdu University of Information Technology
+W2533772775,A5050104774,Xuliang Duan,middle,False,I24185976,Sichuan University
+W2533772775,A5051591710,Xiangqian Dong,middle,False,I24185976,Sichuan University
+W2533772775,A5100430272,Hong Zhang,last,False,I24185976,Sichuan University
+W2734426755,A5050396482,Zhenzhe Zheng,first,True,I183067930,Shanghai Jiao Tong University
+W2734426755,A5002637006,Yanqing Peng,middle,False,I183067930,Shanghai Jiao Tong University
+W2734426755,A5059190563,Fan Wu,middle,False,I183067930,Shanghai Jiao Tong University
+W2734426755,A5050393292,Shaojie Tang,middle,False,I162577319,The University of Texas at Dallas
+W2734426755,A5100428808,Guihai Chen,last,False,I183067930,Shanghai Jiao Tong University
+W2921968831,A5026349968,Hyeontaek Oh,first,True,I157485424,Korea Advanced Institute of Science and Technology
+W2921968831,A5014443062,Sangdon Park,middle,False,I157485424|I878022262,Korea Advanced Institute of Science and Technology|Korea Institute of Science & Technology Information
+W2921968831,A5060724570,Gyu Myoung Lee,middle,False,I63098007,Liverpool John Moores University
+W2921968831,A5086882645,Hwanjo Heo,middle,False,I142401562,Electronics and Telecommunications Research Institute
+W2921968831,A5102847957,Jun Kyun Choi,last,False,I157485424,Korea Advanced Institute of Science and Technology
+W2612128091,A5036934715,Shaleen Deep,first,True,I135310074,University of Wisconsin–Madison
+W2612128091,A5040506752,Paraschos Koutris,last,False,I135310074,University of Wisconsin–Madison
+W2996741051,A5005327587,Zehui Xiong,first,True,I172675005,Nanyang Technological University
+W2996741051,A5091266202,Dusit Niyato,middle,False,I172675005,Nanyang Technological University
+W2996741051,A5100338634,Ping Wang,middle,False,I192455969,York University
+W2996741051,A5063667378,Zhu Han,middle,False,I35928602|I44461941,Kyung Hee University|University of Houston
+W2996741051,A5100354608,Yang Zhang,last,False,I172675005|I196699116,Nanyang Technological University|Wuhan University of Technology
+W2180742472,A5101951074,Soumya Sen,first,True,I2800403580,University of Minnesota System
+W2180742472,A5085243096,Carlee Joe‐Wong,middle,False,I20089843,Princeton University
+W2180742472,A5023497481,Sangtae Ha,middle,False,I2802236040,University of Colorado System
+W2180742472,A5110782105,Mung Chiang,last,False,I20089843,Princeton University
+W2919782326,A5103086027,Chaoyue Niu,first,True,I183067930,Shanghai Jiao Tong University
+W2919782326,A5050396482,Zhenzhe Zheng,middle,False,I183067930,Shanghai Jiao Tong University
+W2919782326,A5050393292,Shaojie Tang,middle,False,I162577319,The University of Texas at Dallas
+W2919782326,A5019439900,Xiaofeng Gao,middle,False,I183067930,Shanghai Jiao Tong University
+W2919782326,A5059190563,Fan Wu,last,False,I183067930,Shanghai Jiao Tong University
+W2126626399,A5054330014,Ruiming Tang,first,True,I165932596,National University of Singapore
+W2126626399,A5103622653,Huayu Wu,middle,False,I3005327000,Institute for Infocomm Research
+W2126626399,A5080660416,Zhifeng Bao,middle,False,I165932596,National University of Singapore
+W2126626399,A5025922937,Stéphane Bressan,middle,False,I165932596,National University of Singapore
+W2126626399,A5041964026,Patrick Valduriez,last,False,I4210101743|I1326498283,"Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier|Institut national de recherche en informatique et en automatique"
+W2342966760,A5103248914,Qian Ma,first,True,I177725633,Chinese University of Hong Kong
+W2342966760,A5020753840,Ya‐Feng Liu,middle,False,I19820366|I4210120485,Chinese Academy of Sciences|Academy of Mathematics and Systems Science
+W2342966760,A5062346297,Jianwei Huang,last,False,I177725633,Chinese University of Hong Kong
+W2765365501,A5103800478,Samuel A. Fricker,first,True,I52719799|I2972652528,Blekinge Institute of Technology|FHNW University of Applied Sciences and Arts
+W2765365501,A5001194381,Yuliyan V. Maksimov,last,False,I2972652528,FHNW University of Applied Sciences and Arts
+W2920282816,A5069765568,Weichao Mao,first,True,I183067930,Shanghai Jiao Tong University
+W2920282816,A5050396482,Zhenzhe Zheng,middle,False,I183067930,Shanghai Jiao Tong University
+W2920282816,A5059190563,Fan Wu,last,False,I183067930,Shanghai Jiao Tong University
+W3121615946,A5101409910,Chengzhen Xu,first,True,I70986742,Novelis (Canada)
+W3121615946,A5000861569,Kun Zhu,middle,False,I70986742,Novelis (Canada)
+W3121615946,A5043939315,Changyan Yi,middle,False,I70986742,Novelis (Canada)
+W3121615946,A5100447486,Ran Wang,last,False,I70986742,Novelis (Canada)
+W1994174199,A5009846526,Yue Jin,first,True,None,None
+W1994174199,A5010575483,Zhan Pang,last,False,I67415387,Lancaster University
+W2327152018,A5020878231,Youngbin Im,first,True,I188538660,University of Colorado Boulder
+W2327152018,A5085243096,Carlee Joe‐Wong,middle,False,I20089843,Princeton University
+W2327152018,A5023497481,Sangtae Ha,middle,False,I188538660,University of Colorado Boulder
+W2327152018,A5101951074,Soumya Sen,middle,False,I130238516,University of Minnesota
+W2327152018,A5106697460,Ted Taekyoung Kwon,middle,False,I139264467,Seoul National University
+W2327152018,A5110782105,Mung Chiang,last,False,I20089843,Princeton University
+W3021370403,A5051329282,I-Hsun Chuang,first,True,I91807558,National Cheng Kung University
+W3021370403,A5101729953,Shih-Hao Huang,middle,False,I91807558,National Cheng Kung University
+W3021370403,A5051531111,Wei-Chu Chao,middle,False,I91807558,National Cheng Kung University
+W3021370403,A5030165755,Jen-Sheng Tsai,middle,False,I91807558,National Cheng Kung University
+W3021370403,A5101775968,Yau-Hwang Kuo,last,False,I91807558,National Cheng Kung University
+W1998665878,A5042081570,Xiaowen Gong,first,True,I55732556,Arizona State University
+W1998665878,A5007119869,Lingjie Duan,middle,False,I152815399,Singapore University of Technology and Design
+W1998665878,A5041455132,Xu Chen,last,False,I74656192,University of Göttingen
+W2916829860,A5050396482,Zhenzhe Zheng,first,True,I183067930,Shanghai Jiao Tong University
+W2916829860,A5002637006,Yanqing Peng,middle,False,I183067930,Shanghai Jiao Tong University
+W2916829860,A5059190563,Fan Wu,middle,False,I183067930,Shanghai Jiao Tong University
+W2916829860,A5050393292,Shaojie Tang,middle,False,I162577319,The University of Texas at Dallas
+W2916829860,A5100428808,Guihai Chen,last,False,I183067930,Shanghai Jiao Tong University
+W2310916783,A5057301155,Florian Stahl,first,False,None,None
+W2310916783,A5002668634,Fabian Schomm,middle,True,None,None
+W2310916783,A5088553705,Lara Vomfell,middle,False,None,None
+W2310916783,A5083197733,Gottfried Vossen,last,False,I52179390,University of Waikato
+W1777686370,A5079341574,Silvia Fabiani,first,True,I103737770,Bank of Italy
+W1777686370,A5067550005,Martine Druant,middle,False,I98899809,National Bank of Belgium
+W1777686370,A5113485459,Ignacio Hernando,middle,False,I185763367,Bank of Spain
+W1777686370,A5001696215,Claudia Kwapil,middle,False,I1341874111,National Bank of Austria
+W1777686370,A5030999611,Bettina Landau,middle,False,I153515283,European Central Bank
+W1777686370,A5091446973,Claire Loupias,middle,False,I201298700,Banque de France
+W1777686370,A5102882868,Fernando Martins,middle,False,I4210105462|I141596103|I50310733|I4401200244,Lusíada University of Lisbon|University of Lisbon|Banco de Portugal|Fundação Minerva - Cultura - Ensino e Investigação Científica
+W1777686370,A5015887286,Thomas Mathae,middle,False,I201298700,Banque de France
+W1777686370,A5005319110,Roberto Sabbatini,middle,False,I103737770,Bank of Italy
+W1777686370,A5060014936,Harald Stahl,middle,False,I74623043,Deutsche Bundesbank
+W1777686370,A5067308847,Ad Stokman,last,False,I96120398,De Nederlandsche Bank
+W2974598553,A5012301204,Daron Acemoğlu,first,True,I1321305853|I170897317|I185261750|I4210110987|I63966007,National Bureau of Economic Research|Duke University|University of Toronto|IIT@MIT|Massachusetts Institute of Technology
+W2974598553,A5006356937,Ali Makhdoumi,middle,False,I1321305853|I170897317|I185261750|I4210110987|I63966007,National Bureau of Economic Research|Duke University|University of Toronto|IIT@MIT|Massachusetts Institute of Technology
+W2974598553,A5061280107,Azarakhsh Malekian,middle,False,I1321305853|I170897317|I185261750|I4210110987|I63966007,National Bureau of Economic Research|Duke University|University of Toronto|IIT@MIT|Massachusetts Institute of Technology
+W2974598553,A5067307504,Asuman Ozdaglar,last,False,I1321305853|I170897317|I185261750|I4210110987|I63966007,National Bureau of Economic Research|Duke University|University of Toronto|IIT@MIT|Massachusetts Institute of Technology
+W3124517880,A5109723501,Bartosz Maćkowiak,first,True,I153515283,European Central Bank
+W3124517880,A5074819510,Mirko Wiederholt,last,False,None,None
+W3123243120,A5101819723,Charles W. Jones,first,True,I1321305853|I97018004,National Bureau of Economic Research|Stanford University
+W3123243120,A5044124853,Christopher Tonetti,last,False,I1321305853|I97018004,National Bureau of Economic Research|Stanford University
+W2150449738,A5079341574,Silvia Fabiani,first,True,I103737770,Bank of Italy
+W2150449738,A5073985881,Angela Gattulli,middle,False,I103737770,Bank of Italy
+W2150449738,A5005319110,Roberto Sabbatini,last,False,I103737770,Bank of Italy
+W3096125752,A5009825115,Rishabh Kirpalani,first,True,I1321305853|I135310074|I40347166|I57206974,National Bureau of Economic Research|University of Wisconsin–Madison|University of Chicago|New York University
+W3096125752,A5105003187,Thomas Philippon,last,False,I1321305853|I135310074|I40347166|I57206974,National Bureau of Economic Research|University of Wisconsin–Madison|University of Chicago|New York University
+W3008256197,A5079311115,Guy Aridor,first,True,I111979921|I1321305853|I4210110987|I78577930,Northwestern University|National Bureau of Economic Research|IIT@MIT|Columbia University
+W3008256197,A5060447177,Yeon‐Koo Che,middle,False,I111979921|I1321305853|I4210110987|I78577930,Northwestern University|National Bureau of Economic Research|IIT@MIT|Columbia University
+W3008256197,A5022162716,Tobias Salz,last,False,I111979921|I1321305853|I4210110987|I78577930,Northwestern University|National Bureau of Economic Research|IIT@MIT|Columbia University
+W2950902070,A5101951074,Soumya Sen,first,True,I20089843,Princeton University
+W2950902070,A5085243096,Carlee Joe‐Wong,middle,False,I20089843,Princeton University
+W2950902070,A5023497481,Sangtae Ha,middle,False,I20089843,Princeton University
+W2950902070,A5110782105,Mung Chiang,last,False,I20089843,Princeton University
+W3117086259,A5103087822,Arnoud W. A. Boot,first,False,I887064364,University of Amsterdam
+W3117086259,A5101837822,Peter Hoffmann,middle,True,I153515283,European Central Bank
+W3117086259,A5012755577,Luc Laeven,middle,False,I153515283,European Central Bank
+W3117086259,A5113968324,Lev Ratnovski,last,False,I153515283,European Central Bank
+W2982407593,A5072627238,Zhipeng Cai,first,True,I181565077,Georgia State University
+W2982407593,A5058049017,Zaobo He,last,False,I83328450,Miami University
+W2906578628,A5068099757,Ikram Ud Din,first,True,I2801349156,University of Haripur
+W2906578628,A5057916222,Mohsen Guizani,middle,False,I60342839,Qatar University
+W2906578628,A5025967682,Suhaidi Hassan,middle,False,I94625822,Northern University of Malaysia
+W2906578628,A5006531094,Byung-Seo Kim,middle,False,I94588446,Hongik University
+W2906578628,A5072011650,Muhammad Khurram Khan,middle,False,I28022161,King Saud University
+W2906578628,A5084074039,Mohammed Atiquzzaman,middle,False,I8692664,University of Oklahoma
+W2906578628,A5108137051,Syed Hassan Ahmed,last,False,I39815113,Georgia Southern University
+W4288391541,A5033991515,Khyati Kapadiya,first,True,I165831266,Nirma University
+W4288391541,A5013786715,Usha Patel,middle,False,I165831266,Nirma University
+W4288391541,A5058080028,Rajesh Gupta,middle,False,I165831266,Nirma University
+W4288391541,A5027946901,Mohammad Dahman Alshehri,middle,False,I179331831,Taif University
+W4288391541,A5089077811,Sudeep Tanwar,middle,False,I165831266,Nirma University
+W4288391541,A5022261598,Gulshan Sharma,middle,False,I24027795,University of Johannesburg
+W4288391541,A5079866137,Pitshou N. Bokoro,last,False,I24027795,University of Johannesburg
+W2956647116,A5088263564,Wei Xiong,first,True,I113940042,Shanghai University
+W2956647116,A5078394535,Li Xiong,last,False,I113940042,Shanghai University
+W3113404185,A5103061575,Ayesha Sadiq,first,True,I16076960,COMSATS University Islamabad
+W3113404185,A5037497109,Muhammad Umar Javed,middle,False,I16076960,COMSATS University Islamabad
+W3113404185,A5032253604,Rabiya Khalid,middle,False,I16076960,COMSATS University Islamabad
+W3113404185,A5089600920,Ahmad Almogren,middle,False,I28022161,King Saud University
+W3113404185,A5040905393,Muhammad Shafiq,middle,False,I55240360,Yeungnam University
+W3113404185,A5055380996,Nadeem Javaid,last,False,I16076960,COMSATS University Islamabad
+W4390728454,A5101924543,Ziming Liu,first,True,I9224756,Northeastern University
+W4390728454,A5028732904,Bonan Huang,middle,False,I9224756,Northeastern University
+W4390728454,A5008665053,Yushuai Li,middle,False,I184942183,University of Oslo
+W4390728454,A5021659366,Qiuye Sun,middle,False,I9224756,Northeastern University
+W4390728454,A5061064237,Torben Bach Pedersen,middle,False,I891191580,Aalborg University
+W4390728454,A5102774911,Wenzhong Gao,last,False,I131651094,University of Denver
+W4293428560,A5015926564,Vishwa Amitkumar Patel,first,True,None,None
+W4293428560,A5053527968,Pronaya Bhattacharya,middle,False,I165831266,Nirma University
+W4293428560,A5089077811,Sudeep Tanwar,middle,False,I165831266,Nirma University
+W4293428560,A5058080028,Rajesh Gupta,middle,False,I165831266,Nirma University
+W4293428560,A5022261598,Gulshan Sharma,middle,False,I24027795,University of Johannesburg
+W4293428560,A5079866137,Pitshou N. Bokoro,middle,False,I24027795,University of Johannesburg
+W4293428560,A5056113902,Ravi Sharma,last,False,I5847235,University of Petroleum and Energy Studies
+W4360991875,A5053397554,Avi Goldfarb,first,True,I185261750,University of Toronto
+W4360991875,A5091633322,Verina F. Que,last,False,I185261750,University of Toronto
+W4226305897,A5064176949,Antragama Ewa Abbas,first,True,I98358874,Delft University of Technology
+W4226305897,A5085380918,Wirawan Agahari,middle,False,I98358874,Delft University of Technology
+W4226305897,A5038499390,Montijn van de Ven,middle,False,I83019370,Eindhoven University of Technology
+W4226305897,A5057024015,Anneke Zuiderwijk,middle,False,I98358874,Delft University of Technology
+W4226305897,A5053800383,Mark de Reuver,last,False,I98358874,Delft University of Technology
+W4312395603,A5015181840,Jie Song,first,True,I20231570,Peking University
+W4312395603,A5078098542,Guannan He,middle,False,I20231570,Peking University
+W4312395603,A5100783880,Jianxiao Wang,middle,False,I20231570,Peking University
+W4312395603,A5112856088,Pingwen Zhang,last,False,I20231570,Peking University
+W3002742063,A5021530908,Mazin Debe,first,True,I176601375,Khalifa University of Science and Technology
+W3002742063,A5028133110,Khaled Salah,middle,False,I176601375,Khalifa University of Science and Technology
+W3002742063,A5056165063,Muhammad Habib ur Rehman,middle,False,I176601375,Khalifa University of Science and Technology
+W3002742063,A5049821727,Davor Svetinović,last,False,I176601375,Khalifa University of Science and Technology
+W4288685807,A5078566421,Petar Radanliev,first,True,I40120149,University of Oxford
+W4288685807,A5059614463,David De Roure,last,False,I40120149,University of Oxford
+W2942073230,A5015550399,Jian Yang,first,True,I92403157,University of Science and Technology Beijing
+W2942073230,A5019605142,Chongchong Zhao,middle,False,I92403157,University of Science and Technology Beijing
+W2942073230,A5058043497,Chunxiao Xing,last,False,I99065089,Tsinghua University
+W3206864493,A5006249627,Jan J. Zygmuntowski,first,True,None,None
+W3206864493,A5091394720,Laura Zoboli,middle,False,I4210096386|I4654613|I4210161028,"Bridge University|University of Warsaw|College of Europe, Warsaw"
+W3206864493,A5027244331,Paul Nemitz,last,False,None,None
+W4284704402,A5089165754,Sachi Chaudhary,first,False,I165831266,Nirma University
+W4284704402,A5007421383,Riya Kakkar,middle,False,I165831266,Nirma University
+W4284704402,A5044414974,Nilesh Kumar Jadav,middle,False,I165831266,Nirma University
+W4284704402,A5022802863,Anuja Nair,middle,True,I165831266,Nirma University
+W4284704402,A5058080028,Rajesh Gupta,middle,False,I165831266,Nirma University
+W4284704402,A5089077811,Sudeep Tanwar,middle,True,I165831266,Nirma University
+W4284704402,A5061026683,Smita Agrawal,middle,True,I165831266,Nirma University
+W4284704402,A5027946901,Mohammad Dahman Alshehri,middle,False,I179331831,Taif University
+W4284704402,A5056113902,Ravi Sharma,middle,False,I5847235,University of Petroleum and Energy Studies
+W4284704402,A5022261598,Gulshan Sharma,middle,False,I24027795,University of Johannesburg
+W4284704402,A5079249544,Innocent E. Davidson,last,True,I177181097,Durban University of Technology
+W3195579788,A5052333474,Zicun Cong,first,False,I18014758,Simon Fraser University
+W3195579788,A5013942355,Xuan Luo,middle,False,I18014758,Simon Fraser University
+W3195579788,A5062247330,Jian Pei,middle,False,I18014758,Simon Fraser University
+W3195579788,A5003692270,Feida Zhu,middle,False,I79891267,Singapore Management University
+W3195579788,A5100419760,Yong Zhang,last,True,I4210115038,Huawei Technologies (Canada)
+W4220901737,A5071905963,Stefan Driessen,first,True,I193700539|I4210166725,Tilburg University|HAS green academy
+W4220901737,A5072724150,Geert Monsieur,middle,False,I193700539|I4210166725,Tilburg University|HAS green academy
+W4220901737,A5049150712,Willem‐Jan van den Heuvel,last,False,I193700539|I4210166725,Tilburg University|HAS green academy
+W4281710558,A5003254995,Tejal Rathod,first,False,I165831266,Nirma University
+W4281710558,A5044414974,Nilesh Kumar Jadav,middle,False,I165831266,Nirma University
+W4281710558,A5027946901,Mohammad Dahman Alshehri,middle,False,I179331831,Taif University
+W4281710558,A5089077811,Sudeep Tanwar,middle,True,I165831266,Nirma University
+W4281710558,A5056113902,Ravi Sharma,middle,False,I5847235,University of Petroleum and Energy Studies
+W4281710558,A5020246701,Raluca‐Andreea Felseghi,middle,True,I12012874,Ştefan cel Mare University of Suceava
+W4281710558,A5055678785,Maria Simona Raboacă,last,False,I4210148481,National Institute for Research and Development of Isotopic and Molecular Technologies
+W4319769514,A5100961833,Jimin Xu,first,False,I168879160,Zhejiang University of Science and Technology
+W4319769514,A5085042913,Nuanxin Hong,middle,False,I168879160,Zhejiang University of Science and Technology
+W4319769514,A5070252509,Zhening Xu,middle,False,I168879160,Zhejiang University of Science and Technology
+W4319769514,A5079260216,Zhou Zhao,middle,False,I168879160,Zhejiang University of Science and Technology
+W4319769514,A5040446988,Chao Wu,middle,False,I168879160,Zhejiang University of Science and Technology
+W4319769514,A5041727387,Kun Kuang,middle,True,I168879160,Zhejiang University of Science and Technology
+W4319769514,A5101714277,Jiaping Wang,middle,False,None,None
+W4319769514,A5047812239,Mingjie Zhu,middle,False,None,None
+W4319769514,A5057864403,Jingren Zhou,middle,False,None,None
+W4319769514,A5000596496,Kui Ren,middle,False,I168879160,Zhejiang University of Science and Technology
+W4319769514,A5026311099,Xiaohu Yang,middle,False,I168879160,Zhejiang University of Science and Technology
+W4319769514,A5101470275,Cewu Lu,middle,False,I183067930,Shanghai Jiao Tong University
+W4319769514,A5062247330,Jian Pei,middle,False,I18014758,Simon Fraser University
+W4319769514,A5113600813,Harry Shum,last,False,None,None
+W4388068877,A5100733037,Juanjuan Li,first,True,I80143920|I4210112150|I19820366,Shandong University of Science and Technology|Institute of Automation|Chinese Academy of Sciences
+W4388068877,A5100623231,Junqing Li,middle,False,I80143920|I19820366|I4210112150,Shandong University of Science and Technology|Chinese Academy of Sciences|Institute of Automation
+W4388068877,A5112719601,Xiao Wang,middle,False,I4210112270|I143868143,Qingdao Academy of Intelligent Industries|Anhui University
+W4388068877,A5001421911,Rui Qin,middle,False,I4210112150|I19820366,Institute of Automation|Chinese Academy of Sciences
+W4388068877,A5110476655,Yong Yuan,middle,False,I78988378,Renmin University of China
+W4388068877,A5113600509,Fei‐Yue Wang,last,False,I111950717|I19820366,Macau University of Science and Technology|Chinese Academy of Sciences
+W4281293246,A5062754862,Rômy Bergman,first,True,I98358874,Delft University of Technology
+W4281293246,A5064176949,Antragama Ewa Abbas,middle,False,I98358874,Delft University of Technology
+W4281293246,A5028601468,Sven Jung,middle,False,I202963720,University of St.Gallen
+W4281293246,A5024600924,Claudia Werker,middle,False,I98358874,Delft University of Technology
+W4281293246,A5053800383,Mark de Reuver,last,False,I98358874,Delft University of Technology
+W4322604225,A5075384062,Maryam Farboodi,first,True,I1321305853|I4210140326|I63966007,National Bureau of Economic Research|Centre for Economic Policy Research|Massachusetts Institute of Technology
+W4322604225,A5001708196,Laura Veldkamp,last,False,I78577930|I4210140326|I1321305853,Columbia University|Centre for Economic Policy Research|National Bureau of Economic Research
+W4377287661,A5102905732,Simon Scheider,first,True,I4210163630|I200332995,Fraunhofer Institute for Software and Systems Engineering|TU Dortmund University
+W4377287661,A5047138078,Florian Lauf,middle,False,I4210163630,Fraunhofer Institute for Software and Systems Engineering
+W4377287661,A5087654382,Frederik Möller,middle,False,I4210163630|I94509681,Fraunhofer Institute for Software and Systems Engineering|Technische Universität Braunschweig
+W4377287661,A5066585065,Boris Otto,last,False,I4210163630|I200332995,Fraunhofer Institute for Software and Systems Engineering|TU Dortmund University
+W4386021011,A5038965583,Diane Coyle,first,True,I241749,University of Cambridge
+W4386021011,A5091888663,Annabel Manley,last,False,I241749,University of Cambridge
+W2994622980,A5070903603,Yuna Jiang,first,True,I47720641,Huazhong University of Science and Technology
+W2994622980,A5100667719,Yi Zhong,middle,False,I47720641,Huazhong University of Science and Technology
+W2994622980,A5057308968,Xiaohu Ge,last,False,I47720641,Huazhong University of Science and Technology
+W2993467838,A5101554875,Mona Ansari,first,True,I67009956,Iran University of Science and Technology
+W2993467838,A5102345105,Vahid Tabatab Vakili,middle,False,I67009956,Iran University of Science and Technology
+W2993467838,A5018813049,Behnam Bahrak,last,False,I23946033,University of Tehran
+W3021125948,A5005327587,Zehui Xiong,first,True,I172675005|I4210086143,Nanyang Technological University|Alibaba Group (Cayman Islands)
+W3021125948,A5071321132,Jun Zhao,middle,False,I172675005,Nanyang Technological University
+W3021125948,A5100354608,Yang Zhang,middle,False,I196699116,Wuhan University of Technology
+W3021125948,A5091266202,Dusit Niyato,middle,False,I172675005,Nanyang Technological University
+W3021125948,A5027033026,Junshan Zhang,last,False,I55732556,Arizona State University
+W3202764263,A5058698672,Pierre Pinson,first,True,I96673099,Technical University of Denmark
+W3202764263,A5017719684,Liyang Han,middle,False,I96673099,Technical University of Denmark
+W3202764263,A5021625110,Jalal Kazempour,last,False,I96673099,Technical University of Denmark
+W3089176333,A5014150958,Xiaoye Miao,first,True,I76130692,Zhejiang University
+W3089176333,A5006238145,Yunjun Gao,middle,False,I76130692,Zhejiang University
+W3089176333,A5100432093,Lu Chen,middle,False,I891191580,Aalborg University
+W3089176333,A5026181652,Huanhuan Peng,middle,False,I76130692,Zhejiang University
+W3089176333,A5069353502,Jianwei Yin,middle,False,I76130692,Zhejiang University
+W3089176333,A5100404176,Qing Li,last,False,I14243506,Hong Kong Polytechnic University
+W2954543879,,Xenofon Foukas,first,True,I4210164937,Microsoft Research (United Kingdom)
+W2954543879,,Mahesh K. Marina,middle,False,I98677209,University of Edinburgh
+W2954543879,,Kimon Kontovasilis,last,False,I203474044|I4387152169,"National Centre of Scientific Research ""Demokritos""|Institute of Informatics & Telecommunications"
+W3202603574,A5000777479,Björn Döhring,first,True,I2800387288,European Commission
+W3202603574,A5012727418,Atanas Hristov,middle,False,I2800387288,European Commission
+W3202603574,A5102824898,Christoph Maier,middle,False,I2800387288,European Commission
+W3202603574,A5039275857,Werner Roeger,middle,False,I99464096|I1282776028,KU Leuven|German Institute for Economic Research
+W3202603574,A5082072316,Anna Thum-Thysen,last,False,I2800387288,European Commission
+W4220799794,A5004912731,Diego Pennino,first,False,I119003972,Roma Tre University
+W4220799794,A5078465566,Maurizio Pizzonia,middle,False,I119003972,Roma Tre University
+W4220799794,A5070969466,Andrea Vitaletti,middle,False,I861853513,Sapienza University of Rome
+W4220799794,A5066685654,Marco Zecchini,last,True,I861853513,Sapienza University of Rome
+W4377865288,A5100777491,Hanlin Li,first,True,I95457486,"University of California, Berkeley"
+W4377865288,A5070837664,Nicholas Vincent,middle,False,I84218800,"University of California, Davis"
+W4377865288,A5046479021,Stevie Chancellor,middle,False,I130238516,University of Minnesota
+W4377865288,A5005448339,Brent Hecht,last,False,I111979921,Northwestern University
+W3210061505,A5103029928,Yuncheng Shen,first,False,I24185976|I4210086486,Sichuan University|Zhaotong University
+W3210061505,A5022121427,Bing Guo,middle,True,I24185976,Sichuan University
+W3210061505,A5102006215,Yan Shen,middle,False,I24201400,Chengdu University of Information Technology
+W3210061505,A5050104774,Xuliang Duan,middle,False,I24185976,Sichuan University
+W3210061505,A5051591710,Xiangqian Dong,middle,False,I24185976,Sichuan University
+W3210061505,A5100430272,Hong Zhang,middle,False,I24185976,Sichuan University
+W3210061505,A5070321797,Chuanwu Zhang,middle,False,I6645349,Southwest Minzu University
+W3210061505,A5108054662,Yuming Jiang,last,False,I24185976,Sichuan University
+W4210813858,A5032861309,Yingjie Tian,first,True,I19820366|I4210096250|I4210165038,Chinese Academy of Sciences|Beijing Institute of Big Data Research|University of Chinese Academy of Sciences
+W4210813858,A5089156080,Ding Yu-rong,middle,False,I19820366|I4210096250|I4210165038,Chinese Academy of Sciences|Beijing Institute of Big Data Research|University of Chinese Academy of Sciences
+W4210813858,A5072629441,Saiji Fu,middle,False,I19820366|I4210096250|I4210165038,Chinese Academy of Sciences|Beijing Institute of Big Data Research|University of Chinese Academy of Sciences
+W4210813858,A5002076817,Liu Da-lian,last,False,I114234892,Beijing Union University
+W4382600626,A5109100369,Wendy H. Wong,first,True,None,None
+W2508874533,A5100739881,Qin Wang,first,True,I41198531|I26538001,Nanjing University of Posts and Telecommunications|San Diego State University
+W2508874533,A5100392294,Wei Wang,middle,False,I26538001,San Diego State University
+W2508874533,A5013079905,Shi Jin,middle,False,I76569877,Southeast University
+W2508874533,A5100755735,Hongbo Zhu,middle,False,I26538001,San Diego State University
+W2508874533,A5026808317,Nai Tong Zhang,last,False,I204983213,Harbin Institute of Technology
+W2734445852,A5081396846,Xijun Li,first,True,I183067930,Shanghai Jiao Tong University
+W2734445852,A5023243107,Jianguo Yao,middle,False,I183067930,Shanghai Jiao Tong University
+W2734445852,A5100372152,Xue Liu,middle,False,I5023651,McGill University
+W2734445852,A5049487451,Haibing Guan,last,False,I183067930,Shanghai Jiao Tong University
+W2758203152,A5067453655,Mohammad Shahrad,first,True,I20089843,Princeton University
+W2758203152,A5071626310,Cristian Klein,middle,False,I90267481,Umeå University
+W2758203152,A5103085306,Liang Zheng,middle,False,I20089843,Princeton University
+W2758203152,A5110782105,Mung Chiang,middle,False,I20089843,Princeton University
+W2758203152,A5070862414,Erik Elmroth,middle,False,I90267481,Umeå University
+W2758203152,A5080019688,David Wentzlaff,last,False,I20089843,Princeton University
+W2509511072,A5103085306,Liang Zheng,first,True,I20089843,Princeton University
+W2509511072,A5085243096,Carlee Joe‐Wong,last,False,I20089843,Princeton University
+W2934375453,A5015550399,Jian Yang,first,True,I92403157,University of Science and Technology Beijing
+W2934375453,A5058043497,Chunxiao Xing,last,False,I99065089,Tsinghua University
+W1516789636,A5027749347,Enrique Alberola Ila,first,True,I185763367,Bank of Spain
+W1516789636,A5110666957,José Manuel Montero,last,False,I185763367,Bank of Spain
+W2123954539,A5039823291,Peter J. Klenow,first,False,I1321305853|I2802905149|I97018004,National Bureau of Economic Research|Federal Reserve Board of Governors|Stanford University
+W2123954539,A5064873459,Benjamin Malin,last,True,I1321305853|I2802905149|I97018004,National Bureau of Economic Research|Federal Reserve Board of Governors|Stanford University
+W3127298136,A5075384062,Maryam Farboodi,first,True,I1321305853|I63966007,National Bureau of Economic Research|Massachusetts Institute of Technology
+W3127298136,A5001708196,Laura Veldkamp,last,False,I1321305853|I63966007,National Bureau of Economic Research|Massachusetts Institute of Technology
+W3121561769,A5079311115,Guy Aridor,first,True,I2801857525,Kellogg's (Canada)
+W3121561769,A5060447177,Yeon‐Koo Che,middle,False,I78577930,Columbia University
+W3121561769,,William Nelson,middle,False,I4210109586,Moscow Institute of Thermal Technology
+W3121561769,,Tobias Salz,last,False,I4210109586,Moscow Institute of Thermal Technology
+W2011238498,A5055718351,Emi Nakamura,first,True,I1321305853|I142934699,"National Bureau of Economic Research|California State University, Fullerton"
+W2011238498,A5078188798,Dawit Zerom,last,False,I1321305853|I142934699,"National Bureau of Economic Research|California State University, Fullerton"
+W2156471581,A5023417873,Ariel Burstein,first,True,I1279858714|I1321305853|I161318765,"Center for Economic and Policy Research|National Bureau of Economic Research|University of California, Los Angeles"
+W2156471581,A5109051763,Christian Hellwig,last,False,I1279858714|I1321305853|I161318765,"Center for Economic and Policy Research|National Bureau of Economic Research|University of California, Los Angeles"
+W2166180954,A5081749378,Patrick J. Kehoe,first,True,I1321305853|I1341575764|I57206974,National Bureau of Economic Research|Federal Reserve Bank of Minneapolis|New York University
+W2166180954,A5063508868,Virgiliu Midrigan,last,False,I1321305853|I1341575764|I57206974,National Bureau of Economic Research|Federal Reserve Bank of Minneapolis|New York University
+W4289544372,A5111431786,Carol Corrado,first,True,I1288051870|I1341049462,Organisation de Coopération et de Développement Economiques|Istituto Nazionale di Statistica
+W4289544372,A5016509351,Jonathan Haskel,middle,False,I1288051870|I1341049462,Organisation de Coopération et de Développement Economiques|Istituto Nazionale di Statistica
+W4289544372,,"Iommi, Massimiliano",middle,False,I1288051870|I1341049462,Organisation de Coopération et de Développement Economiques|Istituto Nazionale di Statistica
+W4289544372,A5073272459,Cecilia Jona‐Lasinio,last,False,I1288051870|I1341049462,Organisation de Coopération et de Développement Economiques|Istituto Nazionale di Statistica
+W2514159439,A5062365263,Fengli Xu,first,True,I99065089,Tsinghua University
+W2514159439,A5021398655,Yujun Lin,middle,False,I99065089,Tsinghua University
+W2514159439,A5046688345,Jiaxin Huang,middle,False,I99065089,Tsinghua University
+W2514159439,A5061391892,Di Wu,middle,False,I16609230,Hunan University
+W2514159439,A5102001341,Hongzhi Shi,middle,False,I99065089,Tsinghua University
+W2514159439,A5050374376,Jeungeun Song,middle,False,I31766871,Sookmyung Women's University
+W2514159439,A5100355277,Yong Li,last,False,I99065089,Tsinghua University
+W2190764372,,Yingxiang Yang,first,True,I102322142,"Rutgers, The State University of New Jersey"
+W2190764372,,Leonard T. Park,middle,False,I102322142,"Rutgers, The State University of New Jersey"
+W2190764372,,Narayan B. Mandayam,middle,False,I102322142,"Rutgers, The State University of New Jersey"
+W2190764372,,Ivan Seskar,middle,False,I102322142,"Rutgers, The State University of New Jersey"
+W2190764372,,Arnold L. Glass,middle,False,I102322142,"Rutgers, The State University of New Jersey"
+W2190764372,,Neha Sinha,last,False,I102322142,"Rutgers, The State University of New Jersey"
+W4385311348,A5100372201,Xue Li,first,False,I198645480,North China University of Water Resources and Electric Power
+W4385311348,A5066661344,Mohammad Khishe,middle,True,I4387154372,Imam Khomeini Marine Science University
+W4385311348,A5112968344,Leren Qian,last,False,I55732556,Arizona State University
+W4310251148,A5064066266,Joan Ofulue,first,True,I153718931,University of Ottawa
+W4310251148,A5103949601,Morad Benyoucef,last,False,I153718931,University of Ottawa
+W3186955607,A5086278997,Alexandra Heidel,first,True,I84340266,WHU – Otto Beisheim School of Management
+W3186955607,A5053115527,Christian Hagist,middle,False,I84340266,WHU – Otto Beisheim School of Management
+W3186955607,A5082574565,Christian Schlereth,last,False,I84340266,WHU – Otto Beisheim School of Management

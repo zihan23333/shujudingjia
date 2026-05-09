@@ -1,0 +1,2 @@
+﻿comparison,spearman,top5_overlap,top10_overlap,avg_rank_change,max_rank_change,penalized_edges_main,penalized_edges_extended,edges_with_team_collab,edges_with_shared_institutions
+Extended relation robustness,0.9988387645284036,5,10,0.7428571428571429,7.0,27,43,28,40

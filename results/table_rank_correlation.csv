@@ -1,0 +1,5 @@
+﻿comparison,spearman,top5_overlap,top10_overlap,avg_rank_change,max_rank_change
+Full vs Unweighted PageRank,0.9190867712469802,4,5,8.476190476190476,53.0
+Full vs Citation Count,0.854959197164035,1,4,11.504761904761905,72.5
+Semantic-Temporal vs Semantic,0.9996267457412725,5,10,0.41904761904761906,4.0
+Full vs Semantic-Temporal,0.9968791796700845,5,9,0.9523809523809523,14.0

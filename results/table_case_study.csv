@@ -1,0 +1,16 @@
+﻿case_type,paper_id,title,unweighted_rank,full_model_rank,self_citation_edges,mean_semantic_quality,mean_temporal_decay,query_similarity,price,reason
+Top-3 full model papers,W2097281067,TUBE,1,1,1,0.356488,1.0,0.0,0.5,LLM语义质量较高；时间衰减较弱；存在1条自引/团队互引边
+Top-3 full model papers,W2974598553,Too Much Data: Prices and Inefficiencies in Data Markets,4,2,0,0.300981,0.972222,0.09089,0.432744,LLM语义质量较高；时间衰减较明显；未观察到自引边
+Top-3 full model papers,W3123243120,Nonrivalry and the Economics of Data,5,3,0,0.32733,1.0,0.062667,0.30681,LLM语义质量较高；时间衰减较弱；未观察到自引边
+Largest rank drops after penalty,W1994174199,Smart data pricing: To share or not to share?,9,21,0,0.238125,0.714286,0.264671,0.11763,LLM语义质量一般；时间衰减较明显；未观察到自引边
+Largest rank drops after penalty,W2950902070,"A Survey of Smart Data Pricing: Past Proposals, Current Plans, and Future Trends",10,24,2,0.008,1.0,0.191674,0.083209,LLM语义质量一般；时间衰减较弱；存在2条自引/团队互引边
+Largest rank drops after penalty,W2289113545,Smart data pricing models for the internet of things: a bundling strategy approach,7,18,0,0.38905,0.703968,0.213573,0.101167,LLM语义质量较高；时间衰减较明显；未观察到自引边
+High value but low similarity,W2097281067,TUBE,1,1,1,0.356488,1.0,0.0,0.5,LLM语义质量较高；时间衰减较弱；存在1条自引/团队互引边
+High value but low similarity,W3111554765,Optimal Sticky Prices under Rational Inattention,18,4,0,0.3,1.0,0.0,0.050032,LLM语义质量一般；时间衰减较弱；未观察到自引边
+High value but low similarity,W1841962286,A Priced Public Sensing Framework for Heterogeneous IoT Architectures,14,10,0,0.446281,0.539773,0.0,0.016122,LLM语义质量较高；时间衰减较明显；未观察到自引边
+Medium value but high similarity,W2180742472,Smart data pricing,17,51,3,0.384625,1.0,0.588335,0.191447,LLM语义质量较高；时间衰减较弱；存在3条自引/团队互引边
+Medium value but high similarity,W4323644227,A Survey of Data Pricing for Data Marketplaces,52,48,1,0.3,1.0,0.414625,0.139076,LLM语义质量一般；时间衰减较弱；存在1条自引/团队互引边
+Medium value but high similarity,W3195579788,Data pricing in machine learning pipelines,67,67,0,0.3,0.714286,0.300881,0.094283,LLM语义质量一般；时间衰减较明显；未观察到自引边
+Papers with multiple self-citation edges,W2180742472,Smart data pricing,17,51,3,0.384625,1.0,0.588335,0.191447,LLM语义质量较高；时间衰减较弱；存在3条自引/团队互引边
+Papers with multiple self-citation edges,W2950902070,"A Survey of Smart Data Pricing: Past Proposals, Current Plans, and Future Trends",10,24,2,0.008,1.0,0.191674,0.083209,LLM语义质量一般；时间衰减较弱；存在2条自引/团队互引边
+Papers with multiple self-citation edges,W2920282816,Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective,22,50,2,0.331542,0.84127,0.093731,0.032634,LLM语义质量较高；时间衰减较明显；存在2条自引/团队互引边

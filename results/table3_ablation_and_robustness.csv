@@ -1,0 +1,10 @@
+﻿section,model_or_variant,spearman,top5_overlap,top10_overlap,avg_rank_change,max_rank_change,notes
+Ablation,structure_only,0.9190867712469802,4.0,5.0,8.476190476190476,53.0,
+Ablation,semantic_only,0.9973561156673475,5.0,9.0,0.9714285714285714,11.0,
+Ablation,semantic_temporal,0.9968791796700845,5.0,9.0,0.9523809523809523,14.0,
+Ablation,semantic_relation,0.9998548455660504,5.0,10.0,0.20952380952380953,2.0,
+Ablation,full_model,1.0,5.0,10.0,0.0,0.0,
+Extended robustness,team_and_institution_relations,0.9988387645284036,5.0,10.0,0.7428571428571429,7.0,main penalized edges=27; extended penalized edges=43
+Confidence robustness,confidence_epsilon_0.3,0.9999896318261464,5.0,10.0,0.01904761904761905,1.0,
+Confidence robustness,confidence_epsilon_0.5,1.0,5.0,10.0,0.0,0.0,
+Confidence robustness,confidence_epsilon_0.7,1.0,5.0,10.0,0.0,0.0,

@@ -1,0 +1,4 @@
+﻿epsilon,spearman,top5_overlap,top10_overlap,avg_rank_change,max_rank_change
+0.3,0.9999896318261464,5,10,0.01904761904761905,1.0
+0.5,1.0,5,10,0.0,0.0
+0.7,1.0,5,10,0.0,0.0

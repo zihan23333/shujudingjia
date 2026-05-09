@@ -1,0 +1,16 @@
+﻿section,scenario,paper_id,title,full_model_score,query_similarity,WTP,price,price_rank,top5_overlap,avg_price_change,max_price_change,avg_rank_change,max_rank_change
+Top priced papers,Base Case,W2097281067,TUBE,0.7521140442843489,0.0,1.0,0.5,1.0,,,,,
+Top priced papers,Base Case,W2974598553,Too Much Data: Prices and Inefficiencies in Data Markets,0.447126520710385,0.09088956783496686,1.2085377987454784,0.432744203596753,2.0,,,,,
+Top priced papers,Base Case,W2168402580,Query-based data pricing,0.1468097847137315,0.43060459659245276,1.7288243303473696,0.37743461342285944,3.0,,,,,
+Top priced papers,Base Case,W3123243120,Nonrivalry and the Economics of Data,0.3966148072141242,0.06266678688932102,0.9170371944541489,0.30681007786777353,4.0,,,,,
+Top priced papers,Base Case,W2010653253,A survey of smart data pricing,0.07167616541591182,0.43203720046973004,1.2887577672677721,0.23629999869661683,5.0,,,,,
+Top priced papers,Base Case,W2293940046,Query-Based Data Pricing,0.05257552156084605,0.43060459659245276,1.1719195347288847,0.2044604412891116,6.0,,,,,
+Top priced papers,Base Case,W2180742472,Smart data pricing,0.008707637818373776,0.5883349517716907,1.2427392710859098,0.19144664720158255,7.0,,,,,
+Top priced papers,Base Case,W4323644227,A Survey of Data Pricing for Data Marketplaces,0.011496848739495802,0.4146248205014178,0.8952394730984252,0.13907555560876406,8.0,,,,,
+Top priced papers,Base Case,W2743929098,Data pricing strategy based on data quality,0.02776987704988456,0.3410360160308301,0.8197294840328812,0.13355266375707223,9.0,,,,,
+Top priced papers,Base Case,W3084177365,A Survey on Data Pricing: From Economics to Data Science,0.021578756579354905,0.3291083604501962,0.7624465923702572,0.12202331084725195,10.0,,,,,
+Pricing sensitivity,Conservative,,,,,,,,5.0,0.018908670108449713,0.16740982288773804,3.0095238095238095,17.0
+Pricing sensitivity,Base Case,,,,,,,,5.0,0.0,0.0,0.0,0.0
+Pricing sensitivity,Aggressive,,,,,,,,5.0,0.018908670108449713,0.1674098228877381,1.4095238095238096,12.0
+Pricing sensitivity,Quality Priority,,,,,,,,5.0,0.010005375718290504,0.25,2.723809523809524,15.0
+Pricing sensitivity,Similarity Priority,,,,,,,,5.0,0.010005375718290509,0.25,2.057142857142857,23.0

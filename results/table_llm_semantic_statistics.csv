@@ -1,0 +1,9 @@
+﻿metric,value
+scored_edges,123.0
+mean_sentiment,0.500407
+mean_relevance,0.733333
+mean_confidence,0.868618
+low_confidence_ratio,0.0
+mean_q,0.410688
+median_q,0.3675
+relevance_full_weight_corr,0.770887
