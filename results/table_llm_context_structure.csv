@@ -1,0 +1,7 @@
+﻿metric,value
+total_llm_records,123.0
+unique_citation_edges,123.0
+multi_instance_edges,0.0
+records_with_multiple_contexts_inside_citation_context,0.0
+average_contexts_per_record,1.0
+max_contexts_per_record,1.0

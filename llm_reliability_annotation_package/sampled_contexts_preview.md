@@ -1,0 +1,1315 @@
+# 50 Sampled Citation Contexts for Human Annotation
+
+## S001
+- edge_id: W4226305897->W2790400697
+- citing_paper_title: Business Data Sharing through Data Marketplaces: A Systematic Literature Review
+- cited_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- LLM_section: Discussion
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+auction based pricing using the Bayesian mathematical model [140,141], a pricing mechanism negotiation based
+on a negotiation game theory based in the energy domain [142], and a generic pricing mechanism based on a non
+cooperative game the ory in Mobile Crowdsensing [143]. Finally, Stahl and Vossen [144] discuss data quality
+criteria (such as accuracy, completeness) that can be used to relatively price data, while Jang et al. [145]
+propose a three hierarchal model of data trading and create a pricing function to achieve Nash Equilibrium
+(NE). 4. Discussion This paper aims to investigate the current
+
+## S002
+- edge_id: W4220901737->W2765365501
+- citing_paper_title: Data Market Design: A Systematic Literature Review
+- cited_paper_title: Pricing of Data Products in Data Marketplaces
+- LLM_section: Discussion
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+maintaining data sovereignty [21]. Golrezaei et al. discuss different pricing schemes applicable to data
+markets for trafﬁc data, paying particular attention to the differences between ‘raw’ sensor data, which they
+show to be less valuable, and ‘processed’ data, which is perceived as more valuable [22]. Finally, Fricker et
+al. performed a struc tured literature review with snowballing and provide the most extensive overview of
+pricing data products in the academic literature on data markets [23]. They identify fourteen differ ent
+approaches and evaluate each of these on functionality, context and
+
+... [另一次引用] ...
+
+ated with it. Finally, we note that the data consumer is not the only role with requirements as the data
+provider can also expect to be somehow rewarded for the exchange. As was previously noted in the introduction,
+the price determination problem has already been extensively covered in other works [22], [23]. However, other
+mechanisms for rewarding data providers can VOLUME 10, 2022 33139 S. W. Driessen et al.: Data Market Design:
+Systematic Literature Review also be considered, such as services [64], [91] or company rewards for internal
+data markets [33], [94]. 3) DATA GOVERNANCE Data governance
+
+... [另一次引用] ...
+
+merg. Telecommun. Technol., vol. 28, no. 1, p. e3125, Jan. 2017. [21] A. Muschalle, F. Stahl, A. Löser, and G.
+Vossen, ‘‘Pricing approaches for data markets,’’ in Proc. Int. Workshop Bus. Intell. Real Time Enterprise, in
+Lecture Notes in Business Information Processing, vol. 154, 2013, pp. 129 144. [22] N. Golrezaei and H.
+Nazerzadeh, ‘‘Pricing schemes for metropolitan trafﬁc data markets,’’ in Proc. 3rd Int. Conf. Data Manage.
+Technol. Appl. (DATA), 2014, pp. 266 271. [23] S. A. Fricker and Y. V. Maksimov, ‘‘
+
+## S003
+- edge_id: W4377865288->W2910976764
+- citing_paper_title: The Dimensions of Data Labor: A Road Map for Researchers, Activists, and Policymakers to Empower Data Producers
+- cited_paper_title: Nonrivalry and the Economics of Data
+- LLM_section: Discussion
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+omputing researchers to explore potential implications of treating user activities as labor via simulations
+[10]. For example, Jones and Tonetti simulated how granting users rights to the data they produce and allowing
+the data to be used across firms can maximize social gains from the data economy [39]. Others have taken a
+step further and recommended establishing third party intermediaries that are analogous to labor unions to
+facilitate the relations between subgroups of users and technology companies [10, 42]. In a similar vein,
+practitioners have piloted applications and platforms that allow
+
+... [另一次引用] ...
+
+2016. Not at Home on the Range: Peer Production and the Urban/Rural Divide. In Proceedings of the 2016 CHI Con
+ference on Human Factors in Computing Systems (San Jose, California, USA) (CHI ’16). Association for Computing
+Machinery, New York, NY, USA, 13 25. https://doi.org/10.1145/2858036.2858123 [39] Charles I Jones and
+Christopher Tonetti. 2020.
+
+## S004
+- edge_id: W4210813858->W3084177365
+- citing_paper_title: Data Boundary and Data Pricing Based on the Shapley Value
+- cited_paper_title: A Survey on Data Pricing: From Economics to Data Science
+- LLM_section: Discussion
+- LLM_sentiment: 0.6
+- LLM_relevance: 0.7
+- LLM_confidence: 0.85
+- citation_context_wrapped:
+transaction industry. Big data empowers business value, leads to signiﬁcant changes, and even becomes a
+driving factor for business model innovation. According to the report from International Data Corporation, the
+worldwide revenue of big data analysis markets will grow up to $260 billion in 2022 [1]. However, using data
+to generate business value in many scenarios needs further improvement. For small organizations, insufﬁcient
+data will hinder the establishment of better models and can not meet the needs of analysis, application and
+decision support [2]. Recent studies and prac tices have appr
+
+... [另一次引用] ...
+
+ng point zi 1: Initialize SVi = 0 for i = 1, . . . , N and t = 0 2: while Convergence criteria not met do 3: t
+←t + 1 4: πt: Random permutation of train data points 5: vt 0 ←V(zi, A) 6: for j ∈{1, . . . , N} do 7: if V(D)
+−vt j−1 < Performance Tolerance then 8: vt j = vt j−1 9: else 10: vt j = V({πt[1], . . . , πt[j]}, A) 11: end
+if 12: SVπt[j] ←t−1 t SVπt−1[j] + 1 t (vt j −vt j−1) 13: end for 14: end while • Monotonicity: Given a
+function f : (R+)k →R+, it is monotone if and only if for any two vectors x, y ∈ (R+)k : x ≤y, we have f (x)
+≤f (y); • Subadditivity: Given a function f : (R+)k →R+, it
+
+... [另一次引用] ...
+
+ods according to real time demand. It is necessary to explore the dynamic pricing mechanism with the utilize
+of machine learning. Finally, there is only one broker in our market, but multiple brokers co exist in
+practical applications, and the versions of models can be further optimized. REFERENCES [1] J. Y. Cheng and P.
+W. Dong, ‘‘Thinking of corporation ﬁnancial manage ment innovation in the era of big data,’’ in Proc. Int.
+Conf. Manage. Sci. Manage. Innov. Paris, France: Atlantis Press, 2015, pp. 450 455. [2] R. Raskar, P.
+Vepakomma, T. Swedish, and A. Sharan, ‘‘Data mar kets to support AI for
+
+## S005
+- edge_id: W3202603574->W2974598553
+- citing_paper_title: COVID-19 acceleration in digitalisation, aggregate productivity growth and the functional income distribution
+- cited_paper_title: Too Much Data: Prices and Inefficiencies in Data Markets
+- LLM_section: Discussion
+- LLM_sentiment: 0.25
+- LLM_relevance: 0.65
+- LLM_confidence: 0.85
+- citation_context_wrapped:
+e productivity and output; (2) what are the possible effects on the functional income distribution, i.e. how
+are profits, wages and digital skill premia affected; and (3) what could be possible policy responses? 1
+Combined, the four companies Google, Amazon, Facebook and Apple reach a market capitalisa tion value of nearly
+$5.5 trillion in November 2020 entailing nearly 40% growth up from $4 trillion in December 2019 and a 50%
+growth on average since March 2020.Yahoo Finance; https://​www.​techc​han nel.​news/​11/​11/​2020/​market ​cap
+​of ​big ​five ​tech ​compa​nies ​surge ​46 ​to 7 ​1tr ​so ​far ​this ​year/; https://​
+compa​niesm​arket​cap.​com/​tech/​large​st ​tech ​compa​nies ​by ​market ​cap/ and https:/
+
+... [另一次引用] ...
+
+erial capital. This may explain the growing productivity divide between fron tier firms and laggards (see e.g.
+Berlingieri et al. 2020; Andrews et al. 2018). Also, (b) being a general purpose technology,4 a critical mass
+of ICT penetration may be required before aggregate productivity gains materialise. (Anderton et al. 2020;
+Brynjolfsson et al. 2019; Cardona et al. 2013). Van Ark et al. (2019) point to above average contributions to
+productivity growth from the most ICT intensive industries. A finding very relevant for our paper is that the
+concentration of activity in the most productive firms (‘superstar firms’) drives not only an increase i
+
+... [另一次引用] ...
+
+eign competition, domestic labour demand may increase across skills groups (Aghion et al. 2019). Different
+manifestations of ICT may have different effects. Acemoglu and Restrepo (2017) find that industrial robots
+reduce employment, while other forms of ICT do not. Similarly, based on a survey of Swiss firms, Balsmeier and
+Woerter (2019) observe increases (decreases) in the demand for high skilled (low skilled) workers related to
+ICT. These effects largely stem from machine based ICT such as robots, but not from e commerce. 575 COVID 19
+acceleration in digitalisation, aggregate… 1 3 High skills are an important asset but to reap t
+
+## S006
+- edge_id: W3186955607->W2018362551
+- citing_paper_title: Pricing through health apps generated data—Digital dividend as a game changer: Discrete choice experiment
+- cited_paper_title: The challenges of personal data markets and privacy
+- LLM_section: Discussion
+- LLM_sentiment: -0.8
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+roving treat ment quality, preventive care, and diagnostics [13]. Hence, research about incentive systems to
+trigger a large and diverse group of users to share their data for R&D purposes is essential. Bataineh et al.
+criticized the market for personal data because it shows a significant imbalance [15]. App users are currently
+not compensated for the provision of their data, and the authors further criticized the lack of an adequate
+platform to monetize and trade self tracked data [15]. The question about the compensation that people are
+willing to accept remains unsolved. This is despite the fac
+
+... [另一次引用] ...
+
+s is essential. Bataineh et al. criticized the market for personal data because it shows a significant
+imbalance [15]. App users are currently not compensated for the provision of their data, and the authors
+further criticized the lack of an adequate platform to monetize and trade self tracked data [15]. The question
+about the compensation that people are willing to accept remains unsolved. This is despite the fact that there
+have already been some research attempts at answering this ques tion, as described in the following section.
+However, an SADR study, i.e. a well aligned, trade off based appr
+
+## S007
+- edge_id: W2956647116->W2790400697
+- citing_paper_title: Smart Contract Based Data Trading Mode Using Blockchain and Machine Learning
+- cited_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- LLM_section: Introduction
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+I. INTRODUCTION As many new technologies are integrated into our daily life, such as the mobile and the social
+network applications, and the smart systems based on the Internet of Things (IoT) (smart home, smart city,
+smart transportation, smart grid, etc.), a large amount of data will be collected [1]. We have entered the era
+of big data, the data sharing and trading is the trend of the times and the inevitable demand of the market.
+As people pay more and more attention to the economic value of big data in improving the utility efficiency
+and the decision making, the customer experience and othe
+
+... [另一次引用] ...
+
+resale contract is the solution to the problem of data resale, but signing a contract can not eliminate the
+problem of data resale. Therefore, we can design a smart contract to ensure that data will not be resold after
+sale, which will be the direction of further research in the future. REFERENCES [1] F. Liang, W. Yu, D. An, et
+al., “
+
+## S008
+- edge_id: W2790400697->W2533772775
+- citing_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- cited_paper_title: A pricing model for Big Personal Data
+- LLM_section: Introduction
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+Furthermore, with the advance ment of data analytics provided by machine learning and data mining techniques,
+and the computing capabilities supported by cloud and edge computing infrastructures, the potential values of
+the generated big data become more impressive [8], [9], [10], [11], [12], [13], [14]. Thus, big data is the
+impetus of the next waves of productivity growth. Nonetheless, there are a number of signiﬁcant challenges,
+including data collection, storage, analysis, sharing, updating, and others. To maximize the utility of the
+data collected, one viable solution is to design an effectiv
+
+... [另一次引用] ...
+
+g others. In addition, the data can have unstructured data types (images, video and audio streams, etc.).
+Thus, big data is massive, continuous, and comprehensive, and has a high potential commercial value thanks to
+advances in data analytic techniques, such as machine learning and data mining [9], [14]. Fig. 1: Three V of
+Big Data Notice that the terms data mining and Business Intelligence (BI) [25] are often used interchangeably
+to describe the 2169 3536 (c) 2018 IEEE. Translations and content mining are permitted for academic research
+only. Personal use is also permitted, but republication/redi
+
+... [另一次引用] ...
+
+ion awareness,” in 2013 IEEE Conference on Communications and Network Security (CNS), Oct 2013, pp. 488 492.
+[13] N. D. Nguyen, T. Nguyen, and S. Nahavandi, “System design per spective for human level agents using deep
+reinforcement learning: A survey,” IEEE Access, vol. 5, pp. 27 091 27 102, 2017. [14] H. He and E. A. Garcia,
+“Learning from imbalanced data,” IEEE Transactions on Knowledge and Data Engineering, vol. 21, no. 9, pp. 1263
+1284, Sept 2009. [15] P. Lewis, “An ”all you can eat” price is clogging internet access,” New York Times.
+December, vol. 17, p. A1, 1996. [16] Y. Shen, B. Guo, Y. S
+
+## S009
+- edge_id: W2508874533->W2010653253
+- citing_paper_title: Smart Media Pricing (SMP): Non-uniform packet pricing game for wireless multimedia communications
+- cited_paper_title: A survey of smart data pricing
+- LLM_section: Introduction
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+2019, and mobile video trafﬁc will account for 72% of the total mobile data trafﬁc by 2019 [1]. It will be
+enormous strain on already overburdened mobile networks to meet this big multimedia data demand, which drives
+mobile network operators to innovate new pricing schemes. Smart data pricing (SDP) [2] is likely to emerge as
+an effective way to inﬂuence the user behavior in utilizing network resources. However, multimedia smart
+pricing has largely been ignored in literature. In this paper, we propose a fundamentally new framework named
+Smart Media Pricing (SMP) to allocate different prices to dif
+
+... [另一次引用] ...
+
+e State Scholarship Fund. REFERENCES [1] Cisco, Cisco Visual Networking Index, “Global mobile data traf ﬁc
+forecast update 2014 2019. white paper c11 520862,” Avail able on http://www. cisco.
+com/c/en/us/solutions/collateral/service provider/visual networking index vni/white paper c11 520862. html.
+[2] S. Sen, C. Joe Wong, S. Ha, and M. Chiang, “Smart data pricing (SDP): economic solutions to network
+congestion,” ACM SIGCOMM Recent Advances in Networking, pp. 221 274, 2013. [3] A. Mas Colell, M. D. Whinston,
+J. R. Green et al., Microeconomic theory. Oxford university press New York, 1995, vol. 1.
+
+## S010
+- edge_id: W2906578628->W2473283431
+- citing_paper_title: The Internet of Things: A Review of Enabled Technologies and Future Challenges
+- cited_paper_title: Data Collection and Wireless Communication in Internet of Things (IoT) Using Economic Analysis and Pricing Models: A Survey
+- LLM_section: Introduction
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+sid erable modiﬁcations since its early times and has turned out to be an imperative transmission framework
+aiming at everywhere and every time connectivity [1]. The Internet of Things (IoT) is a new concept permitting
+billions of tiny machines, for example, sensors, to be connected to the Internet [2], [3]. With the Internet
+growth, IoT has carried out an impressive effect to several ﬁelds and there have been numerous IoT
+applications employed for enhancing the network operation and users’ quality of experience. These applications
+can be employed in the following areas: health care, industries,
+
+... [另一次引用] ...
+
+were also discussed for the intuition of the IoT acceptability. REFERENCES [1] M. Elsaadany, A. Ali, and W.
+Hamouda, “Cellular lte a technologies for the future internet of things: Physical layer features and
+challenges,” IEEE Communications Surveys & Tutorials, vol. 19, no. 4, pp. 2544 2572, 2017. [2] F. Wang and J.
+Liu, “Networked wireless sensor data collection: issues, challenges, and approaches,” IEEE Communications
+Surveys & Tutori als, vol. 13, no. 4, pp. 673 687, 2011. [3] N. C. Luong, D. T. Hoang, P. Wang, D. Niyato, D.
+I. Kim, and Z. Han, “
+
+## S011
+- edge_id: W4319769514->W3084177365
+- citing_paper_title: Data-Driven Learning for Data Rights, Data Pricing, and Privacy Computing
+- cited_paper_title: A Survey on Data Pricing: From Economics to Data Science
+- LLM_section: Introduction
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+tor of production in a digital economy, data has been generated in enormous quantities and contains a great
+deal of economic value. As a result, data driven methods such as machine learning have been widely used in
+many areas, including chemical reaction prediction [1], protein structure prediction [2], and scientiﬁc com
+putation [3], among others. Therefore, establishing an efﬁcient and standard data transaction market system
+would be beneﬁcial for utilizing the value of the production factor of the digital economy. Very recently, Pei
+[4] presented a review connecting economics, digital product
+
+... [另一次引用] ...
+
+and Harry Shum declare that they have no conﬂict of interest or ﬁnancial conﬂicts to disclose. References [1]
+Schwaller P, Laino T, Gaudin T, Bolgar P, Hunter CA, Bekas C, et al. Molecular transformer: a model for
+uncertainty calibrated chemical reaction prediction. ACS Cent Sci 2019;5(9):1572 83. [2] Senior AW, Evans R,
+Jumper J, Kirkpatrick J, Sifre L, Green T, et al. Improved protein structure prediction using potentials from
+deep learning. Nature 2020;577(7792):706 10. [3] Lu L, Meng X, Mao Z, Karniadakis GE. DeepXDE: a deep learning
+library for solving differential equations. SIAM Rev 2021;
+
+## S012
+- edge_id: W2942073230->W2765365501
+- citing_paper_title: Big Data Market Optimization Pricing Model Based on Data Quality
+- cited_paper_title: Pricing of Data Products in Data Marketplaces
+- LLM_section: Introduction
+- LLM_sentiment: 0.5
+- LLM_relevance: 0.6
+- LLM_confidence: 0.8
+- citation_context_wrapped:
+ata beyond the past possible range using GPS, cameras, microphones, etc. The storage and calculation of big
+data are no longer the sole purpose. By using data mining and machine learning to analyze data, it provides an
+opportunity to bring about breakthroughs in processing video, images, and speech [1]. Unfortunately, only a
+small amount of data is currently being fully utilized and its use is limited as well. The reuse of these data
+can create huge commercial value, which is the true meaning of big data. Therefore, in order to make profits
+and provide data utilization, data can be resold to othe
+
+... [另一次引用] ...
+
+e authors declare that there are no conflicts of interest regarding the publication of this paper. Complexity
+9 Acknowledgments This research was supported in part by National Nature Science Foundation of China (Grant
+no. 91646202) and National Key R&D Program of China (SQ2018YFB140235). References [1] S. A. Fricker and Y. V.
+Maksimov, “
+
+## S013
+- edge_id: W4210813858->W2533772775
+- citing_paper_title: Data Boundary and Data Pricing Based on the Shapley Value
+- cited_paper_title: A pricing model for Big Personal Data
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+t in the data markets. According to the type of sold products and the corresponding pricing mechanism, the
+related studies can be divided into: 1. Data based pricing. They sell datasets and allow buyers to value the
+data directly based on the data features, including data information entropy levels [16], [17], data quality
+levels [18], [19], the fresh and real time features [20], [21], and the amounts of data in the dataset [22].
+Also, competitive data trading model [23] considered the willingness to sell of data providers and the
+willingness to pay of model buyers. They proved that the model has
+
+... [另一次引用] ...
+
+Data brokers in an open society,’’ Dept. Law, Inst. Inf. Law, Open Soc. Found., London, U.K., Nov. 2016, Tech.
+Rep., p. 64. [15] L. Chen, P. Koutris, and A. Kumar, ‘‘Towards model based pricing for machine learning in a
+data marketplace,’’ in Proc. Int. Conf. Manage. Data, Jun. 2019, pp. 1535 1552. [16] X. Li, J. Yao, X. Liu,
+and H. Guan, ‘‘A ﬁrst look at information entropy based data pricing,’’ in Proc. IEEE 37th Int. Conf. Distrib.
+Comput. Syst. (ICDCS), Jun. 2017, pp. 2053 2060. [17] Y. Shen, B. Guo, Y. Shen, X. Duan, X. Dong, and H.
+Zhang, ‘‘
+
+## S014
+- edge_id: W3210061505->W2790400697
+- citing_paper_title: Personal big data pricing method based on differential privacy
+- cited_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+value estimation for privacy preserving big/personal data businesses. Koutris P , Upadhyaya P , Balazinska M ,
+Howe B , Dan S . Query based data pricing. J. ACM 2015;62(5):1 44 . Koutris P , Upadhyaya P , Balazinska M ,
+Howe B , Suciu D . Querymarket demonstration: pricing for online data markets. Proc. VLDB Endow.
+2012;5(12):1962 5 . Leroy, S., Werner, J., 2018. Arbitrage and Positive Pricing. pp. 24 34.
+10.1017/cbo9781139162272.005 Li C , Li D , Miklau G , Suciu D . A theory of pricing private data. Commun. ACM
+2017;60(12):79 86 . Li, C., Miklau, G., 2012. Pricing aggregate queries in a data marketplace. Webdb.
+
+## S015
+- edge_id: W3121615946->W2533772775
+- citing_paper_title: Data Pricing for Blockchain-based Car Sharing: A Stackelberg Game Approach
+- cited_paper_title: A pricing model for Big Personal Data
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.98
+- citation_context_wrapped:
+massive amounts of data generated by car sharing service are collected by data owners. In practice, many car
+service providers, such as DiDi and MeiTuan, collect data (e.g., driving routes and user preferences) and take
+advantage of data analysis to improve their services for more economic beneﬁts [1]. We consider that the data
+collected by car sharing belongs to the car sharing company, who has the right to process and sell the
+collected data. Obviously, to facilitate the exchange of data effectively and securely, the design of a
+reliable data trading platform for both data owners and buyers is
+
+... [另一次引用] ...
+
+data pricing problem as a three layer Stackelberg game among data owner, service provider and data buyer. We
+apply backward induction to acquire the Stackelberg equilibrium. Both theoretical and numerical analysis have
+been conducted to evaluate the performance of the pricing mechanism. REFERENCES [1] Yuncheng Shen, Bing Guo,
+Yan Shen et al., “
+
+## S016
+- edge_id: W4226382147->W2045522464
+- citing_paper_title: Smartphone App Usage Analysis: Datasets, Methods, and Applications
+- cited_paper_title: Understanding Mobile Traffic Patterns of Large Scale Cellular Towers in Urban Environment
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.98
+- citation_context_wrapped:
+erators, market intermediaries, app developers, and end consumers [6]. To improve device performance and
+extend usage time, smartphone manufac turers can optimize the scheduling of various smartphone resources, such
+as CPU, memory, and battery power, based on the usage patterns of speciﬁc apps [7], [8]. Based on app trafﬁc
+patterns, network operators can dynamically optimize trafﬁc ofﬂoading schemes and improve network services
+[9], [10]. Furthermore, network operators and market intermediaries can provide personalized services, such as
+accurate recommenda tions and targeted advertisements, by pr
+
+... [另一次引用] ...
+
+all, the volume of publications in this ﬁeld is expanding, indicating a burgeoning research ﬁeld. Thus, we aim
+to conduct a comprehensive literature survey in response to signiﬁcant recent progress in mobile app usage
+analysis. The app usage data are collected through surveys [14], mon itoring apps [8], network operators [15],
+and app stores [16]. These data form a cross domain and multi view data ecosys tem that includes various app
+usage behaviors, e.g., down loading, installing, launching, uninstalling apps, contextual information about
+app usage, e.g., time, location, trafﬁc, energy consumpti
+
+... [另一次引用] ...
+
+llection method is to use monitoring apps installed on participants’ smart phones to record ﬁne grained app
+usage behaviors automat ically. Researchers can use this data collection method on a small scale by recruiting
+volunteers [21] and on a large scale by publishing monitoring apps in app stores [8]. Recruiting volunteers
+can focus on a particular group of users, e.g., students [22] and older adults [23]. In addition, recruiting
+volunteers, such as selecting involved users based on their backgrounds and properties, can pre control the
+quality of data. Publishing in app stores can improve data
+
+## S017
+- edge_id: W2920282816->W2920282816
+- citing_paper_title: Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective
+- cited_paper_title: Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.98
+- citation_context_wrapped:
+In this paper, we ﬁrst characterize the distinctive features of IoT data as a commodity, and then present a
+new IoT data market model from an information design perspective. We further propose a family of data pricing
+mechanisms for revenue maximization under different market settings. Our MSimple mechanism extracts full
+surplus from the market for the model with one type of buyer. When multiple types of buyers coexist, our
+MGeneral mechanism optimally solves the problem of revenue maximization by formulating it as a polynomial size
+convex program. For a more practical setting where buyers have bounded rationality, we design MPractical
+mechanism with a tight logarithmic approximation ratio. We evaluate our pricing mechanisms on a real-world
+ambient sound dataset. Evaluation results show our pricing mechanisms achieve good performance and approach
+the revenue upper bound.
+
+## S018
+- edge_id: W2293940046->W2168402580
+- citing_paper_title: Query-Based Data Pricing
+- cited_paper_title: Query-based data pricing
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.98
+- citation_context_wrapped:
+In this paper, we propose a framework for pricing data on the Internet that, given the price of a few views,
+allows the price of any query to be derived automatically. We call this capability “querybased pricing.” We
+ﬁrst identify two important properties that the pricing function must satisfy, called arbitragefree and
+discount-free. Then, we prove that there exists a unique function that satisﬁes these properties and extends
+the seller’s explicit prices to all queries. When both the views and the query are Unions of Conjunctive
+Queries, the complexity of computing the price is high. To ensure tractability, we restrict the explicit
+prices to be deﬁned only on selection views (which is the common practice today). We give an algorithm with
+polynomial time data complexity for computing the price of any chain query by reducing the problem to network
+ﬂow. Furthermore, we completely characterize the class of Conjunctive Queries without selfjoins that have
+PTIME data complexity (this class is slightly larger than chain queries), and prove that pricing all other
+queries is NP-complete, thus establishing a dichotomy on the complexity of the pricing problem when all views
+are selection queries.
+
+## S019
+- edge_id: W2919782326->W2612128091
+- citing_paper_title: Making Big Money from Small Sensors: Trading Time-Series Data under Pufferfish Privacy
+- cited_paper_title: QIRANA
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+We ﬁrst prove that any XM ∈ SM,t is a Markov quilt of Xt by Deﬁnition 2 and d separation. We next prove that
+for any Markov quilt XM ′ /∈SM,t, there exists XM ∈SM,t such that the upper bound of privacy loss over XM is
+no more than that over XM ′. Interested readers can refer to our technical report [22] for detailed proofs of
+Theorem 1 and Lemma 1. B. Privacy Compensation After quantifying the privacy loss ξt, we consider the second
+component of HORAE, namely the privacy compensation mechanism for the data owner. Just as [10], we ﬁrst
+introduce a nondecreasing contract function ω(ξt) between the d
+
+... [另一次引用] ...
+
+, but with a lower variance 1 n2 n i=1 vi. If the pricing function π(·) is arbitrage free, then the following
+conditional statement must hold: 1 n2 n i=1 vi ≤ v ⇒n i=1 π (XQ, vi) ≥π (XQ, v) . We further give Lemma 2 to
+thwart the above attack, and put its detailed proof into our technical report [22]. Lemma 2. For any arbitrage
+free pricing function π(Q) that depends on two independent parts XQ and v, it decreases not faster than 1/v.
+According to Lemma 2, we revise the basic pricing function π(Q) = ρ(Q) =  Xt∈XQ ρ(ξt). We recall that the
+valid pri vacy compensation function ρ(ξt) hinges on th
+
+... [另一次引用] ...
+
+privacy,” in Proc. of PODS, 2012, pp. 77 88. [20] S. Song, Y. Wang, and K. Chaudhuri, “Pufferﬁsh privacy
+mechanisms for correlated data,” in Proc. of SIGMOD, 2017, pp. 1291 1306. [21] C. Dwork, G. N. Rothblum, and
+S. P. Vadhan, “Boosting and differential privacy,” in Proc. of FOCS, 2010, pp. 51 60. [22] “Technical Report
+for HORAE,” https://www.dropbox.com/s/ dkx6a4c2vw901pe/, 2018. [23] M. Balcan, A. Blum, and Y. Mansour, “Item
+pricing for revenue maximization,” in Proc. of EC, 2008, pp. 50 59. [24] “ARAS Dataset,”
+https://www.cmpe.boun.edu.tr/aras/, 2013. [25] “Source Code for HORAE,” https://gi
+
+## S020
+- edge_id: W3195579788->W3084177365
+- citing_paper_title: Data pricing in machine learning pipelines
+- cited_paper_title: A Survey on Data Pricing: From Economics to Data Science
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+he performance of pricing models are largely dismissed in detailed analysis. Therefore, as suggested by
+Fernandez et al. [34], a simulation platform that can simulate different behaviors of market participants
+should be developed. The platform can help us study the advantages and limitations of pricing models in target
+environments, and choose the best one to deploy. References 1. Agarwal A, Dahleh MA, Sarkar T (2019) A
+marketplace for data: an algorithmic solution. In: Karlin A, Immorlica N, Johari R (eds) Proceedings of the
+2019 ACM conference on economics and computation, EC 2019, Phoenix, AZ, USA, June 24 28, 2019. ACM, pp 701
+726. https://doi.org/10.1145/3328526. 3329589 2. Appen (2022) Appen. https://appe
+
+... [另一次引用] ...
+
+erent behaviors of market participants should be developed. The platform can help us study the advantages and
+limitations of pricing models in target environments, and choose the best one to deploy. References 1. Agarwal
+A, Dahleh MA, Sarkar T (2019) A marketplace for data: an algorithmic solution. In: Karlin A, Immorlica N,
+Johari R (eds) Proceedings of the 2019 ACM conference on economics and computation, EC 2019, Phoenix, AZ, USA,
+June 24 28, 2019. ACM, pp 701 726. https://doi.org/10.1145/3328526. 3329589 2. Appen (2022) Appen.
+https://appen.com. Accessed 04 Jan 2022 3. Arora S, Hazan E, Kale S (2012) The multiplicative weights update
+method: a meta algo
+
+... [另一次引用] ...
+
+1) Computational aspects of cooperative game theory. Synthesis lectures on artiﬁcial intelligence and machine
+learning. Morgan & Claypool Publishers, San Rafael. https://doi.org/10.2200/S00355ED1V01Y201107AIM016 15.
+Chaudhuri K, Monteleoni C, Sarwate AD (2011) Differentially private empirical risk minimization. J Mach Learn
+Res 12:1069 1109 16. Chawla S, Deep S, Koutris P, Teng Y (2019) Revenue maximization for query pricing. Proc
+VLDB Endow 13(1):1 14. https://doi.org/10.14778/3357377.3357378 17. Chen L, Koutris P, Kumar A (2019) Towards
+model based pricing for machine learning in a data mar ketplace. In: Boncz PA, Manegold S, Ailamaki A,
+Deshpande A, Kraska T (eds) Proceedings
+
+## S021
+- edge_id: W3084177365->W2168402580
+- citing_paper_title: A Survey on Data Pricing: From Economics to Data Science
+- cited_paper_title: Query-based data pricing
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+pricing functions. Unfortunately, only selection views and conjunctive queries without self joins are
+tractable. They present polynomial time algorithms for chain queries and cyclic queries. Technically, the core
+idea in the view and query based pricing framework is query determinacy [157], [158], [180]. A query Q is said
+to be determined by a set of views V if the answer to Q can be completely derived from the views. Query
+determinacy enables the feasibility of arbitrage detec tion. If V determines Q, then arbitrage happens if and
+only if the price of V is cheaper than that of Q. Koutris et al. [
+
+## S022
+- edge_id: W3084177365->W2293940046
+- citing_paper_title: A Survey on Data Pricing: From Economics to Data Science
+- cited_paper_title: Query-Based Data Pricing
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+pricing functions. Unfortunately, only selection views and conjunctive queries without self joins are
+tractable. They present polynomial time algorithms for chain queries and cyclic queries. Technically, the core
+idea in the view and query based pricing framework is query determinacy [157], [158], [180]. A query Q is said
+to be determined by a set of views V if the answer to Q can be completely derived from the views. Query
+determinacy enables the feasibility of arbitrage detec tion. If V determines Q, then arbitrage happens if and
+only if the price of V is cheaper than that of Q. Koutris et al. [
+
+## S023
+- edge_id: W2790400697->W2765365501
+- citing_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- cited_paper_title: Pricing of Data Products in Data Marketplaces
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+hm pricing algorithm and Time Dependent Pricing based on Transition Rules (TDP TR) pricing algorithm) Collect
+the usage of a certain dataset Use machine learning TDP KNN algorithm) to collect and analyze the usage of
+some datasets and calculate the future usage expectation, and then, price the data [82] Monopoly Economic
+Based Pricing Genetic algorithm Design an assessment methods for exist data product and obtain its multi
+dimensionality and dimensions Create a data pricing tow level programming model depends on the quality and the
+proﬁt, and using genetic algorithm solves the model [83] Strong c
+
+... [另一次引用] ...
+
+gestion,” Recent Advances in Networking, vol. 1, pp. 221 274, 2013. [81] Y. C. Tsai, Y. D. Cheng, C. W. Wu, Y.
+T. Lai, W. H. Hu, J. Y. Jeng, and Y. C. Tseng, “Time dependent smart data pricing based on machine learning,”
+in Canadian Conference on Artiﬁcial Intelligence. Springer, 2017, pp. 103 108. [82] H. Yu and M. Zhang, “Data
+pricing strategy based on data quality,” Computers & Industrial Engineering, vol. 112, pp. 1 10, 2017. [83] S.
+A. Fricker and Y. V. Maksimov, “
+
+## S024
+- edge_id: W3089176333->W2293940046
+- citing_paper_title: Towards Query Pricing on Incomplete Data
+- cited_paper_title: Query-Based Data Pricing
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+An incentive pricing mech anism beneﬁts the healthy development of data markets. Incomplete data are
+ubiquitous due to many reasons such as data loss, privacy preservation, instable sensor net works, etc. As a
+result, querying incomplete data has been extensively explored [7], [8], [9], [10], [11], [12]. In fact, many
+data sets sold on data markets are of incompleteness more or less, which makes the pricing problem more
+challenging. For instance, YoueData adopts the incompleteness degree as a factor of rating the sold data. The
+relatively poor quality of the data (with missing information) remarka
+
+... [另一次引用] ...
+
+as the bit string augmented R tree (BR tree) and the MOSAIC structure [35], bitmaps and quantization [36], for
+improving the query efﬁciency in high dimensional incomplete databases. Also, several spatial queries over
+incomplete data have been investigated, such as skyline queries [7], [10], [11], [12], [37], ranking or top k
+queries [8], [38], [39], similarity queries [9], [31], and comprehensive incomplete data studies [40], [41].
+Data pricing schemes. First, the query based pricing model is a typical pricing solution in database
+community, in which the structural granularity of pricing is a qu
+
+... [另一次引用] ...
+
+738, 2014. [10] X. Miao, Y. Gao, B. Zheng, G. Chen, and H. Cui, “Top k domi nating queries on incomplete
+data,” IEEE Trans. Knowl. Data Eng., vol. 28, no. 1, pp. 252 266, 2016. [11] K. Zhang, H. Gao, X. Han, Z. Cai,
+and J. Li, “Probabilistic skyline on incomplete data,” in CIKM, pp. 427 436, 2017. [12] K. Zhang, H. Gao, X.
+Han, Z. Cai, and J. Li, “Modeling and computing probabilistic skyline on incomplete data,” IEEE Trans. on
+Knowl. Data Eng., 2019. [13] P. Koutris, P. Upadhyaya, M. Balazinska, B. Howe, and D. Suciu, “Toward practical
+query pricing with query market,” in SIGMOD, pp. 613 624, 201
+
+## S025
+- edge_id: W2473283431->W2289113545
+- citing_paper_title: Data Collection and Wireless Communication in Internet of Things (IoT) Using Economic Analysis and Pricing Models: A Survey
+- cited_paper_title: Smart data pricing models for the internet of things: a bundling strategy approach
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+cation based services are also primary services of the IoT with an expected revenue of £34.8 billion in 2020
+(http://iotbusinessnews.com). Among these resources, the sensing data and information are the most important
+ones in IoT since they can maximize the utility and proﬁt of owners and providers [30]. To describe how IoT
+changes business models, an IoT business model (see Fig. 3) was presented in [31]. Basically, the IoT business
+model consists of four main components in which the value proposition of data resources is the core of the
+model. The value proposition involves setting the price of t
+
+... [另一次引用] ...
+
+e information to the IoT customers. The information can be treated as items traded in the market, and the main
+problem is how to set prices for the sensing infor mation so that the service providers’ proﬁts are maximized.
+Consider a competitive market involving IoT service providers, the authors in [30] formulated the competition
+in setting the price as a non cooperative game. The players are the service providers, i.e., sellers, and the
+strategy of each player is to set the price of the sensing information to maximize his own payoff, i.e.,
+proﬁt. The set of the best strategies of the players yiel
+
+... [另一次引用] ...
+
+throughput, load balance, and minimized cost Optimization solution 6) Collusion and Price of Anarchy: In a
+competitive mar ket, service providers set selling prices to maximize their own proﬁts given the strategies of
+other providers. A Nash equilibrium can be an appropriate solution as proposed in [30]. However, due to selﬁsh
+behaviors of the service providers, they can collude with each other to optimize their proﬁts collectively,
+and thus the Nash equilibrium become inefﬁcient [274]. The collusion among service providers and the price of
+anarchy [275] can be investigated in the market. 7) Contr
+
+## S026
+- edge_id: W2954543879->W2180742472
+- citing_paper_title: Iris: Deep Reinforcement Learning Driven Shared Spectrum Access Architecture for Indoor Neutral-Host Small Cells
+- cited_paper_title: Smart data pricing
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+small cell system architecture that is practical in terms of algorithmic complexity, signaling overhead, etc.
+Our key insight in this paper is that pricing can be an effective control mechanism to meet the ﬁrst two
+aforementioned requirements. Pricing has been effectively employed in other contexts [26] [29] to regulate
+demand and enable efﬁcient sharing of resources with service differentiation, while it also naturally allows
+meeting the third requirement of neutral host cost recovery and achieving a revenue goal if it exists. Given
+that tenant behaviors and trafﬁc demands as well as spectrum ava
+
+... [另一次引用] ...
+
+and highlighting its superiority with respect to static pricing and alternative approaches from the literature
+[38], [42]. II. RELATED WORK Dynamic pricing in other contexts. Fundamentally, the pricing problem we have
+bears similarity with the pricing work in the Internet congestion control context [26], [42]. In these works,
+pricing is used as a signal to regulate the rates of senders for efﬁciently sharing network resources (e.g.,
+bandwidth of links). Referring to [42], for example, each link in the network sets a price depending on its
+aggregate demand from all senders and each sender adjusts i
+
+... [另一次引用] ...
+
+tworks,” IEEE Wireless Communications, vol. 21, no. 2, pp. 72 79, 2014. [25] M. Matinmikko Blue et al.,
+“Analysis of Spectrum Valuation Approaches: The Viewpoint of Local 5G Networks in Shared Spectrum Bands,” in
+IEEE International Symposium on Dynamic Spectrum Access Networks (DYSPAN). IEEE, 2018. [26] F. P. Kelly et
+al., “Rate control for communication networks: shadow prices, proportional fairness and stability,” Journal of
+the Operational Research society, vol. 49, no. 3, pp. 237 252, 1998. [27] S. Sen et al., “
+
+## S027
+- edge_id: W3021370403->W2790400697
+- citing_paper_title: TIDES: A Trust-Aware IoT Data Economic System With Blockchain-Enabled Multi-Access Edge Computing
+- cited_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.95
+- citation_context_wrapped:
+must be able to efﬁciently manage the life cycle of IoT data, which typically consists of stages: data The
+associate editor coordinating the review of this manuscript and approving it for publication was Giovanni
+Merlino . collection, data analytics, data pricing, data trading, and data protection [1]. During data
+collection and data analytics, mas sive amounts of heterogeneous data are collected and applied to generate
+useful knowledge, and the results are called data services. However, these two stages often suffer from the
+problems of inefﬁcient data access and changeable data qual ity. To va
+
+... [另一次引用] ...
+
+ncy requirement of IoT services while signiﬁcantly alleviating the cloud server loads [13]. As MEC services
+are usually provided by network service providers, the roaming problem of mobile devices can also be
+addressed. C. DATA PRICING MODEL The data pricing models can be categorized into two types [1]. The economic
+based pricing model evaluates the price of data according to economic principles, such as costs and margins.
+The game theory based pricing model considers competitor behaviors before pricing. 1) ECONOMIC BASED PRICING
+MODELS • Cost model [14]: This model considers only the com modity
+
+... [另一次引用] ...
+
+ty require ment. The simulation results have demonstrated that TIDES ensures the efﬁciency, intelligence and
+reliability of IoT data trading. APPENDIX Abbreviations in this paper are summarized in TABLE 1. 85854 VOLUME
+8, 2020 I. H. Chuang et al.: TIDES: TIDES With Blockchain Enabled MEC REFERENCES [1] F. Liang, W. Yu, D. An,
+Q. Yang, X. Fu, and W. Zhao, ‘‘
+
+## S028
+- edge_id: W3084177365->W2010653253
+- citing_paper_title: A Survey on Data Pricing: From Economics to Data Science
+- cited_paper_title: A survey of smart data pricing
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.92
+- citation_context_wrapped:
+pricing functions. Unfortunately, only selection views and conjunctive queries without self joins are
+tractable. They present polynomial time algorithms for chain queries and cyclic queries. Technically, the core
+idea in the view and query based pricing framework is query determinacy [157], [158], [180]. A query Q is said
+to be determined by a set of views V if the answer to Q can be completely derived from the views. Query
+determinacy enables the feasibility of arbitrage detec tion. If V determines Q, then arbitrage happens if and
+only if the price of V is cheaper than that of Q. Koutris et al. [
+
+... [另一次引用] ...
+
+. 71, no. 3, pp. 381 392, 1981. [178] A. Roth, “Technical perspective: Pricing information (and its
+implications),” Commun. ACM, vol. 60, no. 12, p. 78, Nov. 2017. [179] F. Schomm, F. Stahl, and G. Vossen,
+“Marketplaces for data: An initial survey,” SIGMOD Rec., vol. 42, no. 1, pp. 15 26, May 2013. [180] L. Segouﬁn
+and V. Vianu, “Views and queries: Determinacy and rewriting,” in Proceedings of the Twenty Fourth ACM SIGMOD
+SIGACT SIGART Symposium on Principles of Database Systems, ser. PODS’05. New York, NY, USA: Association for
+Computing Machinery, 2005, pp. 49 60. [181] S. Sen, C. Joe Wong, S. Ha,
+
+## S029
+- edge_id: W4210813858->W2743929098
+- citing_paper_title: Data Boundary and Data Pricing Based on the Shapley Value
+- cited_paper_title: Data pricing strategy based on data quality
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+t in the data markets. According to the type of sold products and the corresponding pricing mechanism, the
+related studies can be divided into: 1. Data based pricing. They sell datasets and allow buyers to value the
+data directly based on the data features, including data information entropy levels [16], [17], data quality
+levels [18], [19], the fresh and real time features [20], [21], and the amounts of data in the dataset [22].
+Also, competitive data trading model [23] considered the willingness to sell of data providers and the
+willingness to pay of model buyers. They proved that the model has
+
+... [另一次引用] ...
+
+Data brokers in an open society,’’ Dept. Law, Inst. Inf. Law, Open Soc. Found., London, U.K., Nov. 2016, Tech.
+Rep., p. 64. [15] L. Chen, P. Koutris, and A. Kumar, ‘‘Towards model based pricing for machine learning in a
+data marketplace,’’ in Proc. Int. Conf. Manage. Data, Jun. 2019, pp. 1535 1552. [16] X. Li, J. Yao, X. Liu,
+and H. Guan, ‘‘A ﬁrst look at information entropy based data pricing,’’ in Proc. IEEE 37th Int. Conf. Distrib.
+Comput. Syst. (ICDCS), Jun. 2017, pp. 2053 2060. [17] Y. Shen, B. Guo, Y. Shen, X. Duan, X. Dong, and H.
+Zhang, ‘‘A pricing model for big personal data,’’ Tsinghua S
+
+## S030
+- edge_id: W4210813858->W2910976764
+- citing_paper_title: Data Boundary and Data Pricing Based on the Shapley Value
+- cited_paper_title: Nonrivalry and the Economics of Data
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+d data market. The associate editor coordinating the review of this manuscript and approving it for
+publication was Abdel Hamid Soliman . Data pricing is to price data as asset and ensure that data can be sold
+or purchased as a commodity in business and economic activities [3]. The data market [4], [5] is where we
+trade data for revenue. Perfect data pricing system and well designed data market can promote data
+transactions broadly. For data pricing systems, there are numerous ways to trade data or data products. A
+widely accepted approach for applications is to set prices to datasets directly ba
+
+... [另一次引用] ...
+
+adly. For data pricing systems, there are numerous ways to trade data or data products. A widely accepted
+approach for applications is to set prices to datasets directly based on their values. From an economic
+perspective, data value has been explored to study the impact on companies and industries [5] [7]. From a
+computer science perspective, data value focuses on data compensation [8], [9] and data fusion [10], [11]. It
+is crucial to measure data value cor rectly to avoid the ‘‘lemons’’ market and promote the devel opment of
+healthy share, exchange and reuse. However, the value of data is varie
+
+... [另一次引用] ...
+
+nomics to data science,’’ IEEE Trans. Knowl. Data Eng., early access, Dec. 21, 2020, doi:
+10.1109/TKDE.2020.3045927. [4] C. L. Yeh, ‘‘Pursuing consumer empowerment in the age of big data: A
+comprehensive regulatory framework for data brokers,’’ Telecommun. Policy, vol. 42, no. 4, pp. 282 292, 2018.
+[5] P. Bajari, V. Chernozhukov, A. Hortaçsu, and J. Suzuki, ‘‘The impact of big data on ﬁrm performance: An
+empirical investigation,’’ AEA Papers Proc., vol. 109, pp. 33 37, May 2019. [6] M. Farboodi, R. Mihet, T.
+Philippon, and L. Veldkamp, ‘‘Big data and ﬁrm dynamics,’’ AEA Papers Proc., vol. 109, pp
+
+## S031
+- edge_id: W4288391541->W3215634159
+- citing_paper_title: Blockchain and AI-Empowered Healthcare Insurance Fraud Detection: an Analysis, Architecture, and Future Prospects
+- cited_paper_title: Coalition Game and Blockchain-Based Optimal Data Pricing Scheme for Ride Sharing Beyond 5G
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+blockchain is immutable. Every transaction has been digitally signed with a private key utilizing asymmetric
+cryptography to assure integrity, security, and immutability [32]. Only the public key owner can authenticate
+the signing entity. These signatures prevent tampering with the transaction data [33]. The blockchain
+communication network is decentralized and peer to peer, which solves the problem of a single point of
+failure. Blockchain utilizes a consensus protocol instead of a central authority to settle disagreements
+between nodes in a distributed application [32]. A consensus protocol is us
+
+... [另一次引用] ...
+
+icles activity tracking beyond 5G networks,’’ Peer Peer Netw. Appl., vol. 14, no. 5, pp. 2757 2774, Sep. 2021.
+[32] M. H. Nasir, J. Arshad, M. M. Khan, M. Fatima, K. Salah, and R. Jayaraman, ‘‘Scalable blockchains A
+systematic review,’’ Future Gener. Comput. Syst., vol. 126, pp. 136 162, Jan. 2022. [33] J. Shah, S. Agarwal,
+A. Shukla, S. Tanwar, S. Tyagi, and N. Kumar, ‘‘Blockchain based scheme for the mobile number portability,’’
+J. Inf. Secur. Appl., vol. 58, May 2021, Art. no. 102764. [34] R. Kakkar, R. Gupta, S. Tanwar, and J. J.
+Rodrigues, ‘‘
+
+## S032
+- edge_id: W4210813858->W2293940046
+- citing_paper_title: Data Boundary and Data Pricing Based on the Shapley Value
+- cited_paper_title: Query-Based Data Pricing
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+he increase of dimension, the complex ity of calculation increases greatly. Meanwhile, data buyers have to
+purchase the whole dataset even if they are only inter ested in particular information extracted from the
+dataset. 2. Query based pricing. Query based pricing was proposed as QueryMarket [24], [25]. They argued that
+the data owners upload the entire datasets with clear price points deﬁned in advance to the market service
+platform. Then data buyers submit queries to the platform, and the platform generates the objective function
+and corresponding constraints, forming an ILP problem to get the
+
+... [另一次引用] ...
+
+stakeholders in IoT data markets,’’ IEEE Internet Things J., vol. 7, no. 4, pp. 3623 3639, Apr. 2020. [24] P.
+Koutris, P. Upadhyaya, M. Balazinska, B. Howe, and D. Suciu, ‘‘Query Market demonstration: Pricing for online
+data markets,’’ Proc. VLDB Endowment, vol. 5, no. 12, pp. 1962 1965, Aug. 2012. [25] P. Koutris, P. Upadhyaya,
+M. Balazinska, B. Howe, and D. Suciu, ‘‘Toward practical query pricing with QueryMarket,’’ in Proc. ACM SIGMOD
+Int. Conf. Manage. Data, 2013, pp. 613 624. [26] P. Koutris, P. Upadhyaya, M. Balazinska, B. Howe, and D.
+Suciu, ‘‘
+
+## S033
+- edge_id: W2514159439->W2045522464
+- citing_paper_title: Big Data Driven Mobile Traffic Understanding and Forecasting: A Time Series Approach
+- cited_paper_title: Understanding Mobile Traffic Patterns of Large Scale Cellular Towers in Urban Environment
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+people and the mobility patterns of users based on investigating 3G net work access ﬁngerprints of over
+280,000 users. In addition, other studies about the mobility of individual person have been conducted based on
+taxicab location logs [14], WiFi access ﬁngerprints [13], fusion of multiple sources [15], etc. Barab´asi
+[19], [21], [20], [22] studies the long term mobility of individuals based on a six months’ phone call record
+across 100k users. Besides human mobility, cellular dataset has also been utilized to enable many other study
+in human behaviours. Cici [3] studied urban ecology by investig
+
+... [另一次引用] ...
+
+. 267 279. [13] M. Kim, D. Kotz, and S. Kim, “Extracting a mobility model from real user traces,” in Proc.
+IEEE INFOCOM, 2006, pp. 1 13. [14] R. Ganti, M. Srivatsa, A. Ranganathan, and J. Han, “Inferring human
+mobility patterns from taxicab location traces,” in Proc. ACM UbiComp, 2013, pp. 459 468. [15] D. Zhang, J.
+Huang, Y. Li, F. Zhang, C. Xu, and T. He, “Explor ing human mobility with multi source data at extremely large
+metropolitan scales,” in Proc. ACM MOBICOM, 2014, pp. 201 212. [16] H. Wang, F. Xu, Yong Li, P. Zhang, D. Jin,
+“Understanding Mobile Trafﬁc
+
+## S034
+- edge_id: W3084177365->W2790400697
+- citing_paper_title: A Survey on Data Pricing: From Economics to Data Science
+- cited_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+users. They also design post hoc ﬁnes in pricing query bundles that can help to reduce loss due to privacy
+leakage by adversarial buyers. They provide a fast approximation algorithm to compute the contracts. A data
+owner has to decide a tradeoff between pri vacy and data utility. Li and Raghunathan [135] design an economics
+based incentive compatible mechanism for a data owner to price and disseminate private data. Speciﬁ cally, let
+two part tariff pricing function R(s, x) = αs + βsx be the price for x amount of data at sensitivity level s,
+where αs and βs are the ﬁxed and variable price factors, r
+
+... [另一次引用] ...
+
+abase Syst., vol. 39, no. 4, Dec. 2015. [134] C. Li and G. Miklau, “Pricing aggregate queries in a data mar
+ketplace,” in Proceedings of the 15th International Workshop on the Web and Databases 2012, WebDB 2012,
+Scottsdale, AZ, USA, May 20, 2012, Z. G. Ives and Y. Velegrakis, Eds., 2012, pp. 19 24. [135] X. B. Li and S.
+Raghunathan, “Pricing and disseminating cus tomer data with privacy awareness,” Decision Support Systems, vol.
+59, pp. 63 73, 2014. [136] F. Liang, W. Yu, D. An, Q. Yang, X. Fu, and W. Zhao, “
+
+## S035
+- edge_id: W3121615946->W2790400697
+- citing_paper_title: Data Pricing for Blockchain-based Car Sharing: A Stackelberg Game Approach
+- cited_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+hina (Grant No. 61701230, 61801215), Natural Science Foundation of Jiangsu Province (Grant No. BK20170805).
+centralized frameworks may bring potential unreliable issues, such as data loss, tampering data illegally or
+the leakage of user privacy. To address this issue, we apply blockchain technology [2] in the car sharing data
+market. Blockchain is distinguished by its characteristics of tamper proof, traceability and public
+accessibility, in which the consensus mechanism ensures synchronization. To this end, we design a consortium
+blockchain network to create a P2P trading market and en hance the
+
+... [另一次引用] ...
+
+Stackelberg equilibrium. Both theoretical and numerical analysis have been conducted to evaluate the
+performance of the pricing mechanism. REFERENCES [1] Yuncheng Shen, Bing Guo, Yan Shen et al., “A pricing
+model for big personal data,” Tsinghua Sci. Technol., vol. 21, no. 5, pp. 482 490, Oct 2016. [2] S. Nakamoto
+et al., “Bitcoin: A peer to peer electronic cash system,” 2008. [3] M. Abu Alsheikh, D. Niyato, D. Leong et
+al., “Privacy management and optimal pricing in people centric sensing,” IEEE J. Sel. Areas Commun., vol. 35,
+no. 4, pp. 906 920, April 2017. [4] F. Liang, W. Yu, D. An, Q. Yang,
+
+## S036
+- edge_id: W2790400697->W2743929098
+- citing_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- cited_paper_title: Data pricing strategy based on data quality
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+Strong competition Economic Based Pricing and Auction Based Pricing Economic based schemes and Bargaining game
+Calculate the cost and build economic model Build the economic model to analyze and calculate the cost of a
+certain datasets, and then, use Bargaining game to conﬁrm price of the datasets [81] Oligopoly Economic Based
+Pricing Statistics and Machine learning (Time Dependent Pricing based on K Nearest Neighbors (TDP KNN)
+algorithm pricing algorithm and Time Dependent Pricing based on Transition Rules (TDP TR) pricing algorithm)
+Collect the usage of a certain dataset Use machine learning TD
+
+... [另一次引用] ...
+
+ig data and Internet of Things (IoT),” in Communications (ICC), 2016 IEEE International Conference on. IEEE,
+2016, pp. 1 6. [80] S. Sen, C. Joe Wong, S. Ha, and M. Chiang, “Smart Data pricing (SDP): Economic solutions
+to network congestion,” Recent Advances in Networking, vol. 1, pp. 221 274, 2013. [81] Y. C. Tsai, Y. D.
+Cheng, C. W. Wu, Y. T. Lai, W. H. Hu, J. Y. Jeng, and Y. C. Tseng, “Time dependent smart data pricing based on
+machine learning,” in Canadian Conference on Artiﬁcial Intelligence. Springer, 2017, pp. 103 108. [82] H. Yu
+and M. Zhang, “
+
+## S037
+- edge_id: W3089176333->W2743929098
+- citing_paper_title: Towards Query Pricing on Incomplete Data
+- cited_paper_title: Data pricing strategy based on data quality
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+oted by κ(Q, D), is deﬁned in Eq. 6. κ(Q, D) = ∑m i=1(∑ t∈T ∗ i ϵ(t) + ∑ t∈T a i ϵ(t)) ∑m i=1(|T ∗ i | + |T a
+i |) (6) The newly presented quality function κ takes into ac count the speciﬁc operator, which is different
+from the simple quality of counting the missing rate on the entire dataset [24], [25]. It provides a new way
+to measure the query quality over incomplete data. Speciﬁcally, the quality function κ is deﬁned as the
+average quality of (both certain and uncertain) lineage tuples in terms of a speciﬁc operator Q, where the
+tuple quality (denoted by ϵ) is based on an exponential function
+
+... [另一次引用] ...
+
+n a future issue of this journal, but has not been fully edited. Content may change prior to final
+publication. Citation information: DOI 10.1109/TKDE.2020.3026031, IEEE Transactions on Knowledge and Data
+Engineering 12 IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING, VOL. XX, NO. XX, XXXX 2020 [25] H. Yu and
+M. Zhang, “
+
+## S038
+- edge_id: W2790400697->W2473283431
+- citing_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- cited_paper_title: Data Collection and Wireless Communication in Internet of Things (IoT) Using Economic Analysis and Pricing Models: A Survey
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+ion, as billions of devices run au tomatically and constantly collect data across various domains. Thus, to
+quantify the cost for data collection, and handle diverse data sources, we need to understand how IoT works,
+and encourage all components to provide better performance in IoT [53], [1], [54], [55]. To encourage sensors
+to upload data and achieve better proﬁts for the sensor owners, an appropriate pricing model has become more
+critical. Introducing pricing mechanisms is one viable approach to encourage attendees to contribute their own
+data. Pricing mechanisms adjust price and payment schedul
+
+... [另一次引用] ...
+
+[54] S. Mallapuram, W. Yu, P. Moulema, D. W. Grifﬁth, N. T. Golmie, and F. Liang, “An integrated simulation
+study on reliable and effective distributed energy resources in smart grid,” in Proccedings of 2017 ACM
+International Conference on Research in Adaptive and Conver gent Systems (RACS), 2017. [55] C. Perera,
+“Sensing as a Service (S2aaS): Buying and selling IoT data,” arXiv preprint arXiv:1702.02380, 2017. [56] N. C.
+Luong, D. T. Hoang, P. Wang, D. Niyato, D. I. Kim, and Z. Han, “
+
+## S039
+- edge_id: W2790400697->W2734426755
+- citing_paper_title: A Survey on Big Data Market: Pricing, Trading and Protection
+- cited_paper_title: An Online Pricing Mechanism for Mobile Crowdsensing Data Markets
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+the Nash bargain equilibrium at the price set (P ∗ v , P ∗ c ). Since the Bargaining game is a proper scheme
+to a com plex negotiation condition, it is often used to improve the performance of the data auction process
+[72], network resource auction and sharing [73], and energy efﬁciency management [74]. Finally, based on our
+study, we organize the existing data pricing models in Table II. To summarize, in this section we have
+provided a compre hensive overview of data pricing and reviewed major concepts related to big data pricing
+such as the principle of digital commodity pricing, data market st
+
+... [另一次引用] ...
+
+Auction Strategies: Practical Examples from Internet Auctions to Investment Banking. Springer, 2016. [73] S.
+M. Azimi, M. H. Manshaei, and F. Hendessi, “Cooperative primary secondary dynamic spectrum leasing game via
+decentralized bargain ing,” Wireless Networks, vol. 22, no. 3, pp. 755 764, 2016. [74] C. Yang, J. Li, A.
+Anpalagan, and M. Guizani, “Joint power coordina tion for spectral and energy efﬁciency in heterogeneous small
+cell net works: A bargaining game theoretic perspective,” IEEE Transactions on Wireless Communications, vol.
+15, no. 2, pp. 1364 1376, 2016. [75] Z. Zheng, Y. Peng, F. W
+
+## S040
+- edge_id: W2067195421->W2010653253
+- citing_paper_title: When Users Interfere with Protocols: Prospect Theory in Wireless Networks using Random Access and Data Pricing as an Example
+- cited_paper_title: A survey of smart data pricing
+- LLM_section: Methodology
+- LLM_sentiment: 0.85
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+with the help of PT. The work in [2] is one of ﬁrst works that applies game theory to wireless random access
+and power control. Speciﬁcally, the authors applied game theory to a sim pliﬁed Aloha system. In [26], a more
+detailed game theoretical study was provided on an Aloha system. The authors in [27] have investigated the
+probabilities of retransmission in a distributed manner under both cooperative model and non cooperative game
+model in a slotted Aloha system. In [28], the authors have performed an extensive study on the end users’
+transmission probabilities at the equilibrium of a random acc
+
+... [另一次引用] ...
+
+y,” in Proc. 2009 IEEE VTC Fall. [26] A. B. MacKenzie and S. B. Wicker, “Selﬁsh users in aloha: a game
+theoretical approach,” in Proc. 2001 IEEE VTC Fall, vol. 3, pp. 1354 1357. LI and MANDAYAM: WHEN USERS
+INTERFERE WITH PROTOCOLS: PROSPECT THEORY IN WIRELESS NETWORKS USING RANDOM ACCESS . . . 1907 [27] E. Altman,
+R. E. Azouzi, and T. Jimenez, “Slotted aloha as a stochastic game with partial information,” Computer Netw.,
+vol. 45, pp. 701 713, Aug. 2004. [28] T. E. Sagduyu and A. Ephremides, “A game theoretic analysis of denial of
+service attacks in wireless random access,” Wireless Netw., vol. 15,
+
+## S041
+- edge_id: W3210061505->W2743929098
+- citing_paper_title: Personal big data pricing method based on differential privacy
+- cited_paper_title: Data pricing strategy based on data quality
+- LLM_section: Methodology
+- LLM_sentiment: 0.8
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+e vent circumvention from buyers on arbitrage pricing and from data owners on untruthful privacy valuation?
+Just as Facebook (2018) and Twitter (2018) , once involved the disclo sure of personal privacy, it is
+necessary for individuals to pro tect their personal big data before participating in the trans action, and
+differential privacy protection can be achieved by adding noise interference. Adding different degrees of
+noise variance ( Cummings et al., 2015 ) can achieve different degrees of privacy protection, obtain data with
+different levels of ac curacy, and make the data have a different utility and price. The higher the noise, the
+lower the accuracy, the lower the price, and vice versa. More importantly, adding noise makes it more
+difficult for
+
+... [另一次引用] ...
+
+s individuals to actively select privacy compensation functions for their privacy atti tude while ensuring an
+arbitrage free condition. □ 4.3. Reverse pricing Information technology has made pricing strategies such as
+reverse pricing and revenue sharing ever easier to implement, especially when the transaction is done online.
+Correspond ingly, Liu and Shuai (2015) expected such pricing strategies to become more relevant and their
+welfare implications more important over time. Here, reverse pricing refers to the calculation of the query
+price π(Q) according to the arbitrage free pricing function in Section 3 and to the reasonable allocation of
+compensation a
+
+... [另一次引用] ...
+
+/opinion/ facebooklax privacy rules.html/ . Fricker, S., Maksimov, Y., 2017. Pricing of data products in data
+marketplaces. vol. 304, pp. 49 66. Ganzhao Y , Zhenjie Z , Marianne W , Xiaokui X , Yin Y , Zhifeng H .
+Optimizing batch linear queries under exact and approximate differential privacy. ACM Trans. Database Syst.
+(TODS) 2015;040(002):1 47 . Ghosh A , Roth A . Selling privacy at auction. Games Econ. Behav. 2015;91(C):334
+46 . Gkatzelis V , Aperjis C , Huberman B . Pricing private data. Electron. Mark. 2015;25(2):109 23 . Guo B ,
+Qiang LI , Duan XL , Shen YC , Dong XQ , Zhang H , Shen Y , Zhang ZL , Luo J . Personal data
+
+## S042
+- edge_id: W3210061505->W2765365501
+- citing_paper_title: Personal big data pricing method based on differential privacy
+- cited_paper_title: Pricing of Data Products in Data Marketplaces
+- LLM_section: Methodology
+- LLM_sentiment: 0.8
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+on among different users will become important. The second challenge is how to trade personal big data fairly
+while protecting privacy. In other words, how should a reasonable trading framework be designed to pre vent
+circumvention from buyers on arbitrage pricing and from data owners on untruthful privacy valuation? Just as
+Facebook (2018) and Twitter (2018) , once involved the disclo sure of personal privacy, it is necessary for
+individuals to pro tect their personal big data before participating in the trans action, and differential
+privacy protection can be achieved by adding noise interference. Adding different degrees of noise
+
+... [另一次引用] ...
+
+he privacy loss of indi vidual i is defined as formula (13) : ε i (M ) = sup D (L,R ) ,O | log Pr (M (D (L, R
+)) ∈ O ) Pr (M (D ′ (L, R )) ∈ O ) | (13) As can be seen from the definition of privacy loss of the
+individual, its size depends on the mechanism. We choose the Laplace mechanism to measure privacy loss, and
+privacy loss is the function output of variance and dependence sensitivity. Theorem 7 ( Niu et al. (2018) ) .
+Let M represent a dependent per turbation mechanism v , the variance of Laplace noise; f, the query c o m p u
+t e r s & s e c u r i t y 1 1 3 ( 2 0 2 2 ) 1 0 2 5 2 9 7 function; and DS f i , the dependent sensitivity.
+Then, the upper bound of the privacy loss of individual i can be expressed a
+
+... [另一次引用] ...
+
+form that al lows individuals to trade and monetize their data. Kiyomoto (2016) suggested that an optimal
+solution can be found be tween value and anonymity when publishing personal big data. Liang et al. (2018)
+focused on designing a data trading platform that can achieve efficiency, security, and privacy pro tection.
+Chen et al. (2017) proposed a practical framework for pricing cloud datasets and resources. Nget et al. (2018)
+pro posed a practical personal big data trading framework that strikes a balance between money and privacy. In
+the dif ferentially private top k selection problem, Bafna and Ull man (2017) considered that this can be
+solved with the well known exponential mechanism and composition prop erties of d
+
+## S043
+- edge_id: W3195579788->W2612128091
+- citing_paper_title: Data pricing in machine learning pipelines
+- cited_paper_title: QIRANA
+- LLM_section: Methodology
+- LLM_sentiment: 0.8
+- LLM_relevance: 0.9
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+he arbiter is operated by a monopoly data seller to sell the single seller’s data products. In literature,
+sell side marketplaces are considered by pricing models of both general data sets [43] and speciﬁc types of
+data products, such as XML documents [108] and data queries on a relational database [29]. A buy side
+marketplace [120], as shown in Fig. 2c, has multiple data providers and a single consumer/data buyer. In a buy
+side marketplace, the arbiter is operated by the single data buyer for purchasing data products from
+providers. Buy side marketplaces are considered in many existing studies [2
+
+... [另一次引用] ...
+
+a query, an arbitrage free pricing function should be monotone and subadditive with respect to the amount of
+informationrevealedbyaskingthequery.Severalexamplesofarbitrage freepricingfunctions are presented, including
+the weighted coverage function and the Shannon entropy function. Deep and Koutris [29] later implement the
+theoretical framework [28] into a real time pricing system,
+
+## S044
+- edge_id: W2919782326->W2168402580
+- citing_paper_title: Making Big Money from Small Sensors: Trading Time-Series Data under Pufferfish Privacy
+- cited_paper_title: Query-based data pricing
+- LLM_section: Methodology
+- LLM_sentiment: 0.6
+- LLM_relevance: 0.8
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+dividual privacy loss. However, these works cannot directly apply to our context, since we intend to
+investigate a sequence of data from a certain data owner, and to quantify her privacy loss at each timestamp.
+Although two modiﬁed versions of differential privacy, called entry differential privacy [14] and group
+differential privacy [15], may be applicable, they mis handle temporal correlations, where all states are
+assumed to be independent (resp., correlated) in the entry (resp., group) d ifferential privacy. In other
+words, they treat each state equally, which is unreasonable in practice. For
+
+... [另一次引用] ...
+
+2040. [12] C. Dwork, F. McSherry, K. Nissim, and A. D. Smith, “Calibrating noise to sensitivity in private
+data analysis,” in Proc. of TCC, 2006, pp. 265 284. [13] C. Liu, S. Chakraborty, and P. Mittal, “Dependence
+makes you vulnber able: Differential privacy under dependent tuples,” in NDSS, 2016. [14] M. Hardt and A.
+Roth, “Beyond worst case analysis in private singular vector computation,” in Proc. of STOC, 2013, pp. 331
+340. [15] C. Dwork and A. Roth, “The algorithmic foundations of differential privacy,” Foundations and Trends
+in Theoretical Computer Science, vol. 9, no. 3 4, pp. 211 407, 201
+
+## S045
+- edge_id: W2921968831->W1841962286
+- citing_paper_title: Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces
+- cited_paper_title: A Priced Public Sensing Framework for Heterogeneous IoT Architectures
+- LLM_section: Methodology
+- LLM_sentiment: 0.8
+- LLM_relevance: 0.7
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+privacy preserved data trading market with blockchain for preventing single point failure [21]. Yu et al.
+proposed a mobile data trading model based on the prospect theory in behavior economics to trade mobile data
+as quantity between mobile users by considering data demands and demand uncertainty [22]. Al Fagih et al.
+proposed a data pricing scheme for public sensing framework considering delay, quality of services, and trust
+factors [23]. Competitive data markets also have been studied. Jang et al. modeled a data market with multiple
+independent data sources in IoT environments [24]. In this mo
+
+... [另一次引用] ...
+
+tions, ICC 2016, pp. 1 6, 2016. [21] Y. Zhao, Y. Yu, Y. Li, G. Han, and X. Du, “Machine learning based privacy
+preserving fair data trading in big data market,” Information Sciences, vol. 478, pp. 449 460, 2019. [Online].
+Available: http://www.sciencedirect.com/science/article/pii/S0020025518309174 [22] J. Yu, M. H. Cheung, J.
+Huang, and H. V. Poor, “Mobile data trading: Behavioral economics analysis and algorithm design,” IEEE Journal
+on Selected Areas in Communications, vol. 35, no. 4, pp. 994 1005, April 2017. [23] A. E. Al Fagih, F. M. Al
+Turjman, W. M. Alsalih, and H. S. Hassanein, “
+
+## S046
+- edge_id: W3084177365->W2734426755
+- citing_paper_title: A Survey on Data Pricing: From Economics to Data Science
+- cited_paper_title: An Online Pricing Mechanism for Mobile Crowdsensing Data Markets
+- LLM_section: Methodology
+- LLM_sentiment: 0.0
+- LLM_relevance: 0.6
+- LLM_confidence: 0.8
+- citation_context_wrapped:
+auction mechanisms when the standard assumptions do not hold. Another group of studies, such as [22], [43],
+[53], [80], conduct empirical studies to under stand bidding behavior and statics. Last and latest, deep
+learning approaches are used to develop auction strategies in sponsored search [175], [222]. 4.3.3 Auctions on
+Digital Products with Unlimited Supplies One unique feature of digital products is that the replication costs
+are very low and thus may have almost unlimited supply. Products of unlimited supplies lead to new chal lenges
+and opportunities to auction mechanism design. For example,
+
+... [另一次引用] ...
+
+ring, vol. 112, pp. 1 10, 2017. [220] M. Zhang and F. Beltran, “A survey of data pricing methods,” SSRN, April
+2020. [221] X. M. Zhang and F. Zhu, “Group size and incentives to contribute: A natural experiment at chinese
+wikipedia,” American Economic Review, vol. 101, no. 4, pp. 1601 15, June 2011. [222] J. Zhao, G. Qiu, Z. Guan,
+W. Zhao, and X. He, “Deep rein forcement learning for sponsored search real time bidding,” in Proceedings of
+the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, ser. KDD’18. New York,
+NY, USA: Association for Computing Machinery, 2018, pp.
+
+## S047
+- edge_id: W2533772775->W2168402580
+- citing_paper_title: A pricing model for Big Personal Data
+- cited_paper_title: Query-based data pricing
+- LLM_section: Other
+- LLM_sentiment: 0.0
+- LLM_relevance: 0.8
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+r can all beneﬁt from trading data, and achieve a mutually beneﬁcial data transaction ecosystem. 2 Related
+Work Researchers in Ref. [5] observed main pricing strategies, including free pricing, usage based prices,
+package pricing, ﬂat fee tariffs, two part tariffs, and freemium. The authors in Ref. [6] said there are four
+weaknesses with existing market pricing models: per query costs are irrelevant; the pricing model can
+inadvertently lead to arbitrage situations; all tuples have equal value and data providers have no principled
+way to set the pricing tiers; and the systems provide no guidance.
+
+... [另一次引用] ...
+
+Economy: Value and Worth. Cambridge University Press, 2014. [5] A. Muschalle, F. Stahl, A. L¨oser, and G.
+Vossen, Pricing approaches for data markets, in Enabling Real Time Business Intelligence, M. Castellanos, U.
+Dayal, and E. A. Rundensteiner, eds. Springer Berlin Heidelberg, 2013, pp. 129 144. [6] M. Balazinska, B.
+Howe, and D. Suciu, Data markets in the cloud: An opportunity for the database community, Proceedings of the
+VLDB Endowment, vol. 4, no. 12, pp. 1482 1485, 2011. [7] C. Shapiro and H. R. Varian, Versioning: The smart
+way to sell information, Harvard Business Review, vol. 76, pp. 1
+
+## S048
+- edge_id: W2920282816->W2612128091
+- citing_paper_title: Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective
+- cited_paper_title: QIRANA
+- LLM_section: Other
+- LLM_sentiment: 0.0
+- LLM_relevance: 0.8
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+onclude that when buyers are not conﬁdent about their prior knowledge, the seller can take advantage of
+buyers’ uncertainty and extract higher revenue. V. RELATED WORK In recent years, designing data pricing
+frameworks has attracted increasing interests in the database community. Bal azinska et al. [21] ﬁrst
+envisioned the emergence of cloud based data markets, and outlined potential challenges and research
+opportunities. Following them, many query based frameworks have been proposed to price ad hoc query data. 1844
+These frameworks allow the seller to manually assign prices to a few views, and au
+
+... [另一次引用] ...
+
+lling information,” in EC, 2012. [18] “Dialogfeed.” [Online]. Available: https://www.dialogfeed.com/pricing/
+[19] “Gurobi.” [Online]. Available: http://www.gurobi.com/ [20] “Ambient sound monitoring network.” [Online].
+Available: https: //data.smartdublin.ie/dataset/ambient sound monitoring network [21] M. Balazinska, B. Howe,
+and D. Suciu, “Data markets in the cloud: An opportunity for the database community,” VLDB, 2011. [22] P.
+Koutris, P. Upadhyaya, M. Balazinska, B. Howe, and D. Suciu, “Query based data pricing,” in PODS, 2012. [23]
+S. Deep and P. Koutris, “
+
+## S049
+- edge_id: W2509511072->W1994174199
+- citing_paper_title: Understanding rollover data
+- cited_paper_title: Smart data pricing: To share or not to share?
+- LLM_section: Result
+- LLM_sentiment: 0.65
+- LLM_relevance: 0.7
+- LLM_confidence: 0.9
+- citation_context_wrapped:
+In this work, we evaluate the benefits of rollover data for both ISPs and users as well as identify the types
+of users who would upgrade to rollover data plans. To do so, we consider two alternatives: a smaller data plan
+without rollover data, and a more expensive data plan with larger monthly quota that does include rollover
+data. We find that moderately price-sensitive users benefit from rollover data: price-insensitive users would
+not have any data to rollover, while extremely price-sensitive users would not find the rollover data worth
+its higher cost. Under specific bounds on the size of the rollover data plan’s monthly quota, we find that
+users can obtain more utility and ISPs can profit from rollover data, which is verified on one year of usage
+data from a U.S. ISP.
+
+## S050
+- edge_id: W2920282816->W2168402580
+- citing_paper_title: Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective
+- cited_paper_title: Query-based data pricing
+- LLM_section: Result
+- LLM_sentiment: 0.0
+- LLM_relevance: 0.6
+- LLM_confidence: 0.8
+- citation_context_wrapped:
+bounded computation case. IV. EVALUATIONS In this section, we evaluate our pricing mechanisms MGen eral and
+MPractical on a real world ambient sound dataset, and compare their performance with our benchmarks. The con
+vex programming parts in our mechanisms are implemented using the Gurobi software [19]. A. Evaluation Setup We
+use the Ambient Sound Monitoring Network [20] dataset in our evaluation. The Dublin City Council collected
+this dataset with a network of sound monitors to measure the ambient sound quality at different sites of
+Dublin. This dataset contains sound pressure data of every 5 mi
+
+... [另一次引用] ...
+
+and S. Morris, “The limits of price discrimi nation,” American Economic Review, vol. 105, no. 3, pp. 921 57,
+2015. [17] M. Babaioff, R. Kleinberg, and R. Paes Leme, “Optimal mechanisms for selling information,” in EC,
+2012. [18] “Dialogfeed.” [Online]. Available: https://www.dialogfeed.com/pricing/ [19] “Gurobi.” [Online].
+Available: http://www.gurobi.com/ [20] “Ambient sound monitoring network.” [Online]. Available: https:
+//data.smartdublin.ie/dataset/ambient sound monitoring network [21] M. Balazinska, B. Howe, and D. Suciu,
+“Data markets in the cloud: An opportunity for the database community,
