@@ -1,0 +1,12 @@
+﻿metric,value
+total_citation_edges,204.0
+target_aligned_LLM_scored_edges,78.0
+default_fallback_edges,126.0
+target_aligned_LLM_coverage_ratio,0.38235294117647056
+high_confidence_count,63.0
+grouped_count,14.0
+range_count,1.0
+ambiguous_count,10.0
+failed_count,116.0
+old_LLM_scored_edges_count,123.0
+old_LLM_retained_high_confidence_count,54.0

@@ -1,0 +1,6 @@
+﻿Variant,Edge weight,Spearman with Full model v2,Kendall with Full model v2,Top-5 overlap,Top-10 overlap,Mean rank change,Max rank change
+Structure only,1,0.9415442358137461,0.8283719220874678,4,5,7.2,33.0
+Semantic only,q_ij,0.9964540845420895,0.9687614847482543,5,10,1.3142857142857143,15.0
+Semantic + temporal,q_ij * tau_ij,0.9975945836659789,0.9790518191841234,5,10,0.9142857142857143,9.0
+Semantic + relation,q_ij * rho_ij,0.9987972918329894,0.9805218669606761,5,10,0.9333333333333333,6.0
+Full model,q_ij * tau_ij * rho_ij,1.0,1.0,5,10,0.0,0.0
