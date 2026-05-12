@@ -1,0 +1,4 @@
+﻿Variant,Spearman with Full model v2.1,Kendall with Full model v2.1,Top-5 overlap,Top-10 overlap,Mean rank change,Max rank change
+semantic-only-no-sentiment,0.9969102841916452,0.9705990444689452,5,10,1.2380952380952381,12.0
+semantic-temporal-no-sentiment,0.9976775290568072,0.9801543550165379,5,10,0.8952380952380953,9.0
+full-model-no-sentiment,0.9997304274798079,0.9944873208379272,5,10,0.26666666666666666,4.0

@@ -1,0 +1,10 @@
+﻿failure_reason,edge_count,source_paper_count
+missing_pdf_or_text,62,38
+reference_section_not_found,9,4
+target_reference_entry_not_matched,0,0
+citation_marker_not_found,11,4
+author_year_format_not_supported,2,2
+title_fuzzy_match_failed,27,16
+grouped_or_range_uncertain,0,0
+poor_pdf_text_extraction,1,1
+unknown,1,1

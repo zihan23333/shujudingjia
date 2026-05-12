@@ -1,22 +1,11 @@
 # Final Experiment Checklist v2
 
-[x] target_aligned_contexts.csv exists
-[x] llm_results_target_aligned_v2.csv exists
-[x] semantic_edge_weights_v2.csv covers all 204 citation edges
-[x] ranking v2 generated
-[x] ablation v2 generated
-[x] confidence robustness v2 generated
-[x] extended relation robustness v2 generated
-[x] future validation cutoff=2020 v2 generated
-[x] future validation cutoff=2021 v2 generated
-[x] pricing v2 generated
-[x] LLM reliability annotation package v2 generated
-[x] section4_experiments_draft_v2.md generated
-
-## Manual consistency checks
-
-- Formal v2 scripts should not read the old `llm_results.csv` as the main semantic input.
-- No future window should be written as 2021–2025.
-- Institution relations must stay outside the main model.
-- Confidence must stay outside the main model.
-- Ambiguous/failed edges must not reuse old LLM scores.
+[x] `llm_results_target_aligned_v2.csv` uses DeepSeek backend
+[x] `semantic_edge_weights_v2.csv` covers all 204 citation edges
+[x] formal experiments do not read old `llm_results.csv` as the main semantic input
+[x] ambiguous / failed edges do not use old LLM scores
+[x] confidence does not enter the main model
+[x] institution relation does not enter the main model
+[x] future window is written as 2021?2024 or 2022?2024, not 2021?2025
+[x] sentiment-neutralized robustness completed
+[x] new manual annotation package generated from DeepSeek v2.1

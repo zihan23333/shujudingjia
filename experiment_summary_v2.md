@@ -1,18 +1,26 @@
 # Experiment Summary v2
 
+## Semantic layer rebuild
+
 | metric | value |
 | --- | --- |
-| total_citation_edges | 204.000000 |
-| target_aligned_LLM_scored_edges | 91.000000 |
-| default_fallback_edges | 113.000000 |
-| target_aligned_LLM_coverage_ratio | 0.446078 |
-| high_confidence_count | 73.000000 |
-| grouped_count | 17.000000 |
-| range_count | 1.000000 |
-| ambiguous_count | 16.000000 |
-| failed_count | 97.000000 |
-| old_LLM_scored_edges_count | 123.000000 |
-| old_LLM_retained_high_confidence_count | 67.000000 |
+| llm_results_target_aligned_v2_rows | 91 |
+| deepseek_backend_rows | 91 |
+| offline_fallback_backend_rows | 0 |
+| high_confidence_count | 73 |
+| grouped_count | 17 |
+| range_count | 1 |
+| ambiguous_count | 16 |
+| failed_count | 97 |
+| target_aligned_llm_scored_edges | 91 |
+| semantic_fallback_edges | 113 |
+| semantic_edge_weights_v2_covers_all_204 | 1 |
+| formal_experiments_still_read_old_llm_results_csv | 0 |
+| ambiguous_failed_edges_using_old_llm_scores | 0 |
+| pdf_roots_scored_edges_before_fix | 78 |
+| pdf_roots_scored_edges_after_fix | 91 |
+| pdf_roots_high_confidence_before_fix | 63 |
+| pdf_roots_high_confidence_after_fix | 73 |
 
 ## Ranking comparison
 
@@ -49,7 +57,15 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Extended relation | rho(co,tc,inst) | 0.999305 | 0.986770 | 5 | 10 | 0.628571 | 3.000000 |
 
-## Future validation (main)
+## Sentiment-neutralized robustness
+
+| Variant | Spearman with Full model v2.1 | Kendall with Full model v2.1 | Top-5 overlap | Top-10 overlap | Mean rank change | Max rank change |
+| --- | --- | --- | --- | --- | --- | --- |
+| semantic-only-no-sentiment | 0.996910 | 0.970599 | 5 | 10 | 1.238095 | 12.000000 |
+| semantic-temporal-no-sentiment | 0.997678 | 0.980154 | 5 | 10 | 0.895238 | 9.000000 |
+| full-model-no-sentiment | 0.999730 | 0.994487 | 5 | 10 | 0.266667 | 4.000000 |
+
+## Future validation (cutoff = 2020, future = 2021?2024)
 
 | Method | Spearman | Kendall | NDCG@10 | Precision@10 | Top-10 overlap |
 | --- | --- | --- | --- | --- | --- |
@@ -60,7 +76,7 @@
 | Semantic-temporal PageRank v2 | 0.150757 | 0.086313 | 0.515847 | 0.500000 | 5 |
 | Full model v2 | 0.162828 | 0.101110 | 0.515847 | 0.500000 | 5 |
 
-## Future validation (cutoff=2021 robustness)
+## Future validation (cutoff = 2021, future = 2022?2024)
 
 | Method | Spearman | Kendall | NDCG@10 | Precision@10 | Top-10 overlap |
 | --- | --- | --- | --- | --- | --- |
@@ -70,3 +86,18 @@
 | Semantic-weighted PageRank v2 | 0.133096 | 0.085451 | 0.490243 | 0.400000 | 4 |
 | Semantic-temporal PageRank v2 | 0.109281 | 0.066975 | 0.490243 | 0.400000 | 4 |
 | Full model v2 | 0.124193 | 0.076213 | 0.490243 | 0.400000 | 4 |
+
+## Pricing
+
+| paper_id | title | full_model_score_v2 | value_norm | query_similarity | WTP | price | price_rank | scenario |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| W2097281067 | TUBE | 0.872804 | 1.000000 | 0.000000 | 1.000000 | 0.500000 | 1 | Base Case |
+| W2168402580 | Query-based data pricing | 0.144672 | 0.165756 | 0.430605 | 1.597966 | 0.332400 | 2 | Base Case |
+| W2974598553 | Too Much Data: Prices and Inefficiencies in Data Markets | 0.379287 | 0.434562 | 0.090890 | 0.932318 | 0.281650 | 3 | Base Case |
+| W2180742472 | Smart data pricing | 0.050457 | 0.057811 | 0.588335 | 1.506576 | 0.256470 | 4 | Base Case |
+| W2010653253 | A survey of smart data pricing | 0.089331 | 0.102350 | 0.432037 | 1.320175 | 0.245318 | 5 | Base Case |
+| W3123243120 | Nonrivalry and the Economics of Data | 0.341979 | 0.391817 | 0.062667 | 0.713582 | 0.204895 | 6 | Base Case |
+| W2293940046 | Query-Based Data Pricing | 0.057179 | 0.065512 | 0.430605 | 1.152398 | 0.199283 | 7 | Base Case |
+| W4323644227 | A Survey of Data Pricing for Data Marketplaces | 0.011321 | 0.012971 | 0.414625 | 0.885244 | 0.136805 | 8 | Base Case |
+| W2743929098 | Data pricing strategy based on data quality | 0.030036 | 0.034413 | 0.341036 | 0.810375 | 0.131317 | 9 | Base Case |
+| W3084177365 | A Survey on Data Pricing: From Economics to Data Science | 0.021208 | 0.024298 | 0.329108 | 0.746490 | 0.118322 | 10 | Base Case |

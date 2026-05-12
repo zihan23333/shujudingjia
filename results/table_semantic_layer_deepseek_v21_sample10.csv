@@ -1,0 +1,111 @@
+﻿sample_id,edge_id,citing_paper_title,cited_paper_title,alignment_status,target_reference_marker,section,sentiment,relevance,confidence,q_ij,all_target_aligned_contexts,manual_review_note
+A01,W3195579788->W3084177365,Data pricing in machine learning pipelines,A Survey on Data Pricing: From Economics to Data Science,grouped,86,Discussion,0.0,0.7,0.8,0.1714999999999999,"In response to the massive and diversiﬁed demands for various data, data products become valuable assets for purchase and sale. Here, data products refer to data sets as products and information services derived from data sets [ 86]. Data commoditization motivates data owners to share their data products in exchange of rewards and thus helps data buyers to access dataproducts of high quality and large quantities.
+
+... [another target-aligned mention] ...
+
+In this article, we try to present acomprehensive survey on data pricing in machine learning pipelines. Very recently, Pei [ 86] presents a survey connecting economics, digital product pricing, and data product pricing. Heidentiﬁes a series of desirable properties in data pricing and reviews the techniques achievingthose properties.
+
+... [another target-aligned mention] ...
+
+Heidentiﬁes a series of desirable properties in data pricing and reviews the techniques achievingthose properties. But Pei [ 86] does not focus on machine learning pipeline and does not cover the studies of pricing data labels. The rest of this survey is organized as follows.
+
+... [another target-aligned mention] ...
+
+2.4 Desiderata of data pricing There are some desiderata preferred by most pricing models. In this section, we brieﬂy reviewthe six desiderata suggested by Pei [ 86]. In addition, we complement the existing study by an important desideratum, effort elicitation.
+
+... [another target-aligned mention] ...
+
+The revenue of a seller is maximizedwhen the manufacturing level is set such that the marginal revenue is zero [ 11]. Since data products can be re-produced at almost zero costs [ 1], the revenue maximization techniques for data products and physical products are quite different [ 86]. Fairness In some scenarios, sellers need to cooperatively participate in a transaction.
+
+... [another target-aligned mention] ...
+
+As a consequence, a critical concern is that a data buyer may circumvent theadvertised price of a product through buying a bundle of cheaper ones, which negativelyaffects the seller’s revenue. For example, consider a data seller selling noisy queries to theseller’s database [ 84,86], and the seller perturbs each query answer independently with random noise. An answer with a variance of 5 is sold at $5 and with a variance of 1 is soldat $50.
+
+... [another target-aligned mention] ...
+
+Privacy-preservation Privacy protection during the transactions of data raises more and more concerns. In data marketplaces, the privacy of buyers, sellers, and involved third partiesare highly vulnerable, and might be disclosed in many different ways [ 86]. Many different solutions have been proposed for privacy protection in data markets [ 34,47,62].
+
+... [another target-aligned mention] ...
+
+7.1 Data pricing models in industry In recent years, many data marketplaces have emerged, where raw and processed data sets, theservices of data labeling, and machine learning models are traded [ 105]. Six pricing models are commonly used in the real-world data marketplaces [ 86,105], namely free data, ﬂat fee tariff model, pay-per-use model, package pricing, two-part tariff model, and freemium. Data marketplaces operated by authorities or non-proﬁt organizations usually provide raw data sets free of charge.",
+A02,W4377865288->W2910976764,"The Dimensions of Data Labor: A Road Map for Researchers, Activists, and Policymakers to Empower Data Producers",Nonrivalry and the Economics of Data,grouped,[39],Introduction,0.5,0.7,0.9,0.147,"Recently, this approach has motivated economists, legal scholars, and computing researchers to explore potential implications of treating user activities as labor via simulations [ 10]. For example, Jones and Tonetti simulated how granting users rights to the data they produce and allowing the data to be used across firms can maximize social gains from the data economy [ 39]. Others have taken a step further and recommended establishing third-party intermediaries that are analogous to labor unions to facilitate the relations between subgroups of users and technology companies [ 10,42].
+
+... [another target-aligned mention] ...
+
+For discussions of “data labor” to have meaningful, pragmatic implications for data producers, we first needed to distinguish what is and is not “data labor”. Drawing from emergent discussions about 2https://solidproject.org/ 3https://streamr.network/data labor across disciplines [ 7,39,66], we offer a working defini- tion: Activities that produce digital records useful for capital generation. Said differently, an activity must meet two criteria to be labeled as data labor: 1) it creates or enhances data (“digital records”), and 2) the resulting data helps to generate capital.",
+A03,W2934375453->W2743929098,Personal Data Market Optimization Pricing Model Based on Privacy Level,Data pricing strategy based on data quality,grouped,18,Methodology,0.5,0.6,0.8,0.27,"2.3. Customer’s Self-Selection Behavior Analysis In the privacy data pricing optimization model, consumer self-selection behavior analysis [ 18,19] is an important component and foundation. In an actual market environment, customer purchases of data products are complex and can be affected by a variety of factors, such as consumer preferences, interests, and data product prices.
+
+... [another target-aligned mention] ...
+
+In this paper, assuming that the consumer is rational, the consumer’s purchase selection behavior for the data product is determined by the utility function of the privacy data. In previous work, most studies assumed that the willingness to pay was a linear function [ 18,20]. However, the linear value function does not accurately capture the estimates of actual data and consumer’s self-selection behavior.",
+A04,W4226305897->W2920282816,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective,grouped,129,Result,0.5,0.7,0.9,0.3674999999999999,"[124] Market analysis Examining the market size and value of data marketplaces. [125–127] Pricing mechanismsDiscussing mathematical or economic approaches in evaluating, valuating, or pricing datasets (or data services) in data marketplaces.[47,128–145] Articles in the ﬁnance domain are not equally distributed across categories because most discussions are centralized in pricing mechanisms . Unlike the computational pricing in the STOF technology domain that focuses on technical aspects like query- or machine learning-based pricing (see Section 3.2), the pricing mechanisms here emphasize more on mathematical or economic approaches in valuating or pricing data in data marketplaces.
+
+... [another target-aligned mention] ...
+
+Res. 2021 ,16 3329 The topics of this category include data trading models that consider contract the- ory [ 128], information design perspective [ 129], and equilibrium pricing mechanism based on Stackelberg game approach [ 130]. Moreover, pricing mechanisms speciﬁcally for per- sonal data are also discussed.",
+A05,W3021125948->W2996741051,Contract Design in Hierarchical Game for Sponsored Content Service Market,Dynamic Pricing for Revenue Maximization in Mobile Social Data Market With Network Effects,high_confidence,[50],Conclusion,0.0,0.4,0.8,0.04,"The performance evaluation has demonstrated the effectiveness of our scheme compared with other benchmark schemes. In the future work, we will investigate the sponsored content service market with network effects under information asymmetry, such as [50].",
+A06,W3195579788->W2612128091,Data pricing in machine learning pipelines,QIRANA,high_confidence,29,Discussion,0.5,0.7,0.9,0.2572499999999999,"In a sell-side marketplace, the arbiter is operatedby a monopoly data seller to sell the single seller’s data products. In literature, sell-sidemarketplaces are considered by pricing models of both general data sets [ 43] and speciﬁc types of data products, such as XML documents [ 108] and data queries on a relational database [ 29]. A buy-side marketplace [ 120] ,a ss h o w ni nF i g .
+
+... [another target-aligned mention] ...
+
+Several examples of arbitrage-free pricing functionsare presented, including the weighted coverage function and the Shannon entropy function. Deep and Koutris [ 29] later implement the theoretical framework [ 28] into a real time pricing system, QIRANA, which computes the price of a query bundle Qfrom the view of uncertainty reduction. They assume that a buyer is facing a set of all possible databaseinstances Swith the same schema as the true database instance D.
+
+... [another target-aligned mention] ...
+
+QueryMarket [ 59] tracks the purchased views of a customer and avoids charging those views when pricing future queries of the customer. Both[29]a n d[ 75] support history-aware pricing in the same vein as [ 59]. One drawback of these history-based approaches is that the seller must provide reliable storage to keep users’ queryhistory [ 111].
+
+... [another target-aligned mention] ...
+
+By tracking coupon status, the data seller guarantees that each coupon will be usedonly once. However, the pricing function has no arbitrage-free guarantee [ 29]. 3.4 Privacy compensation Machine learning models in many areas, like recommendation systems [ 21] and personalized medical treatments [ 72], require a large amount of personal data.
+
+... [another target-aligned mention] ...
+
+Such ﬂexibility makes it easier to version raw data products, and enablesmore ﬂexible pricing mechanisms. For example, according to how much information isrevealed, different prices can be assigned to different queries on the same database [ 29]. 123 1442 Z.
+
+... [another target-aligned mention] ...
+
+Cong et al. Table 1 The representative data pricing models of raw data sets Product Objectives References General data No speciﬁc optimization goals [ 43] (1) Revenue maximization [ 117] Sensing data (1) Truthfulness; (2) Individual rationality; (3) Proﬁtability[115] (1) Truthfulness; (2) Social welfare maximization[52] (1) Truthfulness (2) Buyer’s cost minimization [ 60] Chain queries, conjunctive queries, and cyclic queries(1) Arbitrage-freeness; (2) Discount-freeness [ 58] Conjunctive queries (1) Arbitrage-freeness; (2) Discount-freeness; (3) History-awareness; (4) Fairness[59] General data queries (1) Arbitrage-freeness [ 28], [65] (1) Arbitrage-freeness; (2) History-awareness [ 29] (1) Arbitrage-freeness; (2) Revenue maximization[16] Selection-projection-natural join queries over incomplete databases(1) Arbitrage-freeness; (2) History-awareness [ 75] Selection queries (1) History-awareness [ 111] Counting queries on binary data (1) Privacy compensation; (2) Truthfulness; (3) Buyer’s cost minimization[38] Linear aggregation queries (1) Privacy compensation; (2) Query accuracy maximization under budget constraint[21] (1) Privacy compensation; (2) Personalized maximum tolerable privacy loss; (3) Queryaccuracy maximization under budgetconstraint[83] (1) Privacy compensation; (2) Truthfulness; (3) Personalized maximum tolerable privacy loss; (4) Query accuracy maximization under budget constraint[121] (1) Privacy compensation; (2) Arbitrage-freeness [ 62] (1) Privacy compensation; (2) Arbitrage-freeness; (3) Dependency fairness[84] Geo-location data (1) Privacy compensation; (2) Data accuracy maximization under budget constraint[53] tables can be used as a starting point in helping data pricing practitioners to choose the right pricing models for their settings. Tables 1,2,3,a n d 4have three columns.",
+A07,W2996741051->W2581979418,Dynamic Pricing for Revenue Maximization in Mobile Social Data Market With Network Effects,When Social Network Effect Meets Congestion Effect in Wireless Networks: Data Usage Equilibrium and Optimal Pricing,high_confidence,[5],Introduction,0.5,0.9,0.9,0.243,"Therefore, as the mobile users pay the data fees to access the social services, the mobile network operator has an incentive to encourage more mobile users, i.e., its potential customers, to access the services by consuming more social data. Generally, the stronger the network effects are, the more revenue the mobile network operator gains [5], [6]. The “network effect” is often highlighted in social and economic ﬁelds [7].
+
+... [another target-aligned mention] ...
+
+The reason is that when users increase their data demand, they may bear higher congestion, e.g., service delay, which restrains them to access and consume more. Consequently, the increasing congestion creates a signiﬁcant barrier for the network operator, and thus leads to a lower revenue [5], [13]. Therefore, mobile users’ data demand is not only subject to the network effects in the social domain, but also the congestion effects in the network domain.
+
+... [another target-aligned mention] ...
+
+However, most of existing works ignore to take homophily phenomenon into consideration, i.e., network effects, for designing the data pricing. The social aspect of mobile networking is an emerging paradigm for network design and optimization [5]. In [25], the authors found that the information obtained from social tie connections will inﬂuence in decision making.
+
+... [another target-aligned mention] ...
+
+Citation information: DOI 10.1109/TWC.2019.2957092, IEEE Transactions on Wireless Communications 3 Table I COMPARISON OF OUR WORK WITH MOST RELATED WORKS ON PRICING Ref. Pricing goods Pricing scheme Network effects Congestion effects [29], [30], [32] Networking resources Static pricing  X [31] Networking resources Dynamic pricing  X [16], [33] Mobile data Dynamic pricing   [8], [9], [34] Social goods Static pricing X  [27], [28] Social goods Dynamic pricing X  [5] Mobile social data Static pricing X X Ours Mobile social data Dynamic pricing X X radio resource is scarce and congestion can frequently happen. As such, the question remains to be answered whether the network operators keep beneﬁting from network effects when congestion happens.
+
+... [another target-aligned mention] ...
+
+To fully exploit the beneﬁt of social data services, it is more appropriate to design the pricing considering both the network effects and congestion effects in a holistic manner, such that the network operators can adopt the best strategy towards its revenue maximization. To our best knowledge, only the work [5] proposed the data pricing schemes with the joint consideration of network effects and congestion effects. In [5], the authors formulated the interaction between a network operator and mobile users as a two-stage Stackelberg game, by extending the model presented in [8].
+
+... [another target-aligned mention] ...
+
+To our best knowledge, only the work [5] proposed the data pricing schemes with the joint consideration of network effects and congestion effects. In [5], the authors formulated the interaction between a network operator and mobile users as a two-stage Stackelberg game, by extending the model presented in [8]. In the upper Stage I of the formulated game, the service provider acting as the leader determines the price for users.
+
+... [another target-aligned mention] ...
+
+Then, the users acting as the followers simultaneously decide on the data demand maximizing their individual utilities given the price in the lower Stage II. Nevertheless, the authors in [5] merely formulated the one- shot game to model the interaction between the network operator and mobile users with static pricing. In other words, the operator cannot utilize its ability to modify its strategy in response to the observed history.
+
+... [another target-aligned mention] ...
+
+We assume that the MNO, i.e., the seller, has complete information about the social network and can perfectly charge each user differently, i.e., discriminatory pricing1[38]. The objective of the MNO is to maximize its revenue which is expressed as follows:  = max piX i2Npixi: (2) Naturally, the two-stage Stackelberg game can be adopted to model the interaction between the MNO and users [5], [13], [39]. In the upper Stage I, the MNO, i.e., the leader, determines price pito maximize its revenue.
+
+... [another target-aligned mention] ...
+
+Thus, if Assumption 1 does not hold, users may choose to un- boundedly increase their data demand for utility maximization irrespective of the pricing strategy. Therefore, following [5], [13], [41], we make the similar assumption to ensure that the social data demand from each user is bounded. Assumption 1 is dictated by the need for tractability and also essential for clearly illustrating our insights.",
+A08,W3084177365->W2168402580,A Survey on Data Pricing: From Economics to Data Science,Query-based data pricing,high_confidence,[121],Methodology,0.5,0.8,0.9,0.4800000000000001,"Each level is modeled as a maximization problem and thus the whole model is a bi-level programming problem, which is NP-hard. Another way to form multiple versions of data products is to charge by queries [121]–[124]. Intuitively, a data seller may treat a view of a data set as a version.
+
+... [another target-aligned mention] ...
+
+Koutris et al. [121], [124] propose a framework of query and view based data pricing. The major idea is that a seller only needs to specify the prices on a few views, and then the prices of other views can be decided algorithmically.
+
+... [another target-aligned mention] ...
+
+[151] point out that a pricing model charging users a certain amount of API calls for a ﬁxed rate may potentially allow arbitrage, depending on the package size. Arbitrage-freeness is one of the fundamental properties of pricing models in query and view based pricing [121]– [124]. Li and Miklau [134] and Li et al.",
+A09,W3084177365->W2126626399,A Survey on Data Pricing: From Economics to Data Science,The Price Is Right,high_confidence,[192],Other,0.5,0.6,0.9,0.054,Tang et al. [192] follow the view and query based pricing framework and consider each tuple as the the minimum granularity of data. Their model assigns to each tuple a Authorized licensed use limited to: Carleton University.,
+A10,W2790400697->W2734426755,"A Survey on Big Data Market: Pricing, Trading and Protection",An Online Pricing Mechanism for Mobile Crowdsensing Data Markets,high_confidence,[75],Result,0.3,0.6,0.7,0.2339999999999999,"Citation information: DOI 10.1109/ACCESS.2018.2806881, IEEE Access 11 TABLE II: Data pricing models Ref. Market Structures Pricing Models Algorithms/Schemes Goals Approaches [16] Monopoly Economic-Based Pricing Information EntropyReduce uncertainty by reducing the information entropy to avoid the interference from uncertain data contentDeﬁne ﬁve tuples parameters for data and reduce the uncertainty information entropy [75] Strong competition Economic-Based Pricing Gaussian ProcessCapture the uncertain contents of source dataCreate a trading market, and simulate the trading process. Then, use statistics approach and Gaussian process to analyze the data trading and maximum proﬁt process [76] Monopoly Economic-Based Pricing Max-Flow problemImprove the transparency of data pricePropose a Generalized Chain Queries and obtain the price by computing the time complexity of GChQ query [77] Strong competitionGame Theory-Based PricingStackelberg Game-Based PricingUse pricing incentives method to improve the Quality of Service (QoS) and encourage upload data for the sensorsSet a bundle with data and service; use Stackelberg game to encourage the service and negotiate the data price with consumers [52] Monopoly Economic-Based PricingAlternate optimal multi-step pricing schemeCompute the most closest pricing in case of fallaciesPropose a general framework to compute the proﬁt for a licensed datasets pricing and consider with Willingness to Pay (WTP) of consumer side, and then obtain the maximizing proﬁt [78] Monopoly Economic-Based Pricing Economic-Based schemesCreate the differential digital productCalculate the differentiation of digital product and create the “differential delay”, then, pricing the digital product depends on the differentiations [79] MonopolyGame Theory-Based PricingStackelberg Game-Based PricingUse concave increasing function and Stackelberg game to maximize the proﬁt of datasetsCreate a digital market model with sensors, datasets, and consumers and use Stackelberg game model to obtain the maximum proﬁt [80] Strong competitionEconomic-Based Pricing and Auction-Based PricingEconomic-based schemes and Bargaining gameCalculate the cost and build economic modelBuild the economic model to analyze and calculate the cost of a certain datasets, and then, use Bargaining game to conﬁrm price of the datasets [81] Oligopoly Economic-Based PricingStatistics and Machine learning (Time-Dependent Pricing based on K-Nearest Neighbors (TDP-KNN) algorithm pricing algorithm and Time-Dependent Pricing based on Transition Rules (TDP-TR) pricing algorithm)Collect the usage of a certain datasetUse machine learning TDP-KNN algorithm) to collect and analyze the usage of some datasets and calculate the future usage expectation, and then, price the data [82] Monopoly Economic-Based Pricing Genetic algorithmDesign an assessment methods for exist data product and obtain its multi-dimensionality and dimensionsCreate a data-pricing tow level programming model depends on the quality and the proﬁt, and using genetic algorithm solves the model [83] Strong competition Economic-Based Pricing Snowballing AlgorithmDesign the market rule and the pricing modelsDesign a market model to create the selling database, and analyze the database 2169-3536 (c) 2018 IEEE.",
