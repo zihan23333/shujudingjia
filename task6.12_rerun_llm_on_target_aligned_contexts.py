@@ -21,7 +21,7 @@ OUTPUT_PATH = ROOT / "llm_results_target_aligned_v2.csv"
 RESULTS_DIR = ROOT / "results"
 
 SCORABLE_STATUSES = {"high_confidence", "grouped", "range"}
-API_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4.1-mini")
+API_MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
 
 SECTION_WEIGHT_MAP = {
     "Introduction": 0.4,
@@ -112,13 +112,12 @@ def build_prompt(row: pd.Series) -> str:
 
 
 def try_call_openai(prompt: str) -> Optional[Dict[str, object]]:
-    api_key = os.environ.get("OPENAI_API_KEY", "").strip()
-    if not api_key:
-        return None
+    api_key = "sk-36a710df726445e8bbb75b7604d58830"
+    
     payload = {
         "model": API_MODEL,
-        "input": prompt,
-        "text": {"format": {"type": "json_object"}},
+        "messages": [{"role": "user", "content": prompt}],
+        "response_format": {"type": "json_object"}
     }
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -126,27 +125,25 @@ def try_call_openai(prompt: str) -> Optional[Dict[str, object]]:
     }
     try:
         response = requests.post(
-            "https://api.openai.com/v1/responses",
+            "https://api.deepseek.com/chat/completions",
             headers=headers,
             json=payload,
             timeout=90,
         )
         response.raise_for_status()
         data = response.json()
-        text = ""
-        for item in data.get("output", []):
-            for content in item.get("content", []):
-                if content.get("type") == "output_text":
-                    text += content.get("text", "")
+        
+        text = data.get("choices", [])[0].get("message", {}).get("content", "")
         if not text:
             return None
+            
         parsed = json.loads(text)
         parsed["raw_llm_response"] = text
-        parsed["scoring_backend"] = f"openai:{API_MODEL}"
+        parsed["scoring_backend"] = f"deepseek:{API_MODEL}"
         return parsed
-    except Exception:
+    except Exception as e:
+        print(f"\n⚠️ API 报错: {e}")
         return None
-
 
 NEGATIVE_CUES = [
     "however",

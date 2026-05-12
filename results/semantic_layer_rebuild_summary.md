@@ -17,6 +17,6 @@ The current v2 semantic layer is derived from target-aligned citation contexts, 
 | old_LLM_scored_edges_count | 123.000000 |
 | old_LLM_retained_high_confidence_count | 54.000000 |
 
-- Main semantic backend observed in `llm_results_target_aligned_v2.csv`: `offline_rule_based_fallback`
+- Main semantic backend observed in `llm_results_target_aligned_v2.csv`: `deepseek:deepseek-chat`
 - Confidence is retained only as a quality-control field and does not enter the main formula.
 - Institution relations remain excluded from the main model and are only used in extended robustness analysis.
