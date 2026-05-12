@@ -1,7 +1,7 @@
 ﻿Method,Score column,Spearman with Full model v2,Kendall with Full model v2,Top-5 overlap,Top-10 overlap,Mean rank change,Max rank change
-Citation Count,citation_count_score,0.8313150412325911,0.7041841206279593,1,4,12.476190476190476,70.5
-Unweighted PageRank,unweighted_pagerank_score,0.935717322108057,0.8191841234840131,4,5,7.619047619047619,33.0
-Time-aware PageRank,time_aware_pagerank_score,0.9948055448993768,0.9647188533627341,5,10,1.4666666666666666,18.0
-Semantic-weighted PageRank,semantic_pagerank_score_v2,0.9969206523654988,0.9724366041896361,5,10,1.161904761904762,14.0
-Semantic-temporal PageRank,semantic_temporal_score_v2,0.997884892533878,0.9797868430723997,5,10,0.8761904761904762,9.0
+Citation Count,citation_count_score,0.8352661041316614,0.7078738461748703,1,4,12.561904761904762,65.5
+Unweighted PageRank,unweighted_pagerank_score,0.9385270972223662,0.821021683204704,4,5,7.466666666666667,36.0
+Time-aware PageRank,time_aware_pagerank_score,0.994732967682402,0.9599411980889377,5,10,1.7142857142857142,12.0
+Semantic-weighted PageRank,semantic_pagerank_score_v2,0.996713288888428,0.9720690922454979,5,10,1.180952380952381,13.0
+Semantic-temporal PageRank,semantic_temporal_score_v2,0.9967962342792565,0.9775817714075706,5,10,1.0285714285714285,11.0
 Full model v2,full_model_score_v2,1.0,1.0,5,10,0.0,0.0

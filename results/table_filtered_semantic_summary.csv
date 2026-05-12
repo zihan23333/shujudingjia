@@ -1,5 +1,5 @@
 ﻿metric,value
 total_llm_edges,123.0
-kept_original_semantic_edges,45.0
-fallback_default_edges,78.0
-kept_ratio,0.36585365853658536
+kept_original_semantic_edges,56.0
+fallback_default_edges,67.0
+kept_ratio,0.45528455284552843

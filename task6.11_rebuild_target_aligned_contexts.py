@@ -31,8 +31,8 @@ from run_experiments import (
 
 ROOT = Path(__file__).resolve().parent
 PDF_ROOTS = [
+    Path(r"C:\Users\76846\Desktop\new\pdfs"),  # 改成你的实际路径
     ROOT / "llm_reliability_annotation_package" / "source_pdfs_for_section_check",
-    ROOT.parent / "数据定价" / "pdfs",
 ]
 TARGET_ALIGNED_PATH = ROOT / "target_aligned_contexts.csv"
 FILTERED_LLM_PATH = ROOT / "llm_results_filtered.csv"
@@ -474,8 +474,8 @@ def rebuild_target_aligned_contexts() -> Tuple[pd.DataFrame, pd.DataFrame]:
         )
 
     aligned = pd.DataFrame(rows)
-    aligned.to_csv(TARGET_ALIGNED_PATH, index=False, encoding="utf-8-sig")
-
+# 改成
+    aligned.to_csv(TARGET_ALIGNED_PATH, index=False, encoding="utf-8-sig", escapechar="\\")
     summary = pd.DataFrame(
         [
             {"metric": "total_citation_edges", "value": int(len(aligned))},

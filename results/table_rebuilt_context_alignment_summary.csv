@@ -1,9 +1,9 @@
 ﻿metric,value
 total_citation_edges,204.0
 exact_count,0.0
-high_confidence_count,63.0
-grouped_count,14.0
+high_confidence_count,73.0
+grouped_count,17.0
 range_count,1.0
-ambiguous_count,10.0
-failed_count,116.0
-alignment_success_ratio,0.38235294117647056
+ambiguous_count,16.0
+failed_count,97.0
+alignment_success_ratio,0.44607843137254904

@@ -1,62 +1,68 @@
 ﻿edge_id,source_id,target_id,citing_paper_title,cited_paper_title,alignment_status,target_reference_marker,num_mentions,section,sentiment,relevance,confidence,q_ij,raw_llm_response,scoring_backend
-W4323644227->W2168402580,W4323644227,W2168402580,A Survey of Data Pricing for Data Marketplaces,Query-based data pricing,high_confidence,[121],3,Methodology,0.6,0.8,0.9,0.5120000000000001,"{
+W4323644227->W2168402580,W4323644227,W2168402580,A Survey of Data Pricing for Data Marketplaces,Query-based data pricing,high_confidence,17,1,Methodology,0.0,0.1,0.9,0.005000000000000001,"{
   ""section"": ""Methodology"",
-  ""sentiment"": 0.6,
-  ""relevance"": 0.8,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W4210813858->W2533772775,W4210813858,W2533772775,Data Boundary and Data Pricing Based on the Shapley Value,A pricing model for Big Personal Data,high_confidence,[17],1,Introduction,0.5,0.3,0.8,0.027000000000000003,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.3,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W4210813858->W2743929098,W4210813858,W2743929098,Data Boundary and Data Pricing Based on the Shapley Value,Data pricing strategy based on data quality,high_confidence,[18],1,Introduction,0.0,0.3,0.9,0.018,"{
-  ""section"": ""Introduction"",
   ""sentiment"": 0.0,
-  ""relevance"": 0.3,
+  ""relevance"": 0.1,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W4210813858->W2910976764,W4210813858,W2910976764,Data Boundary and Data Pricing Based on the Shapley Value,Nonrivalry and the Economics of Data,high_confidence,[7],1,Introduction,0.3,0.4,0.8,0.04160000000000001,"{
-  ""section"": ""Introduction"",
+W4210813858->W2533772775,W4210813858,W2533772775,Data Boundary and Data Pricing Based on the Shapley Value,A pricing model for Big Personal Data,high_confidence,[17],1,Methodology,0.3,0.4,0.8,0.10400000000000002,"{
+  ""section"": ""Methodology"",
   ""sentiment"": 0.3,
   ""relevance"": 0.4,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W4210813858->W3084177365,W4210813858,W3084177365,Data Boundary and Data Pricing Based on the Shapley Value,A Survey on Data Pricing: From Economics to Data Science,high_confidence,[3],1,Introduction,0.0,0.3,0.9,0.018,"{
+W4210813858->W2743929098,W4210813858,W2743929098,Data Boundary and Data Pricing Based on the Shapley Value,Data pricing strategy based on data quality,high_confidence,[18],1,Introduction,0.3,0.5,0.9,0.065,"{
   ""section"": ""Introduction"",
-  ""sentiment"": 0.0,
-  ""relevance"": 0.3,
+  ""sentiment"": 0.3,
+  ""relevance"": 0.5,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W2509511072->W1994174199,W2509511072,W1994174199,Understanding rollover data,Smart data pricing: To share or not to share?,high_confidence,[6],1,Introduction,0.0,0.5,0.8,0.05,"{
+W4210813858->W2910976764,W4210813858,W2910976764,Data Boundary and Data Pricing Based on the Shapley Value,Nonrivalry and the Economics of Data,high_confidence,[7],1,Introduction,0.0,0.2,0.9,0.008000000000000002,"{
   ""section"": ""Introduction"",
   ""sentiment"": 0.0,
+  ""relevance"": 0.2,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W4210813858->W3084177365,W4210813858,W3084177365,Data Boundary and Data Pricing Based on the Shapley Value,A Survey on Data Pricing: From Economics to Data Science,high_confidence,[3],1,Introduction,0.0,0.4,0.9,0.03200000000000001,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.4,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W2982407593->W2612128091,W2982407593,W2612128091,Trading Private Range Counting over Big IoT Data,QIRANA,high_confidence,[22],1,Introduction,0.3,0.5,0.7,0.065,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.3,
   ""relevance"": 0.5,
+  ""confidence"": 0.7
+}",deepseek:deepseek-chat
+W2509511072->W1994174199,W2509511072,W1994174199,Understanding rollover data,Smart data pricing: To share or not to share?,high_confidence,[6],1,Introduction,0.5,0.6,0.9,0.10800000000000001,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W2509511072->W2010653253,W2509511072,W2010653253,Understanding rollover data,A survey of smart data pricing,high_confidence,[1],1,Introduction,0.0,0.4,0.9,0.03200000000000001,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.4,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W4210813858->W2612128091,W4210813858,W2612128091,Data Boundary and Data Pricing Based on the Shapley Value,QIRANA,high_confidence,[27],1,Methodology,0.5,0.4,0.8,0.12000000000000002,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.4,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W2509511072->W2010653253,W2509511072,W2010653253,Understanding rollover data,A survey of smart data pricing,high_confidence,[1],1,Introduction,0.0,0.5,0.9,0.05,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.0,
-  ""relevance"": 0.5,
+W4210813858->W2293940046,W4210813858,W2293940046,Data Boundary and Data Pricing Based on the Shapley Value,Query-Based Data Pricing,high_confidence,[26],1,Methodology,0.5,0.6,0.9,0.27,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W4210813858->W2612128091,W4210813858,W2612128091,Data Boundary and Data Pricing Based on the Shapley Value,QIRANA,high_confidence,[27],1,Introduction,0.4,0.6,0.9,0.10079999999999999,"{
+W2508874533->W2010653253,W2508874533,W2010653253,Smart Media Pricing (SMP): Non-uniform packet pricing game for wireless multimedia communications,A survey of smart data pricing,grouped,[1],3,Introduction,0.4,0.7,0.8,0.13719999999999996,"{
   ""section"": ""Introduction"",
   ""sentiment"": 0.4,
-  ""relevance"": 0.6,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W4210813858->W2293940046,W4210813858,W2293940046,Data Boundary and Data Pricing Based on the Shapley Value,Query-Based Data Pricing,high_confidence,[26],1,Introduction,0.5,0.6,0.8,0.10800000000000001,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.6,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W2508874533->W2010653253,W2508874533,W2010653253,Smart Media Pricing (SMP): Non-uniform packet pricing game for wireless multimedia communications,A survey of smart data pricing,grouped,[1],3,Introduction,0.5,0.6,0.8,0.10800000000000001,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.6,
+  ""relevance"": 0.7,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
 W4226305897->W2734426755,W4226305897,W2734426755,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,An Online Pricing Mechanism for Mobile Crowdsensing Data Markets,grouped,56,1,Introduction,0.0,0.2,0.9,0.008000000000000002,"{
@@ -65,106 +71,112 @@ W4226305897->W2734426755,W4226305897,W2734426755,Business Data Sharing through D
   ""relevance"": 0.2,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W4226305897->W2743929098,W4226305897,W2743929098,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Data pricing strategy based on data quality,high_confidence,63,1,Methodology,0.4,0.3,0.8,0.063,"{
-  ""section"": ""Methodology"",
+W4226305897->W2743929098,W4226305897,W2743929098,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Data pricing strategy based on data quality,high_confidence,63,1,Discussion,0.4,0.5,0.8,0.12249999999999998,"{
+  ""section"": ""Discussion"",
   ""sentiment"": 0.4,
-  ""relevance"": 0.3,
+  ""relevance"": 0.5,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W4226305897->W2765365501,W4226305897,W2765365501,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Pricing of Data Products in Data Marketplaces,grouped,47,3,Result,0.5,0.6,0.9,0.27,"{
+W4226305897->W2765365501,W4226305897,W2765365501,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Pricing of Data Products in Data Marketplaces,grouped,47,3,Discussion,0.5,0.6,0.8,0.18899999999999997,"{
+  ""section"": ""Discussion"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W4226305897->W2790400697,W4226305897,W2790400697,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,"A Survey on Big Data Market: Pricing, Trading and Protection",grouped,139,2,Discussion,0.3,0.5,0.9,0.11374999999999999,"{
+  ""section"": ""Discussion"",
+  ""sentiment"": 0.3,
+  ""relevance"": 0.5,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W4226305897->W2920282816,W4226305897,W2920282816,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective,grouped,129,2,Result,0.5,0.7,0.9,0.36749999999999994,"{
   ""section"": ""Result"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.7,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3202603574->W2974598553,W3202603574,W2974598553,"COVID-19 acceleration in digitalisation, aggregate productivity growth and the functional income distribution",Too Much Data: Prices and Inefficiencies in Data Markets,high_confidence,10,1,Introduction,0.0,0.1,0.7,0.0020000000000000005,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.1,
+  ""confidence"": 0.7
+}",deepseek:deepseek-chat
+W4377865288->W2910976764,W4377865288,W2910976764,"The Dimensions of Data Labor: A Road Map for Researchers, Activists, and Policymakers to Empower Data Producers",Nonrivalry and the Economics of Data,grouped,[39],2,Introduction,0.5,0.7,0.9,0.147,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.7,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W4226305897->W2293940046,W4226305897,W2293940046,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Query-Based Data Pricing,high_confidence,51,1,Introduction,0.5,0.6,0.9,0.10800000000000001,"{
+  ""section"": ""Introduction"",
   ""sentiment"": 0.5,
   ""relevance"": 0.6,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W4226305897->W2790400697,W4226305897,W2790400697,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,"A Survey on Big Data Market: Pricing, Trading and Protection",grouped,139,2,Result,0.3,0.5,0.8,0.1625,"{
-  ""section"": ""Result"",
-  ""sentiment"": 0.3,
-  ""relevance"": 0.5,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W4226305897->W2920282816,W4226305897,W2920282816,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective,grouped,129,2,Result,0.3,0.6,0.8,0.23399999999999999,"{
-  ""section"": ""Result"",
-  ""sentiment"": 0.3,
+W2934375453->W2743929098,W2934375453,W2743929098,Personal Data Market Optimization Pricing Model Based on Privacy Level,Data pricing strategy based on data quality,grouped,18,2,Methodology,0.5,0.6,0.8,0.27,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
   ""relevance"": 0.6,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W4323644227->W2612128091,W4323644227,W2612128091,A Survey of Data Pricing for Data Marketplaces,QIRANA,high_confidence,[55],3,Methodology,0.5,0.8,0.9,0.4800000000000001,"{
+W2934375453->W2759182208,W2934375453,W2759182208,Personal Data Market Optimization Pricing Model Based on Privacy Level,Pricing privacy – the right to know the value of your personal data,grouped,14,1,Methodology,0.5,0.6,0.8,0.27,"{
   ""section"": ""Methodology"",
   ""sentiment"": 0.5,
-  ""relevance"": 0.8,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W3202603574->W2974598553,W3202603574,W2974598553,"COVID-19 acceleration in digitalisation, aggregate productivity growth and the functional income distribution",Too Much Data: Prices and Inefficiencies in Data Markets,high_confidence,10,1,Other,0.0,0.2,0.8,0.004000000000000001,"{
-  ""section"": ""Other"",
-  ""sentiment"": 0.0,
-  ""relevance"": 0.2,
+  ""relevance"": 0.6,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W4377865288->W2910976764,W4377865288,W2910976764,"The Dimensions of Data Labor: A Road Map for Researchers, Activists, and Policymakers to Empower Data Producers",Nonrivalry and the Economics of Data,grouped,[39],2,Introduction,0.4,0.7,0.9,0.13719999999999996,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.4,
-  ""relevance"": 0.7,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W4226305897->W2293940046,W4226305897,W2293940046,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Query-Based Data Pricing,high_confidence,51,1,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W3195579788->W2168402580,W3195579788,W2168402580,Data pricing in machine learning pipelines,Query-based data pricing,high_confidence,58,9,Introduction,0.3,0.5,0.8,0.065,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.3,
-  ""relevance"": 0.5,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W3195579788->W2612128091,W3195579788,W2612128091,Data pricing in machine learning pipelines,QIRANA,high_confidence,29,6,Introduction,0.5,0.7,0.9,0.147,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W3195579788->W2743929098,W3195579788,W2743929098,Data pricing in machine learning pipelines,Data pricing strategy based on data quality,high_confidence,117,3,Methodology,0.5,0.7,0.8,0.36749999999999994,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W3195579788->W2765365501,W3195579788,W2765365501,Data pricing in machine learning pipelines,Pricing of Data Products in Data Marketplaces,grouped,35,2,Methodology,0.3,0.4,0.8,0.10400000000000002,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.3,
-  ""relevance"": 0.4,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W3195579788->W2790400697,W3195579788,W2790400697,Data pricing in machine learning pipelines,"A Survey on Big Data Market: Pricing, Trading and Protection",grouped,63,1,Introduction,0.0,0.3,0.9,0.018,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.0,
-  ""relevance"": 0.3,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W3195579788->W3084177365,W3195579788,W3084177365,Data pricing in machine learning pipelines,A Survey on Data Pricing: From Economics to Data Science,grouped,86,8,Introduction,0.5,0.8,0.9,0.19200000000000006,"{
+W3195579788->W2168402580,W3195579788,W2168402580,Data pricing in machine learning pipelines,Query-based data pricing,high_confidence,58,9,Introduction,0.5,0.8,0.9,0.19200000000000006,"{
   ""section"": ""Introduction"",
   ""sentiment"": 0.5,
   ""relevance"": 0.8,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3084177365->W2010653253,W3084177365,W2010653253,A Survey on Data Pricing: From Economics to Data Science,A survey of smart data pricing,high_confidence,[181],1,Introduction,0.5,0.5,0.9,0.07500000000000001,"{
-  ""section"": ""Introduction"",
+W3195579788->W2612128091,W3195579788,W2612128091,Data pricing in machine learning pipelines,QIRANA,high_confidence,29,6,Discussion,0.5,0.7,0.9,0.2572499999999999,"{
+  ""section"": ""Discussion"",
   ""sentiment"": 0.5,
-  ""relevance"": 0.5,
+  ""relevance"": 0.7,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3084177365->W2168402580,W3084177365,W2168402580,A Survey on Data Pricing: From Economics to Data Science,Query-based data pricing,high_confidence,[121],3,Result,0.5,0.9,0.9,0.6075,"{
-  ""section"": ""Result"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.9,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W3084177365->W2293940046,W3084177365,W2293940046,A Survey on Data Pricing: From Economics to Data Science,Query-Based Data Pricing,high_confidence,[121],3,Introduction,0.5,0.7,0.9,0.147,"{
+W3195579788->W2743929098,W3195579788,W2743929098,Data pricing in machine learning pipelines,Data pricing strategy based on data quality,high_confidence,117,3,Introduction,0.5,0.7,0.9,0.147,"{
   ""section"": ""Introduction"",
   ""sentiment"": 0.5,
   ""relevance"": 0.7,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3195579788->W2765365501,W3195579788,W2765365501,Data pricing in machine learning pipelines,Pricing of Data Products in Data Marketplaces,grouped,35,2,Result,0.4,0.6,0.9,0.252,"{
+  ""section"": ""Result"",
+  ""sentiment"": 0.4,
+  ""relevance"": 0.6,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3195579788->W2790400697,W3195579788,W2790400697,Data pricing in machine learning pipelines,"A Survey on Big Data Market: Pricing, Trading and Protection",grouped,63,1,Introduction,0.0,0.5,0.9,0.05,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.5,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3195579788->W3084177365,W3195579788,W3084177365,Data pricing in machine learning pipelines,A Survey on Data Pricing: From Economics to Data Science,grouped,86,8,Discussion,0.0,0.7,0.8,0.17149999999999996,"{
+  ""section"": ""Discussion"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.7,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W3084177365->W2010653253,W3084177365,W2010653253,A Survey on Data Pricing: From Economics to Data Science,A survey of smart data pricing,high_confidence,[181],1,Introduction,0.5,0.7,0.9,0.147,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.7,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3084177365->W2168402580,W3084177365,W2168402580,A Survey on Data Pricing: From Economics to Data Science,Query-based data pricing,high_confidence,[121],3,Methodology,0.5,0.8,0.9,0.4800000000000001,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.8,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3084177365->W2293940046,W3084177365,W2293940046,A Survey on Data Pricing: From Economics to Data Science,Query-Based Data Pricing,high_confidence,[121],3,Methodology,0.5,0.8,0.9,0.4800000000000001,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.8,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
 W3084177365->W2612128091,W3084177365,W2612128091,A Survey on Data Pricing: From Economics to Data Science,QIRANA,high_confidence,[55],3,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
@@ -173,226 +185,274 @@ W3084177365->W2612128091,W3084177365,W2612128091,A Survey on Data Pricing: From 
   ""relevance"": 0.7,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3084177365->W2734426755,W3084177365,W2734426755,A Survey on Data Pricing: From Economics to Data Science,An Online Pricing Mechanism for Mobile Crowdsensing Data Markets,high_confidence,[223],1,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
+W3084177365->W2734426755,W3084177365,W2734426755,A Survey on Data Pricing: From Economics to Data Science,An Online Pricing Mechanism for Mobile Crowdsensing Data Markets,high_confidence,[223],1,Introduction,0.4,0.6,0.9,0.10079999999999999,"{
+  ""section"": ""Related Work"",
+  ""sentiment"": 0.4,
+  ""relevance"": 0.6,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3084177365->W2743929098,W3084177365,W2743929098,A Survey on Data Pricing: From Economics to Data Science,Data pricing strategy based on data quality,high_confidence,[219],1,Methodology,0.5,0.4,0.85,0.12000000000000002,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.4,
+  ""confidence"": 0.85
+}",deepseek:deepseek-chat
+W3084177365->W2765365501,W3084177365,W2765365501,A Survey on Data Pricing: From Economics to Data Science,Pricing of Data Products in Data Marketplaces,high_confidence,[75],2,Introduction,0.3,0.4,0.9,0.04160000000000001,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.3,
+  ""relevance"": 0.4,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3084177365->W2790400697,W3084177365,W2790400697,A Survey on Data Pricing: From Economics to Data Science,"A Survey on Big Data Market: Pricing, Trading and Protection",high_confidence,[136],2,Introduction,0.5,0.6,0.9,0.10800000000000001,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W2790400697->W2765365501,W2790400697,W2765365501,"A Survey on Big Data Market: Pricing, Trading and Protection",Pricing of Data Products in Data Marketplaces,high_confidence,[83],1,Methodology,0.5,0.7,0.8,0.36749999999999994,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.7,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W3040491562->W2533772775,W3040491562,W2533772775,Subscription-Based Data-Sharing Model Using Blockchain and Data as a Service,A pricing model for Big Personal Data,high_confidence,[28],1,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
   ""section"": ""Methodology"",
   ""sentiment"": 0.5,
   ""relevance"": 0.7,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3084177365->W2743929098,W3084177365,W2743929098,A Survey on Data Pricing: From Economics to Data Science,Data pricing strategy based on data quality,high_confidence,[219],1,Methodology,0.5,0.6,0.9,0.27,"{
+W2790400697->W2743929098,W2790400697,W2743929098,"A Survey on Big Data Market: Pricing, Trading and Protection",Data pricing strategy based on data quality,high_confidence,[82],1,Methodology,0.5,0.6,0.8,0.27,"{
   ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W3002742063->W2289113545,W3002742063,W2289113545,Monetization of Services Provided by Public Fog Nodes Using Blockchain and Smart Contracts,Smart data pricing models for the internet of things: a bundling strategy approach,high_confidence,[19],1,Introduction,0.5,0.6,0.9,0.10800000000000001,"{
+  ""section"": ""Introduction"",
   ""sentiment"": 0.5,
   ""relevance"": 0.6,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3084177365->W2765365501,W3084177365,W2765365501,A Survey on Data Pricing: From Economics to Data Science,Pricing of Data Products in Data Marketplaces,high_confidence,[75],2,Introduction,0.3,0.5,0.9,0.065,"{
+W3089176333->W2293940046,W3089176333,W2293940046,Towards Query Pricing on Incomplete Data,Query-Based Data Pricing,high_confidence,[14],3,Introduction,0.5,0.6,0.9,0.10800000000000001,"{
   ""section"": ""Introduction"",
-  ""sentiment"": 0.3,
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3089176333->W2612128091,W3089176333,W2612128091,Towards Query Pricing on Incomplete Data,QIRANA,high_confidence,[16],5,Methodology,0.5,0.6,0.8,0.27,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W3089176333->W2920282816,W3089176333,W2920282816,Towards Query Pricing on Incomplete Data,Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective,high_confidence,[44],1,Introduction,0.0,0.3,0.8,0.018,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.3,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W2533772775->W2168402580,W2533772775,W2168402580,A pricing model for Big Personal Data,Query-based data pricing,high_confidence,[8],1,Methodology,0.7,0.6,0.7,0.306,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.7,
+  ""relevance"": 0.6,
+  ""confidence"": 0.7
+}",deepseek:deepseek-chat
+W2996741051->W2010653253,W2996741051,W2010653253,Dynamic Pricing for Revenue Maximization in Mobile Social Data Market With Network Effects,A survey of smart data pricing,high_confidence,[14],3,Introduction,0.5,0.7,0.9,0.147,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.7,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W2473283431->W2180742472,W2473283431,W2180742472,Data Collection and Wireless Communication in Internet of Things (IoT) Using Economic Analysis and Pricing Models: A Survey,Smart data pricing,high_confidence,[30],3,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.7,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W2790400697->W2168402580,W2790400697,W2168402580,"A Survey on Big Data Market: Pricing, Trading and Protection",Query-based data pricing,high_confidence,[76],1,Introduction,0.5,0.3,0.8,0.027000000000000003,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.3,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W2790400697->W2289113545,W2790400697,W2289113545,"A Survey on Big Data Market: Pricing, Trading and Protection",Smart data pricing models for the internet of things: a bundling strategy approach,high_confidence,[77],1,Discussion,0.6,0.5,0.9,0.13999999999999999,"{
+  ""section"": ""Discussion"",
+  ""sentiment"": 0.6,
   ""relevance"": 0.5,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3084177365->W2790400697,W3084177365,W2790400697,A Survey on Data Pricing: From Economics to Data Science,"A Survey on Big Data Market: Pricing, Trading and Protection",high_confidence,[136],2,Introduction,0.5,0.6,0.8,0.10800000000000001,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.5,
+W2790400697->W2293940046,W2790400697,W2293940046,"A Survey on Big Data Market: Pricing, Trading and Protection",Query-Based Data Pricing,high_confidence,[76],1,Methodology,0.3,0.6,0.8,0.23399999999999999,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.3,
   ""relevance"": 0.6,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W2790400697->W2765365501,W2790400697,W2765365501,"A Survey on Big Data Market: Pricing, Trading and Protection",Pricing of Data Products in Data Marketplaces,high_confidence,[83],1,Methodology,0.5,0.6,0.8,0.27,"{
+W2790400697->W2473283431,W2790400697,W2473283431,"A Survey on Big Data Market: Pricing, Trading and Protection",Data Collection and Wireless Communication in Internet of Things (IoT) Using Economic Analysis and Pricing Models: A Survey,high_confidence,[56],2,Methodology,0.5,0.6,0.9,0.27,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W2790400697->W2533772775,W2790400697,W2533772775,"A Survey on Big Data Market: Pricing, Trading and Protection",A pricing model for Big Personal Data,high_confidence,[15],1,Introduction,0.0,0.2,0.9,0.008000000000000002,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.2,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W2790400697->W2734426755,W2790400697,W2734426755,"A Survey on Big Data Market: Pricing, Trading and Protection",An Online Pricing Mechanism for Mobile Crowdsensing Data Markets,high_confidence,[75],1,Result,0.3,0.6,0.7,0.23399999999999999,"{
+  ""section"": ""Result"",
+  ""sentiment"": 0.3,
+  ""relevance"": 0.6,
+  ""confidence"": 0.7
+}",deepseek:deepseek-chat
+W4226305897->W2533772775,W4226305897,W2533772775,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,A pricing model for Big Personal Data,grouped,133,2,Result,0.5,0.7,0.9,0.36749999999999994,"{
+  ""section"": ""Result"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.7,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3021125948->W2010653253,W3021125948,W2010653253,Contract Design in Hierarchical Game for Sponsored Content Service Market,A survey of smart data pricing,high_confidence,[35],1,Methodology,0.5,0.3,0.9,0.0675,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.3,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W4226305897->W2018362551,W4226305897,W2018362551,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,The challenges of personal data markets and privacy,range,123,2,Result,0.0,0.5,0.8,0.125,"{
+  ""section"": ""Result"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.5,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W2942073230->W2289113545,W2942073230,W2289113545,Big Data Market Optimization Pricing Model Based on Data Quality,Smart data pricing models for the internet of things: a bundling strategy approach,high_confidence,[17],1,Methodology,0.5,0.6,0.8,0.27,"{
   ""section"": ""Methodology"",
   ""sentiment"": 0.5,
   ""relevance"": 0.6,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W2790400697->W2743929098,W2790400697,W2743929098,"A Survey on Big Data Market: Pricing, Trading and Protection",Data pricing strategy based on data quality,high_confidence,[82],1,Methodology,0.5,0.4,0.8,0.12000000000000002,"{
+W2942073230->W2293940046,W2942073230,W2293940046,Big Data Market Optimization Pricing Model Based on Data Quality,Query-Based Data Pricing,high_confidence,[21],1,Methodology,0.5,0.6,0.9,0.27,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W2942073230->W2533772775,W2942073230,W2533772775,Big Data Market Optimization Pricing Model Based on Data Quality,A pricing model for Big Personal Data,high_confidence,[21],1,Introduction,0.0,0.2,0.8,0.008000000000000002,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.2,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W2942073230->W2765365501,W2942073230,W2765365501,Big Data Market Optimization Pricing Model Based on Data Quality,Pricing of Data Products in Data Marketplaces,grouped,[1],2,Methodology,0.5,0.4,0.8,0.12000000000000002,"{
   ""section"": ""Methodology"",
   ""sentiment"": 0.5,
   ""relevance"": 0.4,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W3089176333->W2293940046,W3089176333,W2293940046,Towards Query Pricing on Incomplete Data,Query-Based Data Pricing,high_confidence,[14],3,Introduction,0.5,0.7,0.9,0.147,"{
-  ""section"": ""Introduction"",
+W2921968831->W2759182208,W2921968831,W2759182208,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,Pricing privacy – the right to know the value of your personal data,high_confidence,[18],5,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
+  ""section"": ""Methodology"",
   ""sentiment"": 0.5,
   ""relevance"": 0.7,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3089176333->W2612128091,W3089176333,W2612128091,Towards Query Pricing on Incomplete Data,QIRANA,high_confidence,[16],5,Introduction,0.5,0.6,0.8,0.10800000000000001,"{
-  ""section"": ""Introduction"",
+W2921968831->W2533772775,W2921968831,W2533772775,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,A pricing model for Big Personal Data,high_confidence,[30],1,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
+  ""section"": ""Methodology"",
   ""sentiment"": 0.5,
+  ""relevance"": 0.7,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W2921968831->W1841962286,W2921968831,W1841962286,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,A Priced Public Sensing Framework for Heterogeneous IoT Architectures,high_confidence,[23],1,Introduction,0.4,0.6,0.9,0.10079999999999999,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.4,
   ""relevance"": 0.6,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W2906578628->W2473283431,W2906578628,W2473283431,The Internet of Things: A Review of Enabled Technologies and Future Challenges,Data Collection and Wireless Communication in Internet of Things (IoT) Using Economic Analysis and Pricing Models: A Survey,high_confidence,[3],13,Discussion,0.4,0.7,0.8,0.24009999999999992,"{
+  ""section"": ""Discussion"",
+  ""sentiment"": 0.4,
+  ""relevance"": 0.7,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W3089176333->W2920282816,W3089176333,W2920282816,Towards Query Pricing on Incomplete Data,Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective,high_confidence,[44],1,Introduction,0.5,0.6,0.8,0.10800000000000001,"{
+W2921968831->W2790400697,W2921968831,W2790400697,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,"A Survey on Big Data Market: Pricing, Trading and Protection",high_confidence,[19],2,Introduction,0.0,0.5,0.9,0.05,"{
   ""section"": ""Introduction"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.6,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W2533772775->W2168402580,W2533772775,W2168402580,A pricing model for Big Personal Data,Query-based data pricing,high_confidence,[8],1,Methodology,0.5,0.7,0.8,0.36749999999999994,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W2473283431->W2180742472,W2473283431,W2180742472,Data Collection and Wireless Communication in Internet of Things (IoT) Using Economic Analysis and Pricing Models: A Survey,Smart data pricing,high_confidence,[30],3,Methodology,0.5,0.9,0.8,0.6075,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.9,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W2790400697->W2168402580,W2790400697,W2168402580,"A Survey on Big Data Market: Pricing, Trading and Protection",Query-based data pricing,high_confidence,[76],1,Methodology,0.5,0.8,0.9,0.4800000000000001,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.8,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W2790400697->W2289113545,W2790400697,W2289113545,"A Survey on Big Data Market: Pricing, Trading and Protection",Smart data pricing models for the internet of things: a bundling strategy approach,high_confidence,[77],1,Methodology,0.6,0.8,0.9,0.5120000000000001,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.6,
-  ""relevance"": 0.8,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W2790400697->W2293940046,W2790400697,W2293940046,"A Survey on Big Data Market: Pricing, Trading and Protection",Query-Based Data Pricing,high_confidence,[76],1,Methodology,0.5,0.7,0.8,0.36749999999999994,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W2790400697->W2473283431,W2790400697,W2473283431,"A Survey on Big Data Market: Pricing, Trading and Protection",Data Collection and Wireless Communication in Internet of Things (IoT) Using Economic Analysis and Pricing Models: A Survey,high_confidence,[56],2,Methodology,0.6,0.7,0.9,0.39199999999999996,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.6,
-  ""relevance"": 0.7,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W2790400697->W2533772775,W2790400697,W2533772775,"A Survey on Big Data Market: Pricing, Trading and Protection",A pricing model for Big Personal Data,high_confidence,[15],1,Introduction,0.5,0.7,0.9,0.147,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W2790400697->W2734426755,W2790400697,W2734426755,"A Survey on Big Data Market: Pricing, Trading and Protection",An Online Pricing Mechanism for Mobile Crowdsensing Data Markets,high_confidence,[75],1,Methodology,0.3,0.5,0.9,0.1625,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.3,
-  ""relevance"": 0.5,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W4226305897->W2533772775,W4226305897,W2533772775,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,A pricing model for Big Personal Data,grouped,133,2,Other,0.5,0.7,0.8,0.0735,"{
-  ""section"": ""Other"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W4226305897->W2018362551,W4226305897,W2018362551,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,The challenges of personal data markets and privacy,range,123,2,Result,0.0,0.3,0.8,0.045,"{
-  ""section"": ""Result"",
   ""sentiment"": 0.0,
-  ""relevance"": 0.3,
-  ""confidence"": 0.8
-}",deepseek:deepseek-chat
-W2942073230->W2289113545,W2942073230,W2289113545,Big Data Market Optimization Pricing Model Based on Data Quality,Smart data pricing models for the internet of things: a bundling strategy approach,high_confidence,[17],1,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
+  ""relevance"": 0.5,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W2942073230->W2293940046,W2942073230,W2293940046,Big Data Market Optimization Pricing Model Based on Data Quality,Query-Based Data Pricing,high_confidence,[21],1,Introduction,0.5,0.6,0.9,0.10800000000000001,"{
-  ""section"": ""Introduction"",
+W4319769514->W2293940046,W4319769514,W2293940046,"Data-Driven Learning for Data Rights, Data Pricing, and Privacy Computing",Query-Based Data Pricing,high_confidence,[25],1,Methodology,0.5,0.6,0.9,0.27,"{
+  ""section"": ""Methodology"",
   ""sentiment"": 0.5,
   ""relevance"": 0.6,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W2942073230->W2533772775,W2942073230,W2533772775,Big Data Market Optimization Pricing Model Based on Data Quality,A pricing model for Big Personal Data,high_confidence,[21],1,Introduction,0.3,0.5,0.8,0.065,"{
+W2993467838->W2790400697,W2993467838,W2790400697,Evaluation of big data frameworks for analysis of smart grids,"A Survey on Big Data Market: Pricing, Trading and Protection",high_confidence,7,1,Introduction,0.6,0.7,0.9,0.15680000000000002,"{
   ""section"": ""Introduction"",
-  ""sentiment"": 0.3,
-  ""relevance"": 0.5,
-  ""confidence"": 0.8
+  ""sentiment"": 0.6,
+  ""relevance"": 0.7,
+  ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W2942073230->W2765365501,W2942073230,W2765365501,Big Data Market Optimization Pricing Model Based on Data Quality,Pricing of Data Products in Data Marketplaces,grouped,[1],2,Methodology,0.5,0.4,0.7,0.12000000000000002,"{
-  ""section"": ""Methodology"",
+W3021370403->W2790400697,W3021370403,W2790400697,TIDES: A Trust-Aware IoT Data Economic System With Blockchain-Enabled Multi-Access Edge Computing,"A Survey on Big Data Market: Pricing, Trading and Protection",high_confidence,[1],2,Introduction,0.5,0.4,0.9,0.048000000000000015,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.4,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W4284704402->W3215634159,W4284704402,W3215634159,"A Taxonomy on Smart Healthcare Technologies: Security Framework, Case Study, and Future Directions",Coalition Game and Blockchain-Based Optimal Data Pricing Scheme for Ride Sharing Beyond 5G,high_confidence,[167],1,Other,0.5,0.4,0.7,0.024000000000000007,"{
+  ""section"": ""Other"",
   ""sentiment"": 0.5,
   ""relevance"": 0.4,
   ""confidence"": 0.7
 }",deepseek:deepseek-chat
-W2921968831->W2759182208,W2921968831,W2759182208,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,Pricing privacy – the right to know the value of your personal data,high_confidence,[18],5,Methodology,0.6,0.8,0.9,0.5120000000000001,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.6,
-  ""relevance"": 0.8,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W2921968831->W2533772775,W2921968831,W2533772775,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,A pricing model for Big Personal Data,high_confidence,[30],1,Methodology,0.5,0.6,0.9,0.27,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.6,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W2921968831->W1841962286,W2921968831,W1841962286,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,A Priced Public Sensing Framework for Heterogeneous IoT Architectures,high_confidence,[23],1,Introduction,0.3,0.3,0.8,0.0234,"{
+W4319769514->W3084177365,W4319769514,W3084177365,"Data-Driven Learning for Data Rights, Data Pricing, and Privacy Computing",A Survey on Data Pricing: From Economics to Data Science,high_confidence,[1],1,Introduction,0.3,0.3,0.8,0.0234,"{
   ""section"": ""Introduction"",
   ""sentiment"": 0.3,
   ""relevance"": 0.3,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W2906578628->W2473283431,W2906578628,W2473283431,The Internet of Things: A Review of Enabled Technologies and Future Challenges,Data Collection and Wireless Communication in Internet of Things (IoT) Using Economic Analysis and Pricing Models: A Survey,high_confidence,[3],13,Discussion,0.5,0.7,0.9,0.2572499999999999,"{
-  ""section"": ""Discussion"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W2921968831->W2790400697,W2921968831,W2790400697,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,"A Survey on Big Data Market: Pricing, Trading and Protection",high_confidence,[19],2,Introduction,0.3,0.5,0.9,0.065,"{
+W2327152018->W2010653253,W2327152018,W2010653253,AMUSE: Empowering Users for Cost-Aware Offloading with Throughput-Delay Tradeoffs,A survey of smart data pricing,high_confidence,[5],1,Introduction,0.0,0.25,0.8,0.0125,"{
   ""section"": ""Introduction"",
-  ""sentiment"": 0.3,
+  ""sentiment"": 0.0,
+  ""relevance"": 0.25,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W4288685807->W2920282816,W4288685807,W2920282816,New and emerging forms of data and technologies: literature and bibliometric review,Pricing for Revenue Maximization in IoT Data Markets: An Information Design Perspective,high_confidence,54,1,Methodology,0.6,0.5,0.9,0.2,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.6,
   ""relevance"": 0.5,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W4319769514->W2293940046,W4319769514,W2293940046,"Data-Driven Learning for Data Rights, Data Pricing, and Privacy Computing",Query-Based Data Pricing,high_confidence,[25],1,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W3021370403->W2790400697,W3021370403,W2790400697,TIDES: A Trust-Aware IoT Data Economic System With Blockchain-Enabled Multi-Access Edge Computing,"A Survey on Big Data Market: Pricing, Trading and Protection",high_confidence,[1],2,Methodology,0.5,0.8,0.9,0.4800000000000001,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.8,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W4319769514->W3084177365,W4319769514,W3084177365,"Data-Driven Learning for Data Rights, Data Pricing, and Privacy Computing",A Survey on Data Pricing: From Economics to Data Science,high_confidence,[1],1,Introduction,0.5,0.6,0.9,0.10800000000000001,"{
+W4281710558->W3215634159,W4281710558,W3215634159,Blockchain for Future Wireless Networks: A Decade Survey,Coalition Game and Blockchain-Based Optimal Data Pricing Scheme for Ride Sharing Beyond 5G,high_confidence,31,1,Introduction,0.5,0.4,0.9,0.048000000000000015,"{
   ""section"": ""Introduction"",
   ""sentiment"": 0.5,
-  ""relevance"": 0.6,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W4323644227->W2743929098,W4323644227,W2743929098,A Survey of Data Pricing for Data Marketplaces,Data pricing strategy based on data quality,high_confidence,[219],1,Methodology,0.5,0.6,0.9,0.27,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.6,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W4323644227->W2790400697,W4323644227,W2790400697,A Survey of Data Pricing for Data Marketplaces,"A Survey on Big Data Market: Pricing, Trading and Protection",high_confidence,[136],2,Introduction,0.0,0.4,0.9,0.03200000000000001,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.0,
   ""relevance"": 0.4,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W4323644227->W2765365501,W4323644227,W2765365501,A Survey of Data Pricing for Data Marketplaces,Pricing of Data Products in Data Marketplaces,high_confidence,[75],2,Introduction,0.0,0.3,0.9,0.018,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.0,
-  ""relevance"": 0.3,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W1994174199->W2950902070,W1994174199,W2950902070,Smart data pricing: To share or not to share?,"A Survey of Smart Data Pricing: Past Proposals, Current Plans, and Future Trends",high_confidence,[181],1,Introduction,0.5,0.6,0.9,0.10800000000000001,"{
-  ""section"": ""Introduction"",
+W2994622980->W2289113545,W2994622980,W2289113545,Smart Contract-Based Data Commodity Transactions for Industrial Internet of Things,Smart data pricing models for the internet of things: a bundling strategy approach,high_confidence,[19],2,Methodology,0.5,0.6,0.9,0.27,"{
+  ""section"": ""Methodology"",
   ""sentiment"": 0.5,
   ""relevance"": 0.6,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W4323644227->W2734426755,W4323644227,W2734426755,A Survey of Data Pricing for Data Marketplaces,An Online Pricing Mechanism for Mobile Crowdsensing Data Markets,high_confidence,[223],1,Discussion,0.5,0.7,0.9,0.2572499999999999,"{
-  ""section"": ""Discussion"",
+W2994622980->W2790400697,W2994622980,W2790400697,Smart Contract-Based Data Commodity Transactions for Industrial Internet of Things,"A Survey on Big Data Market: Pricing, Trading and Protection",high_confidence,[8],1,Introduction,0.5,0.6,0.8,0.10800000000000001,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W2581979418->W1998665878,W2581979418,W1998665878,When Social Network Effect Meets Congestion Effect in Wireless Networks: Data Usage Equilibrium and Optimal Pricing,When Network Effect Meets Congestion Effect,grouped,[1],3,Introduction,0.5,0.7,0.9,0.147,"{
+  ""section"": ""Introduction"",
   ""sentiment"": 0.5,
   ""relevance"": 0.7,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3084177365->W4243417153,W3084177365,W4243417153,A Survey on Data Pricing: From Economics to Data Science,Selling Cookies,high_confidence,[33],1,Introduction,0.5,0.6,0.9,0.10800000000000001,"{
-  ""section"": ""Introduction"",
+W2734445852->W2293940046,W2734445852,W2293940046,A First Look at Information Entropy-Based Data Pricing,Query-Based Data Pricing,high_confidence,[12],4,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
+  ""section"": ""Methodology"",
   ""sentiment"": 0.5,
-  ""relevance"": 0.6,
+  ""relevance"": 0.7,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3084177365->W4243417153,W3084177365,W4243417153,A Survey on Data Pricing: From Economics to Data Science,Selling Cookies,high_confidence,[33],1,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.7,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
 W4319769514->W3195579788,W4319769514,W3195579788,"Data-Driven Learning for Data Rights, Data Pricing, and Privacy Computing",Data pricing in machine learning pipelines,high_confidence,[1],1,Introduction,0.0,0.2,0.9,0.008000000000000002,"{
@@ -401,17 +461,17 @@ W4319769514->W3195579788,W4319769514,W3195579788,"Data-Driven Learning for Data 
   ""relevance"": 0.2,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3195579788->W3089176333,W3195579788,W3089176333,Data pricing in machine learning pipelines,Towards Query Pricing on Incomplete Data,high_confidence,75,3,Other,0.3,0.6,0.9,0.0468,"{
-  ""section"": ""Other"",
-  ""sentiment"": 0.3,
-  ""relevance"": 0.6,
+W3195579788->W3089176333,W3195579788,W3089176333,Data pricing in machine learning pipelines,Towards Query Pricing on Incomplete Data,high_confidence,75,3,Methodology,0.5,0.8,0.9,0.4800000000000001,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.8,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3084177365->W2126626399,W3084177365,W2126626399,A Survey on Data Pricing: From Economics to Data Science,The Price Is Right,high_confidence,[192],1,Methodology,0.3,0.5,0.7,0.1625,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.3,
-  ""relevance"": 0.5,
-  ""confidence"": 0.7
+W3084177365->W2126626399,W3084177365,W2126626399,A Survey on Data Pricing: From Economics to Data Science,The Price Is Right,high_confidence,[192],1,Other,0.5,0.6,0.9,0.054000000000000006,"{
+  ""section"": ""Other"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
+  ""confidence"": 0.9
 }",deepseek:deepseek-chat
 W3195579788->W2126626399,W3195579788,W2126626399,Data pricing in machine learning pipelines,The Price Is Right,grouped,107,1,Methodology,0.5,0.6,0.8,0.27,"{
   ""section"": ""Methodology"",
@@ -419,51 +479,69 @@ W3195579788->W2126626399,W3195579788,W2126626399,Data pricing in machine learnin
   ""relevance"": 0.6,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W4226305897->W2126626399,W4226305897,W2126626399,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,The Price Is Right,high_confidence,61,1,Methodology,0.5,0.6,0.9,0.27,"{
+W4226305897->W2126626399,W4226305897,W2126626399,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,The Price Is Right,high_confidence,61,1,Methodology,0.7,0.4,0.9,0.136,"{
   ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.6,
+  ""sentiment"": 0.7,
+  ""relevance"": 0.4,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W4226305897->W2916829860,W4226305897,W2916829860,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,ARETE: On Designing Joint Online Pricing and Reward Sharing Mechanisms for Mobile Data Markets,grouped,55,1,Other,0.0,0.3,0.8,0.009,"{
-  ""section"": ""Other"",
+W4226305897->W2916829860,W4226305897,W2916829860,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,ARETE: On Designing Joint Online Pricing and Reward Sharing Mechanisms for Mobile Data Markets,grouped,55,1,Methodology,0.0,0.3,0.8,0.045,"{
+  ""section"": ""Methodology"",
   ""sentiment"": 0.0,
   ""relevance"": 0.3,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W4226305897->W2921968831,W4226305897,W2921968831,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,grouped,74,1,Introduction,0.3,0.3,0.7,0.0234,"{
-  ""section"": ""Introduction"",
-  ""sentiment"": 0.3,
-  ""relevance"": 0.3,
+W4226305897->W2921968831,W4226305897,W2921968831,Business Data Sharing through Data Marketplaces: A Systematic Literature Review,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,grouped,74,1,Methodology,0.5,0.6,0.7,0.27,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.6,
   ""confidence"": 0.7
 }",deepseek:deepseek-chat
-W4220901737->W2310916783,W4220901737,W2310916783,Data Market Design: A Systematic Literature Review,Marketplaces for Digital Data: Quo Vadis?,high_confidence,[14],5,Methodology,0.5,0.7,0.8,0.36749999999999994,"{
+W4220901737->W2310916783,W4220901737,W2310916783,Data Market Design: A Systematic Literature Review,Marketplaces for Digital Data: Quo Vadis?,high_confidence,[14],5,Methodology,0.4,0.6,0.9,0.252,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.4,
+  ""relevance"": 0.6,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W4210813858->W2942073230,W4210813858,W2942073230,Data Boundary and Data Pricing Based on the Shapley Value,Big Data Market Optimization Pricing Model Based on Data Quality,high_confidence,[19],2,Methodology,0.6,0.7,0.9,0.39199999999999996,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.6,
+  ""relevance"": 0.7,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3021125948->W2996741051,W3021125948,W2996741051,Contract Design in Hierarchical Game for Sponsored Content Service Market,Dynamic Pricing for Revenue Maximization in Mobile Social Data Market With Network Effects,high_confidence,[50],1,Conclusion,0.0,0.4,0.8,0.04000000000000001,"{
+  ""section"": ""Conclusion"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.4,
+  ""confidence"": 0.8
+}",deepseek:deepseek-chat
+W2942073230->W2934375453,W2942073230,W2934375453,Big Data Market Optimization Pricing Model Based on Data Quality,Personal Data Market Optimization Pricing Model Based on Privacy Level,high_confidence,[23],1,Methodology,0.5,0.8,0.9,0.4800000000000001,"{
+  ""section"": ""Methodology"",
+  ""sentiment"": 0.5,
+  ""relevance"": 0.8,
+  ""confidence"": 0.9
+}",deepseek:deepseek-chat
+W3089176333->W2126626399,W3089176333,W2126626399,Towards Query Pricing on Incomplete Data,The Price Is Right,high_confidence,[26],4,Methodology,0.5,0.7,0.8,0.36749999999999994,"{
   ""section"": ""Methodology"",
   ""sentiment"": 0.5,
   ""relevance"": 0.7,
   ""confidence"": 0.8
 }",deepseek:deepseek-chat
-W4210813858->W2942073230,W4210813858,W2942073230,Data Boundary and Data Pricing Based on the Shapley Value,Big Data Market Optimization Pricing Model Based on Data Quality,high_confidence,[19],2,Methodology,0.3,0.5,0.9,0.1625,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.3,
-  ""relevance"": 0.5,
-  ""confidence"": 0.9
-}",deepseek:deepseek-chat
-W2942073230->W2934375453,W2942073230,W2934375453,Big Data Market Optimization Pricing Model Based on Data Quality,Personal Data Market Optimization Pricing Model Based on Privacy Level,high_confidence,[23],1,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
+W3021370403->W2921968831,W3021370403,W2921968831,TIDES: A Trust-Aware IoT Data Economic System With Blockchain-Enabled Multi-Access Edge Computing,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,high_confidence,[18],5,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
   ""section"": ""Methodology"",
   ""sentiment"": 0.5,
   ""relevance"": 0.7,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3089176333->W2126626399,W3089176333,W2126626399,Towards Query Pricing on Incomplete Data,The Price Is Right,high_confidence,[26],4,Methodology,0.5,0.7,0.9,0.36749999999999994,"{
-  ""section"": ""Methodology"",
-  ""sentiment"": 0.5,
-  ""relevance"": 0.7,
+W2996741051->W2342966760,W2996741051,W2342966760,Dynamic Pricing for Revenue Maximization in Mobile Social Data Market With Network Effects,Time and Location Aware Mobile Data Pricing,high_confidence,[33],2,Introduction,0.0,0.3,0.9,0.018,"{
+  ""section"": ""Introduction"",
+  ""sentiment"": 0.0,
+  ""relevance"": 0.3,
   ""confidence"": 0.9
 }",deepseek:deepseek-chat
-W3021370403->W2921968831,W3021370403,W2921968831,TIDES: A Trust-Aware IoT Data Economic System With Blockchain-Enabled Multi-Access Edge Computing,Personal Data Trading Scheme for Data Brokers in IoT Data Marketplaces,high_confidence,[18],5,Methodology,0.5,0.7,0.8,0.36749999999999994,"{
-  ""section"": ""Methodology"",
+W2996741051->W2581979418,W2996741051,W2581979418,Dynamic Pricing for Revenue Maximization in Mobile Social Data Market With Network Effects,When Social Network Effect Meets Congestion Effect in Wireless Networks: Data Usage Equilibrium and Optimal Pricing,high_confidence,[5],9,Introduction,0.5,0.9,0.9,0.24300000000000005,"{
+  ""section"": ""Introduction"",
   ""sentiment"": 0.5,
-  ""relevance"": 0.7,
-  ""confidence"": 0.8
+  ""relevance"": 0.9,
+  ""confidence"": 0.9
 }",deepseek:deepseek-chat
