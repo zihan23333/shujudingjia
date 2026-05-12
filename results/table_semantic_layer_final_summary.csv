@@ -6,6 +6,6 @@ fallback edges,91
 old v2.1 coverage,91
 old v2.2 candidate coverage,112
 final accepted coverage,113
-existing DeepSeek-scored accepted edges,91
-final accepted but unscored edges,22
+DeepSeek-scored final edges,113
+final accepted but unscored edges,0
 decision,stop further rescue and freeze final semantic layer

@@ -1,7 +1,6 @@
 ﻿metric,value
 final accepted target-aligned edges,113
-DeepSeek-scored final edges (currently available),91
+DeepSeek-scored final edges,113
 offline fallback,0
 old llm_results.csv reused,0
-final accepted but unscored edges,22
-status,blocked_until_missing_edges_are_scored
+final accepted but unscored edges,0

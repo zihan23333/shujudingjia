@@ -1,0 +1,6 @@
+﻿Variant,Edge weight,Spearman with Full model final,Kendall with Full model final,Top-5 overlap,Top-10 overlap,Mean rank change,Max rank change
+Structure only,unweighted_pagerank_score,0.9355410631525468,0.818816611539875,4,5,7.542857142857143,44.0
+Semantic only,semantic_pagerank_score_final,0.9967754979315492,0.9705990444689452,5,10,1.2952380952380953,13.0
+Semantic + temporal,semantic_temporal_score_final,0.9974597974058829,0.9794193311282616,5,10,0.8952380952380953,10.0
+Semantic + relation,semantic_relation_score_final,0.998175201401777,0.9808893789048143,5,10,0.8761904761904762,12.0
+Full model final,full_model_score_final,1.0,1.0,5,10,0.0,0.0

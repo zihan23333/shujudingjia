@@ -1,0 +1,2 @@
+﻿Variant,Setting,Spearman with Full model final,Kendall with Full model final,Top-5 overlap,Top-10 overlap,Mean rank change,Max rank change
+Extended relation,"rho(co,tc,inst)",0.9994401186119087,0.9889746416758544,5,10,0.5142857142857142,4.0

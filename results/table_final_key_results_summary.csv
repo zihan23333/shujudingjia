@@ -1,0 +1,13 @@
+﻿category,metric,value
+semantic_layer,total citation edges,204
+semantic_layer,DeepSeek target-aligned scored edges,113
+semantic_layer,default fallback edges,91
+semantic_layer,coverage ratio,55.39%
+ranking,Full vs Citation Count Spearman,0.8328446521974544
+ranking,Full vs Unweighted PageRank Spearman,0.9355410631525468
+ranking,Full vs Time-aware PageRank Spearman,0.992711173780962
+ranking,Full vs Semantic-only Spearman,0.9967754979315492
+ranking,Full vs Semantic-temporal Spearman,0.9974597974058828
+future_validation,cutoff=2020 Full Spearman,0.17071067994987513
+future_validation,cutoff=2021 Full Spearman,0.13554419326412692
+pricing,Base Case Top-5,TUBE; Query-based data pricing; Too Much Data: Prices and Inefficiencies in Data Markets; Smart data pricing; A survey of smart data pricing

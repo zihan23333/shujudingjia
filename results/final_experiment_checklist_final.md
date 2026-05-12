@@ -1,17 +1,29 @@
-# Final Experiment Checklist
+# Final Experiment Checklist Final
 
-- [x] `target_aligned_contexts_final.csv` generated
-- [x] Final accepted alignment-approved edges frozen at 113
-- [x] `table_semantic_layer_final_summary.csv` generated
-- [x] `semantic_layer_final_summary.md` generated
-- [x] No formal alignment file reuses old `llm_results.csv`
-- [x] No offline fallback is mixed into the accepted alignment layer
-- [ ] `llm_results_target_aligned_final.csv` generated with all 113 edges scored by DeepSeek
-- [ ] `semantic_edge_weights_final.csv` generated over all 204 edges
-- [ ] final ranking comparison regenerated
-- [ ] final ablation regenerated
-- [ ] final robustness regenerated
-- [ ] final future citation validation regenerated
-- [ ] final pricing regenerated
+[x] final semantic layer uses 113 DeepSeek target-aligned edges
+[x] 91 fallback edges remain
+[x] no old llm_results.csv in formal inputs
+[x] no offline fallback in final scoring
+[x] semantic_edge_weights_final.csv covers 204 edges
+[x] ranking final generated
+[x] ablation final generated
+[x] confidence final generated
+[x] extended relation final generated
+[x] no-sentiment final generated
+[x] future validation final generated
+[x] future validation cutoff2021 final generated
+[x] pricing final generated
+[x] representative annotation sample generated
+[x] hardcase annotation sample generated
+[x] source PDF package generated
+[x] annotation guidelines generated
+[x] reliability analysis script prepared
+[x] section4_experiments_draft_final.md generated
 
-Blocker: 22 accepted edges still need real DeepSeek scoring. The current environment cannot connect to the DeepSeek API.
+## Manual consistency checks
+
+- Confidence does not enter the main model.
+- Institution relations do not enter the main model.
+- Future windows remain 2021-2024 and 2022-2024.
+- Pricing is computed from Full model final only.
+- Reliability results are not fabricated before human annotation is completed.

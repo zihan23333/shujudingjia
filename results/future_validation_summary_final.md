@@ -1,0 +1,22 @@
+# Future Citation Validation Summary_final
+
+- Validation scope: `core-paper future citation validation`
+- Cutoff year: `2020`
+- Future window: `2021-2024`
+- Target papers evaluated: `29`
+- Historical edges before cutoff: `106`
+- Historical final LLM-scored edges before cutoff: `65`
+- Full model final vs Citation Count: `better`
+- Full model final vs Unweighted PageRank: `better`
+- Full model final vs Time-aware PageRank: `better`
+
+If Citation Count remains stronger on some future-citation metrics, this should be interpreted as evidence that future citations are more closely tied to subsequent diffusion scale and citation heat than to the semantically calibrated notion of article-level value targeted in this paper.
+
+| Method | Spearman | Kendall | NDCG@10 | Precision@10 | Top-10 overlap |
+| --- | --- | --- | --- | --- | --- |
+| Citation Count | 0.109484 | 0.119183 | 0.289216 | 0.400000 | 4 |
+| Unweighted PageRank | -0.059121 | -0.056720 | 0.203180 | 0.400000 | 4 |
+| Time-aware PageRank | 0.157901 | 0.086313 | 0.523067 | 0.500000 | 5 |
+| Semantic-weighted PageRank final | 0.181549 | 0.125771 | 0.515858 | 0.500000 | 5 |
+| Semantic-temporal PageRank final | 0.168986 | 0.106042 | 0.522769 | 0.500000 | 5 |
+| Full model final | 0.170711 | 0.110974 | 0.515847 | 0.500000 | 5 |

@@ -1,0 +1,4 @@
+﻿Variant,Setting,Spearman with Full model final,Kendall with Full model final,Top-5 overlap,Top-10 overlap,Mean rank change,Max rank change
+Confidence-aware,epsilon=0.3,0.9999481591307323,0.9981624402793089,5,10,0.09523809523809523,1.0
+Confidence-aware,epsilon=0.5,0.9999688954784393,0.9988974641675854,5,10,0.05714285714285714,1.0
+Confidence-aware,epsilon=0.7,0.9999792636522928,0.9992649761117236,5,10,0.0380952380952381,1.0
