@@ -65,6 +65,18 @@ Guidelines:
 - sentiment should capture the citation stance toward the CURRENT target paper only.
 - relevance should reflect how substantively the CURRENT target paper is used.
 - confidence is quality control only and must not be used in the main weight formula.
+
+IMPORTANT rules for sentiment:
+- If the citing paper adopts, uses, extends, or builds upon the cited paper → sentiment MUST be > 0 (suggest 0.3~0.7)
+- If the citing paper only lists the cited paper as background reference → sentiment = 0.0
+- If the citing paper criticizes or identifies limitations → sentiment < 0
+- DO NOT default to 0 unless it is truly a neutral listing citation.
+
+IMPORTANT rules for section:
+- You MUST choose from exactly: Introduction, Methodology, Result, Discussion, Conclusion, Other
+- Do NOT return "Related Work" or any other label
+- If num_mentions >= 3, it is very unlikely to be "Other"; reconsider carefully
+
 """
 
 

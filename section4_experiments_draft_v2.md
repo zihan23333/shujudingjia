@@ -10,7 +10,7 @@ Target-alignment reconstruction covers 204 citation edges. The audit yields 63 h
 
 ## 4.3 Future citation validation
 
-Under the main validation setting (cutoff=2020, future window=2021–2024), the Full model v2 reaches Spearman 0.1259, compared with 0.1095 for Citation Count. This result should be interpreted carefully: future citations are more directly tied to cumulative diffusion scale and topic heat, whereas the present framework targets semantically calibrated article-level value.
+Under the main validation setting (cutoff=2020, future window=2021–2024), the Full model v2 reaches Spearman 0.1655, compared with 0.1095 for Citation Count. This result should be interpreted carefully: future citations are more directly tied to cumulative diffusion scale and topic heat, whereas the present framework targets semantically calibrated article-level value.
 
 ## 4.4 Overall ranking comparison
 
@@ -18,7 +18,7 @@ The top-ranked papers under Full model v2 remain led by TUBE, Too Much Data: Pri
 
 ## 4.5 Ablation study
 
-The ablation study shows that semantic information remains the strongest differentiating component, while temporal and relation-aware factors act as calibration terms. Structure only reaches Spearman 0.9404 with respect to Full model v2.
+The ablation study shows that semantic information remains the strongest differentiating component, while temporal and relation-aware factors act as calibration terms. Structure only reaches Spearman 0.9357 with respect to Full model v2.
 
 ## 4.6 Robustness analysis
 
@@ -26,7 +26,7 @@ Confidence-aware variants remain close to the Full model v2, supporting the deci
 
 ## 4.7 Personalized pricing analysis
 
-Under the v2 Full model, the top price papers are TUBE, Query-based data pricing, Too Much Data: Prices and Inefficiencies in Data Markets, Smart data pricing, A survey of smart data pricing. The pricing results still show the intended moderation pattern: high-value but low-similarity papers are not over-priced, while high-similarity but lower-value papers are not allowed to dominate the head purely through query matching.
+Under the v2 Full model, the top price papers are TUBE, Query-based data pricing, Smart data pricing, Too Much Data: Prices and Inefficiencies in Data Markets, A survey of smart data pricing. The pricing results still show the intended moderation pattern: high-value but low-similarity papers are not over-priced, while high-similarity but lower-value papers are not allowed to dominate the head purely through query matching.
 
 ## 4.8 Summary
 
