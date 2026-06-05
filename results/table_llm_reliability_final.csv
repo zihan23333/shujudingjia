@@ -1,2 +1,11 @@
-﻿status
-Human annotation not completed. Reliability metrics are not computed.
+﻿metric,value
+section_accuracy,0.4883720930232558
+section_macro_f1,0.5037187288708587
+sentiment_accuracy,0.4418604651162791
+sentiment_macro_f1,0.29633889208357295
+relevance_spearman,0.48656969718522536
+relevance_mae,0.2023255813953488
+human_q_vs_LLM_q_spearman,0.428260650654203
+human_q_vs_LLM_q_kendall,0.32263107683077996
+valid_sample_count,43.0
+excluded_wrong_or_ambiguous_count,7.0

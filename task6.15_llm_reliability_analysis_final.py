@@ -13,8 +13,8 @@ from sklearn.metrics import accuracy_score, f1_score, mean_absolute_error
 
 ROOT = Path(__file__).resolve().parent
 RESULTS_DIR = ROOT / "results"
-REP_DEFAULT = ROOT / "sampled_contexts_for_human_annotation_representative_final.xlsx"
-HARD_DEFAULT = ROOT / "sampled_contexts_for_human_annotation_hardcase_final.xlsx"
+REP_DEFAULT = ROOT / "annotation_package_final" / "representative" / "sampled_contexts_for_human_annotation_representative_final.xlsx"
+HARD_DEFAULT = ROOT / "annotation_package_final" / "hardcase" / "sampled_contexts_for_human_annotation_hardcase_final.xlsx"
 
 SECTION_WEIGHT_MAP = {
     "methodology": 1.0,
@@ -95,13 +95,22 @@ def analyze_representative(df: pd.DataFrame) -> None:
     if not all(col in df.columns for col in required):
         write_not_completed("table_llm_reliability_final.csv", "table_llm_reliability_final.md", "llm_reliability_summary_final.md")
         return
-    mask = (
-        df["human_alignment_check"].astype(str).str.strip().str.lower().eq("correct")
-        & df["human_primary_section"].astype(str).str.strip().ne("")
-        & df["human_sentiment"].astype(str).str.strip().ne("")
-        & df["human_relevance"].astype(str).str.strip().ne("")
+    for col in ["human_alignment_check", "human_primary_section", "human_sentiment", "human_relevance"]:
+        if col in df.columns:
+            df[col] = df[col].fillna("").astype(str)
+    df["human_alignment_check_norm"] = (
+        df["human_alignment_check"]
+        .str.strip()
+        .str.lower()
+        .replace({"wrong": "wrong_or_ambiguous"})
     )
-    excluded = int((df["human_alignment_check"].astype(str).str.strip().str.lower() == "wrong_or_ambiguous").sum())
+    mask = (
+        df["human_alignment_check_norm"].eq("correct")
+        & df["human_primary_section"].str.strip().ne("")
+        & df["human_sentiment"].str.strip().ne("")
+        & df["human_relevance"].str.strip().ne("")
+    )
+    excluded = int(df["human_alignment_check_norm"].eq("wrong_or_ambiguous").sum())
     sub = df[mask].copy()
     if sub.empty:
         write_not_completed("table_llm_reliability_final.csv", "table_llm_reliability_final.md", "llm_reliability_summary_final.md")
@@ -149,6 +158,12 @@ def analyze_hardcase(df: pd.DataFrame) -> None:
     for col in ["human_alignment_check", "human_primary_section", "human_sentiment", "human_relevance"]:
         if col in df.columns:
             df[col] = df[col].fillna("").astype(str)
+    df["human_alignment_check_norm"] = (
+        df["human_alignment_check"]
+        .str.strip()
+        .str.lower()
+        .replace({"wrong": "wrong_or_ambiguous"})
+    )
     filled = df[
         df["human_alignment_check"].astype(str).str.strip().ne("")
         | df["human_primary_section"].astype(str).str.strip().ne("")
@@ -162,8 +177,8 @@ def analyze_hardcase(df: pd.DataFrame) -> None:
     table = pd.DataFrame(
         [
             {"metric": "annotated_hardcase_samples", "value": float(len(filled))},
-            {"metric": "correct_alignment_count", "value": float((filled["human_alignment_check"].astype(str).str.strip().str.lower() == "correct").sum())},
-            {"metric": "wrong_or_ambiguous_count", "value": float((filled["human_alignment_check"].astype(str).str.strip().str.lower() == "wrong_or_ambiguous").sum())},
+            {"metric": "correct_alignment_count", "value": float((filled["human_alignment_check_norm"] == "correct").sum())},
+            {"metric": "wrong_or_ambiguous_count", "value": float((filled["human_alignment_check_norm"] == "wrong_or_ambiguous").sum())},
             {"metric": "negative_sentiment_count", "value": float((filled["human_sentiment"].astype(str).str.strip().str.lower() == "negative").sum())},
             {"metric": "neutral_sentiment_count", "value": float((filled["human_sentiment"].astype(str).str.strip().str.lower() == "neutral").sum())},
             {"metric": "positive_sentiment_count", "value": float((filled["human_sentiment"].astype(str).str.strip().str.lower() == "positive").sum())},
