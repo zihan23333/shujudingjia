@@ -42,20 +42,33 @@ def normalize_parse_failed(series: pd.Series) -> pd.Series:
     return normalized.fillna(False)
 
 
-def normalize_label(value: object) -> float:
-    """Map ACT2 labels to binary values."""
+def normalize_influence_label(value: object) -> float:
+    """Robustly map ACT2 influence labels to binary values."""
     if pd.isna(value):
         return np.nan
 
     label = str(value).strip().lower()
-    mapping = {
-        "0": 0,
-        "1": 1,
-        "incidental": 0,
-        "influential": 1,
-    }
-    if label in mapping:
-        return float(mapping[label])
+    if label in {"1", "1.0", "true", "yes", "influential", "important"}:
+        return 1
+    if label in {
+        "0",
+        "0.0",
+        "false",
+        "no",
+        "incidental",
+        "non-influential",
+        "non_influential",
+        "not influential",
+    }:
+        return 0
+    try:
+        numeric_value = float(label)
+        if numeric_value == 1.0:
+            return 1
+        if numeric_value == 0.0:
+            return 0
+    except Exception:
+        pass
     return np.nan
 
 
@@ -64,7 +77,7 @@ def save_boxplot(influential_scores: pd.Series, incidental_scores: pd.Series, ou
     fig, ax = plt.subplots(figsize=(8, 5))
     ax.boxplot(
         [incidental_scores.to_list(), influential_scores.to_list()],
-        labels=["incidental", "influential"],
+        tick_labels=["incidental", "influential"],
         patch_artist=True,
         boxprops={"facecolor": "#9ecae1"},
         medianprops={"color": "#d62728", "linewidth": 2},
@@ -116,14 +129,21 @@ def main() -> None:
         )
 
     dataframe["parse_failed"] = normalize_parse_failed(dataframe["parse_failed"])
-    filtered = dataframe.loc[~dataframe["parse_failed"]].copy()
-    filtered["relevance"] = pd.to_numeric(filtered["relevance"], errors="coerce")
-    filtered["label_binary"] = filtered["citation_influence_label"].apply(normalize_label)
-    filtered = filtered.dropna(subset=["relevance", "label_binary"]).copy()
-    filtered["label_binary"] = filtered["label_binary"].astype(int)
+    dataframe["gold_label"] = dataframe["citation_influence_label"].apply(normalize_influence_label)
+    dataframe["relevance"] = pd.to_numeric(dataframe["relevance"], errors="coerce")
 
-    influential_scores = filtered.loc[filtered["label_binary"] == 1, "relevance"]
-    incidental_scores = filtered.loc[filtered["label_binary"] == 0, "relevance"]
+    parse_failed_removed = int(dataframe["parse_failed"].eq(True).sum())
+    non_failed = dataframe.loc[~dataframe["parse_failed"]].copy()
+
+    invalid_label_removed = int(non_failed["gold_label"].isna().sum())
+    label_valid = non_failed.loc[non_failed["gold_label"].notna()].copy()
+
+    invalid_relevance_removed = int(label_valid["relevance"].isna().sum())
+    filtered = label_valid.loc[label_valid["relevance"].notna()].copy()
+    filtered["gold_label"] = filtered["gold_label"].astype(int)
+
+    influential_scores = filtered.loc[filtered["gold_label"] == 1, "relevance"]
+    incidental_scores = filtered.loc[filtered["gold_label"] == 0, "relevance"]
 
     group_summary = pd.DataFrame(
         [
@@ -149,27 +169,28 @@ def main() -> None:
     auc_rows: list[dict] = []
     metric_rows: list[dict] = []
     auc_error = ""
-    if filtered["label_binary"].nunique() < 2:
+    auc_value = np.nan
+    if filtered["gold_label"].nunique() < 2:
         auc_error = (
-            "AUC cannot be computed because the filtered predictions contain only one label class."
+            "AUC cannot be computed because valid evaluation rows contain only one gold_label class."
         )
         auc_rows.append({"metric": "auc", "value": np.nan, "error": auc_error})
     else:
-        auc_value = roc_auc_score(filtered["label_binary"], filtered["relevance"])
+        auc_value = roc_auc_score(filtered["gold_label"], filtered["relevance"])
         binary_predictions = (filtered["relevance"] >= 0.5).astype(int)
         auc_rows.append({"metric": "auc", "value": auc_value, "error": ""})
         metric_rows.extend(
             [
-                {"metric": "accuracy", "value": accuracy_score(filtered["label_binary"], binary_predictions)},
+                {"metric": "accuracy", "value": accuracy_score(filtered["gold_label"], binary_predictions)},
                 {
                     "metric": "precision",
-                    "value": precision_score(filtered["label_binary"], binary_predictions, zero_division=0),
+                    "value": precision_score(filtered["gold_label"], binary_predictions, zero_division=0),
                 },
                 {
                     "metric": "recall",
-                    "value": recall_score(filtered["label_binary"], binary_predictions, zero_division=0),
+                    "value": recall_score(filtered["gold_label"], binary_predictions, zero_division=0),
                 },
-                {"metric": "f1", "value": f1_score(filtered["label_binary"], binary_predictions, zero_division=0)},
+                {"metric": "f1", "value": f1_score(filtered["gold_label"], binary_predictions, zero_division=0)},
             ]
         )
 
@@ -178,6 +199,8 @@ def main() -> None:
 
     mannwhitney_rows: list[dict] = []
     mannwhitney_error = ""
+    mannwhitney_statistic = np.nan
+    mannwhitney_p_value = np.nan
     if influential_scores.empty or incidental_scores.empty:
         mannwhitney_error = (
             "Mann-Whitney U test cannot be computed because one comparison group is empty."
@@ -186,13 +209,18 @@ def main() -> None:
             {"statistic": np.nan, "p_value": np.nan, "alternative": "two-sided", "error": mannwhitney_error}
         )
     else:
-        statistic, p_value = mannwhitneyu(
+        mannwhitney_statistic, mannwhitney_p_value = mannwhitneyu(
             influential_scores,
             incidental_scores,
             alternative="two-sided",
         )
         mannwhitney_rows.append(
-            {"statistic": statistic, "p_value": p_value, "alternative": "two-sided", "error": ""}
+            {
+                "statistic": mannwhitney_statistic,
+                "p_value": mannwhitney_p_value,
+                "alternative": "two-sided",
+                "error": "",
+            }
         )
 
     mannwhitney_path = OUTPUT_DIR / "act2_mannwhitney_result.xlsx"
@@ -212,7 +240,9 @@ def main() -> None:
         "",
         f"- Input file: `{INPUT_PATH}`",
         f"- Total predictions: {len(dataframe)}",
-        f"- Filtered parse_failed rows removed: {int(dataframe['parse_failed'].sum())}",
+        f"- Parse-failed rows removed: {parse_failed_removed}",
+        f"- Invalid label rows removed: {invalid_label_removed}",
+        f"- Invalid relevance rows removed: {invalid_relevance_removed}",
         f"- Valid rows used in evaluation: {len(filtered)}",
         f"- Influential rows: {len(influential_scores)}",
         f"- Incidental rows: {len(incidental_scores)}",
@@ -221,15 +251,20 @@ def main() -> None:
     if auc_error:
         summary_lines.append(f"- AUC error: {auc_error}")
     else:
-        summary_lines.append(f"- AUC: {auc_rows[0]['value']:.6f}")
+        summary_lines.append(f"- AUC: {auc_value:.6f}")
         for metric_row in metric_rows:
             summary_lines.append(f"- {metric_row['metric']}: {metric_row['value']:.6f}")
 
     if mannwhitney_error:
         summary_lines.append(f"- Mann-Whitney U error: {mannwhitney_error}")
     else:
-        summary_lines.append(f"- Mann-Whitney U statistic: {mannwhitney_rows[0]['statistic']:.6f}")
-        summary_lines.append(f"- Mann-Whitney U p-value: {mannwhitney_rows[0]['p_value']:.6g}")
+        summary_lines.append(f"- Mann-Whitney U statistic: {mannwhitney_statistic:.6f}")
+        summary_lines.append(f"- p value: {mannwhitney_p_value:.6g}")
+
+    for row in group_summary.itertuples(index=False):
+        summary_lines.append(
+            f"- {row.group} mean={row.mean:.6f} median={row.median:.6f} std={row.std:.6f}"
+        )
 
     summary_lines.extend(
         [
