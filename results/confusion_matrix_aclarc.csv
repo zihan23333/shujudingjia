@@ -1,0 +1,7 @@
+﻿,pred:Background,pred:Motivation,pred:Uses,pred:Extends,pred:CompareOrContrast,pred:Future
+gold:Background,46,0,25,0,0,0
+gold:Motivation,0,0,7,0,0,0
+gold:Uses,1,0,24,0,1,0
+gold:Extends,0,0,5,0,0,0
+gold:CompareOrContrast,9,0,8,0,8,0
+gold:Future,0,0,3,0,0,2

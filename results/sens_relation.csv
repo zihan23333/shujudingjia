@@ -1,0 +1,5 @@
+﻿variant,Spearman_all,Spearman_core,Top10_overlap,Top5_overlap,avg_rank_change,max_rank_change,top3_changed_papers
+no_penalty(0),0.9975,0.9742,10,5,0.895,10.0,AMUSE: Empowering Users for Cost-Aware O (rank 36->46) ; Smart data pricing models for the intern (rank 21->12) ; Smart data pricing: To share or not to s (rank 24->16)
+mild(0.5),0.9998,0.9991,10,5,0.21,5.0,Personal Data Market Optimization Pricin (rank 95->90) ; Smart data pricing: To share or not to s (rank 24->22) ; A Survey of Smart Data Pricing: Past Pro (rank 27->26)
+Main(1.0),1.0,1.0,10,5,0.0,0.0,TUBE (rank 1->1) ; Too Much Data: Prices and Inefficiencies (rank 2->2) ; Nonrivalry and the Economics of Data (rank 3->3)
+strong(2.0),0.9999,0.9991,10,5,0.095,1.0,A Survey of Smart Data Pricing: Past Pro (rank 27->28) ; Smart data pricing: To share or not to s (rank 24->25) ; Coalition Game and Blockchain-Based Opti (rank 28->27)
