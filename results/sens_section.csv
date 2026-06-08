@@ -1,6 +1,0 @@
-﻿variant,Spearman_all,Spearman_core,Top10_overlap,Top5_overlap,avg_rank_change,max_rank_change,top3_changed_papers
-Main,1.0,1.0,10,5,0.0,0.0,TUBE (rank 1->1) ; Too Much Data: Prices and Inefficiencies (rank 2->2) ; Nonrivalry and the Economics of Data (rank 3->3)
-Equal,0.9991,0.9996,10,5,0.571,8.0,ARETE: On Designing Joint Online Pricing (rank 64->72) ; An Online Pricing Mechanism for Mobile C (rank 52->47) ; When Network Effect Meets Congestion Eff (rank 42->46)
-Conservative,0.9996,1.0,10,5,0.286,7.0,ARETE: On Designing Joint Online Pricing (rank 64->71) ; An Online Pricing Mechanism for Mobile C (rank 52->49) ; When Network Effect Meets Congestion Eff (rank 42->44)
-Theory-strong,0.9994,0.9996,10,5,0.4,8.0,ARETE: On Designing Joint Online Pricing (rank 64->72) ; An Online Pricing Mechanism for Mobile C (rank 52->49) ; When Network Effect Meets Congestion Eff (rank 42->45)
-Theory-strong-fixed,0.9995,1.0,10,5,0.362,7.0,ARETE: On Designing Joint Online Pricing (rank 64->71) ; When Network Effect Meets Congestion Eff (rank 42->45) ; Marketplaces for Digital Data: Quo Vadis (rank 93->90)

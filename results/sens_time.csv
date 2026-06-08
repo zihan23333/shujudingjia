@@ -1,6 +1,0 @@
-﻿variant,Spearman_all,Spearman_core,Top10_overlap,Top5_overlap,avg_rank_change,max_rank_change,top3_changed_papers
-no_decay,0.9982,0.9938,10,5,0.876,12.0,AMUSE: Empowering Users for Cost-Aware O (rank 36->48) ; ARETE: On Designing Joint Online Pricing (rank 64->71) ; Prices and Market Shares in a Menu Cost  (rank 46->40)
-strong(2),0.9995,0.9996,10,5,0.438,5.0,Personal Data Market Optimization Pricin (rank 95->90) ; A Priced Public Sensing Framework for He (rank 15->19) ; Smart data pricing (rank 19->16)
-Main(5),1.0,1.0,10,5,0.0,0.0,TUBE (rank 1->1) ; Too Much Data: Prices and Inefficiencies (rank 2->2) ; Nonrivalry and the Economics of Data (rank 3->3)
-weak(8),0.9998,0.9996,10,5,0.229,4.0,AMUSE: Empowering Users for Cost-Aware O (rank 36->40) ; ARETE: On Designing Joint Online Pricing (rank 64->67) ; When Social Network Effect Meets Congest (rank 39->37)
-veryweak(15),0.9991,0.9973,10,5,0.495,9.0,AMUSE: Empowering Users for Cost-Aware O (rank 36->45) ; ARETE: On Designing Joint Online Pricing (rank 64->69) ; Prices and Market Shares in a Menu Cost  (rank 46->42)
