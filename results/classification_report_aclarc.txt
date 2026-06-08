@@ -1,0 +1,12 @@
+                   precision    recall  f1-score   support
+
+       Background       0.82      0.65      0.72        71
+       Motivation       0.00      0.00      0.00         7
+             Uses       0.33      0.92      0.49        26
+          Extends       0.00      0.00      0.00         5
+CompareOrContrast       0.89      0.32      0.47        25
+           Future       1.00      0.40      0.57         5
+
+         accuracy                           0.58       139
+        macro avg       0.51      0.38      0.38       139
+     weighted avg       0.68      0.58      0.57       139
